@@ -10,7 +10,7 @@
     <div class='sideBar'>
       <div class='sideBtnC'>
         <v-tooltip right v-for="part in parts" :key='part.title'>
-          <v-btn  slot="activator" @click='changePart(part)' icon><div class='sideBtn'></div></v-btn>
+          <v-btn  slot="activator" @click='changePart(part); cSub = 0' icon><div class='sideBtn'></div></v-btn>
           <span>{{part.title}}</span>
         </v-tooltip>
       </div>
@@ -26,7 +26,7 @@
             <template v-for='sub in part.subParts' >
               <v-flex :class='"xs-" + 12/part.subParts.lenght'>
                 <v-tooltip bottom>
-                  <v-btn style='flex-growth: 1'slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route)' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
+                  <v-btn style='flex-growth: 1'slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub)' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
                   <span>{{ sub.title }}</span>
                 </v-tooltip>
               </v-flex>
@@ -37,8 +37,17 @@
     </v-dialog>
     </div>
     <v-content>
+      <v-layout>
+        <v-flex xs-8>
       <h1>{{title}}</h1>
       <h2>{{subTitle}}</h2>
+        </v-flex>
+        <v-flex xs-4 class="pl-5">
+        <v-btn-toggle style='margin: auto' class='ma-5' mandatory v-model='cSub'>
+          <v-btn v-for='(sub, index) in cPart.subParts' large class='pa-4' @click='changeSub(index)'>{{ index + 1}}</v-btn>
+        </v-btn-toggle>
+        </v-flex>
+      </v-layout>
       <router-view/>
     </v-content>
   </v-app>
@@ -54,6 +63,8 @@ export default {
     backcolor: "#009688",
     dialog: false,
     parts: [],
+    cPart: {},
+    cSub: 1,
     title: "",
     subTitle: "",
     loc: ''
@@ -70,6 +81,7 @@ export default {
     changePart(data) {
       document.getElementById('app').style.backgroundColor = data.color
       this.title = data.title
+      this.cPart = data
       this.$router.push(data.route)
       var loc = window.location
       if (loc.toString().includes('Intro')){
@@ -101,6 +113,10 @@ export default {
       else {
         this.changePart(this.$store.state.parts[0])
       }
+    },
+    changeSub (sub) {
+      this.cSub = sub + 1
+      this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) + (sub + 1))
     }
   }
 }
