@@ -1,5 +1,12 @@
 <template>
   <v-app id='app'>
+    <v-fade-transition>
+      <div style='position: absolute; top: 0px; left: 0px; width:100%; height: 100vh;overflow: hidden;' v-show='title=="TPE 1S1"'>
+        <div style='position: absolute; top: 0px; left: 0px; width:100%; height: 100vh; background: linear-gradient(to left,rgba(0,150,136,0.6), rgb(0,150,136));'>
+        </div>
+        <img src='https://i.imgur.com/19ctUK5.jpg' style='z-index:0; min-width: 1800px; height: 100vh;'/>
+      </div>
+    </v-fade-transition>
     <div class='sideBar'>
       <div class='sideBtnC'>
         <v-tooltip right v-for="part in parts" :key='part.title'>
