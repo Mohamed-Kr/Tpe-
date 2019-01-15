@@ -15,12 +15,24 @@
         </v-tooltip>
       </div>
       <v-dialog v-model="dialog" width="500">
-      <v-btn slot="activator"  >Sommaire</v-btn>
-      <v-card>
-        <v-card-title  class="headline grey lighten-2"     primary-title >  Sommaire   </v-card-title>
-        <v-card-text>
-        
-        </v-card-text>
+      <v-btn slot="activator">Sommaire</v-btn>
+      <v-card dark class='pa-3'>
+        <v-card-title  class="display-1">Sommaire</v-card-title>
+        <template v-for='part in parts'>
+          <v-btn large block :color='part.color' dark  @click='changePart(part); dialog=false' :key='part.title' class='mb-0'>
+            {{part.title}}
+          </v-btn>
+          <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: center;'>
+            <template v-for='sub in part.subParts' >
+              <v-flex :class='"xs-" + 12/part.subParts.lenght'>
+                <v-tooltip bottom>
+                  <v-btn style='flex-growth: 1'slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route)' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
+                  <span>{{ sub.title }}</span>
+                </v-tooltip>
+              </v-flex>
+            </template>
+          </div>
+        </template>
       </v-card>
     </v-dialog>
     </div>
