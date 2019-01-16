@@ -15,7 +15,9 @@
         </v-tooltip>
       </div>
       <v-dialog v-model="dialog" width="500">
-      <v-btn slot="activator">Sommaire</v-btn>
+      <v-btn slot="activator" flat large class='white--text pa-4 mb-4'>
+        <v-icon x-large y-large>widgets</v-icon>
+      </v-btn>
       <v-card dark class='pa-3'>
         <v-card-title  class="display-1">Sommaire</v-card-title>
         <template v-for='part in parts'>
@@ -26,7 +28,7 @@
             <template v-for='sub in part.subParts' >
               <v-flex :class='"xs-" + 12/part.subParts.lenght'>
                 <v-tooltip bottom>
-                  <v-btn style='flex-growth: 1'slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub)' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
+                  <v-btn slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub)' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
                   <span>{{ sub.title }}</span>
                 </v-tooltip>
               </v-flex>
@@ -44,7 +46,10 @@
         </v-flex>
         <v-flex xs-4 class="pl-5">
         <v-btn-toggle style='margin: auto' class='ma-5' mandatory v-model='cSub'>
-          <v-btn v-for='(sub, index) in cPart.subParts' large class='pa-4' @click='changeSub(index)'>{{ index + 1}}</v-btn>
+          <v-tooltip bottom v-for='(sub, index) in cPart.subParts'>
+              <v-btn slot='activator' large class='pa-4' @click='changeSub(index)'>{{ index + 1}}</v-btn>
+              <label>{{sub.title}}</label>
+          </v-tooltip>
         </v-btn-toggle>
         </v-flex>
       </v-layout>
