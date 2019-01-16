@@ -147,7 +147,8 @@ export default {
       this.dialog = !this.dialog
     }
     else if (e.keyCode === 37) {
-      if (this.cSub != 0) {
+      if (this.cSub != 0 && this.subTitle != '') {
+        this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].title
         this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].route)
         this.cSub--
       }
@@ -160,6 +161,7 @@ export default {
         var max = 1
       }
       if (this.cSub < max) {
+        this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].title
       this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].route)
       this.cSub++
       }
