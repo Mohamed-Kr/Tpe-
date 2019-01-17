@@ -15,53 +15,68 @@ export default new Router({
       }
     },
     {
-      path: '/Intro/1',
-      name: 'i1',
-      component: function () {
-        return import('./views/Intro/1.vue')
-      }
-    }, 
-    {
-      path: '/Intro/2',
-      name: 'i2',
-      component: function () {
-        return import('./views/Intro/2.vue')
-      }
-    }, 
-    {
-      path: '/Intro/3',
-      name: 'i3',
-      component: function () {
-        return import('./views/Intro/3.vue')
-      }
+      path: '/Intro',
+      children: [
+        {
+          path: '/1',
+          name: 'i1',
+          component: function () {
+            return import('./views/Intro/1.vue')
+          }
+        },
+        {
+          path: '/2',
+          name: 'i2',
+          component: function () {
+            return import('./views/Intro/2.vue')
+          }
+        },
+        {
+          path: '/3',
+          name: 'i3',
+          component: function () {
+            return import('./views/Intro/3.vue')
+          }
+        }
+      ]
     },
     {
-      path: '/Pourquoi-Changer/1',
-      name: 'pc1',
-      component: function () {
-        return import('./views/Pourquoi/1.vue')
-      }
+      path: '/Pourquoi-Changer',
+      children: [
+        {
+          path: '/Pourquoi-Changer/1',
+          name: 'pc1',
+          component: function () {
+            return import('./views/Pourquoi/1.vue')
+          }
+        },
+        {
+          path: '/Pourquoi-Changer2',
+          name: 'pc2',
+          component: function () {
+            return import('./views/Pourquoi/2.vue')
+          }
+        }
+      ]
     },
     {
-      path: '/Pourquoi-Changer2',
-      name: 'pc2',
-      component: function () {
-        return import('./views/Pourquoi/2.vue')
-      }
-    },
-    {
-      path: '/Comment-Changer/1',
-      name: 'cc1',
-      component: function () {
-        return import('./views/Comment/1.vue')
-      }
-    },
-  {
-    path: '/Comment-Changer/2',
-    name: 'cc2',
-    component: function () {
-      return import('./views/Comment/2.vue')
+      path: '/Comment-Changer',
+      children: [
+        {
+          path: '/1',
+          name: 'cc1',
+          component: function () {
+            return import('./views/Comment/1.vue')
+          }
+        },
+        {
+          path: '/2',
+          name: 'cc2',
+          component: function () {
+            return import('./views/Comment/2.vue')
+          }
+        }
+      ]
     }
-  }
   ]
 })
