@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		vdsvfdv
+		Cadrage du sujet
 	</v-container>
 </template>
 

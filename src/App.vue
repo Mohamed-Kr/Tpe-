@@ -1,5 +1,12 @@
 <template>
   <v-app id='app'>
+    <div class="mobile-overlay white" v-if="$vuetify.breakpoint.smAndDown">
+      <v-layout fill-height justify-center align-items>
+        <div class="pa-3">
+          <span class="headline">Ce site n'est disponible que sur Ordinateur !</span>
+        </div>
+      </v-layout>
+    </div>
     <v-fade-transition>
       <div style='position: absolute; top: 0px; left: 0px; width:100%; height: 100vh;overflow: hidden;' v-if='cPart.route === "/"'>
         <div style='position: absolute; top: 0px; left: 0px; width:100%; height: 100vh; background: linear-gradient(to left,rgba(0,150,136,0.6), rgb(0,150,136));'>
@@ -15,28 +22,28 @@
         </v-tooltip>
       </div>
       <v-dialog v-model="dialog" width="500">
-      <v-btn slot="activator" flat large class='white--text pa-4 mb-4'>
-        <v-icon x-large y-large>widgets</v-icon>
-      </v-btn>
-      <v-card dark class='pa-3'>
-        <v-card-title  class="display-1">Sommaire</v-card-title>
-        <template v-for='part in parts'>
-          <v-btn large block :color='part.color' dark  @click='changePart(part); dialog=false' :key='part.title' class='mb-0'>
-            {{part.title}}
-          </v-btn>
-          <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: center;'>
-            <template v-for='sub in part.subParts' >
-              <v-flex :class='"xs-" + 12/part.subParts.lenght' :key='sub.title + "0"'>
-                <v-tooltip bottom>
-                  <v-btn slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub); subTitle = sub.title' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
-                  <span>{{ sub.title }}</span>
-                </v-tooltip>
-              </v-flex>
-            </template>
-          </div>
-        </template>
-      </v-card>
-    </v-dialog>
+        <v-btn slot="activator" flat large class='white--text pa-4 mb-4'>
+          <v-icon x-large y-large>widgets</v-icon>
+        </v-btn>
+        <v-card dark class='pa-3'>
+          <v-card-title  class="display-1">Sommaire</v-card-title>
+          <template v-for='part in parts'>
+            <v-btn large block :color='part.color' dark  @click='changePart(part); dialog=false' :key='part.title' class='mb-0'>
+              {{ part.title }}
+            </v-btn>
+            <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: center;'>
+              <template v-for='sub in part.subParts' >
+                <v-flex :class='"xs-" + 12/part.subParts.lenght' :key='sub.title + "0"'>
+                  <v-tooltip bottom>
+                    <v-btn slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub); subTitle = sub.title' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
+                    <span>{{ sub.title }}</span>
+                  </v-tooltip>
+                </v-flex>
+              </template>
+            </div>
+          </template>
+        </v-card>
+      </v-dialog>
     </div>
     <v-content>
       <v-layout>
@@ -45,12 +52,15 @@
           <h2>{{subTitle}}</h2>
         </v-flex>
         <v-flex xs-4 class="pl-5">
-        <v-btn-toggle style='margin: auto' class='ma-5' mandatory v-model='cSub'>
+          <v-layout justify-end pa-5>
           <v-tooltip bottom v-for='(sub, index) in cPart.subParts' :key='index'>
-              <v-btn slot='activator' large class='pa-4' @click='changeSub(index); subTitle = sub.title'>{{ index + 1}}</v-btn>
+              <v-btn slot='activator' @click='changeSub(index); subTitle = sub.title' fab>
+                  {{ index + 1}}
+              </v-btn>
               <label>{{sub.title}}</label>
           </v-tooltip>
-        </v-btn-toggle>
+
+          </v-layout>
         </v-flex>
       </v-layout>
       <router-view/>
@@ -101,10 +111,13 @@ export default {
       else if (loc.toString().includes('Comm')){
       this.subTitle = this.$store.state.parts[3].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
       }
+      else if (loc.toString().includes('Conc')){
+      this.subTitle = this.$store.state.parts[4].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
+      }
       else {
-        this.subTitle = ''
         if (this.cPart.route == '/'){
           this.title = ''
+          this.subTitle = ''
         }
       }
     },
@@ -160,6 +173,9 @@ export default {
       else if(document.location.toString().includes('Pourqu') || document.location.toString().includes('Comm')) {
         var max = 1
       }
+      else if(document.location.toString().includes('Conc') || document.location.toString().includes('Comm')) {
+        var max = 1
+      }
       if (this.cSub < max) {
         this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].title
       this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].route)
@@ -208,7 +224,7 @@ h2 {
   width: 25px;
   z-index: 9999;
   border-radius: 100%;
-  margin: 10px 0px 10px 0px;
+  /*margin: 10px 0px 10px 0px;*/
 }
 .btns:hover {
   transform: scale(1.1)
@@ -217,5 +233,13 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: auto;
+}
+.mobile-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  z-index: 999999;
 }
 </style>

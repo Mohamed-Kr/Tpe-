@@ -2,7 +2,7 @@
   <v-container style='height:80vh;'>
     <v-layout align-space-beetween column fill-height>
       <v-layout align-center fill-height class="mb-2">
-        <v-flex text-xs-center class="home">
+        <v-flex text-xs-center class="home" style="margin-top: -5em">
           <v-fade-transition mode="out-in">
             <div class='white--text'>
               <div class="display-3 mb-4">Transition énergétique</div>
@@ -39,7 +39,7 @@
   export default {
     data: () => ({
       persons: [
-        {name: "Kylian Buhot", img: "https://randomuser.me/api/portraits/men/85.jpg"},
+        {name: "Kylian Buhot", img: "https://api-v2.stail.eu/app/B7wax7VR5QmORF18/logo?hash=special_1547800819942&size=25"},
         {name: "Matthieu Bessat", img: "https://static.werobot.fr/profiles/matthieu.jpg"},
         {name: "Mohamed-El-Hassan Krifa", img: "https://static.werobot.fr/profiles/mohamed.jpg"},
       ]
