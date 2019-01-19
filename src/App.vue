@@ -47,12 +47,12 @@
     </div>
     <v-content>
       <v-layout>
-        <v-flex xs-8>
+        <v-flex xs-8 id='titleC'>
           <h1>{{title}}</h1>
           <h2>{{subTitle}}</h2>
         </v-flex>
         <v-flex xs-4 class="pl-5">
-          <v-layout justify-end pa-5>
+          <v-layout justify-end pa-5 id='subPartBtnC'>
           <v-tooltip bottom v-for='(sub, index) in cPart.subParts' :key='index'>
               <v-btn slot='activator' @click='changeSub(index); subTitle = sub.title' fab>
                   {{ index + 1}}
@@ -69,7 +69,8 @@
 </template>
 
 <script>
-
+import { TimelineMax } from 'gsap'
+import { delay } from 'q';
 export default {
   name: 'App',
   components: {
@@ -89,11 +90,21 @@ export default {
     this.parts = this.$store.state.parts
     this.seeLoc(window.location)
     document.onkeydown = this.checkKey;
+    this.anim()
   },
   watch: {
     backcolor: "changeBckColor",
   },
   methods: {
+    anim() {
+    const start = [document.getElementById('titleC'), document.getElementsByClassName('sideBar')]
+    const subPartBtnC = document.getElementById('subPartBtnC')
+    const tl = new TimelineMax() 
+    
+    tl
+    .fromTo(start, 1, { x: -500 }, { x: 0 }) 
+    .fromTo(subPartBtnC, 1, { x: 500 }, { x: 0 })
+    },
     changePart(data) {
       document.getElementById('app').style.backgroundColor = data.color
       this.title = data.title
@@ -208,7 +219,7 @@ h2 {
   transition: 1s;
 }
 .sideBar {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   height: 100vh;
