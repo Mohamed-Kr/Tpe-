@@ -41,8 +41,8 @@
     <v-content>
       <v-layout>
         <v-flex xs-8 id='titleC'>
-          <h1>{{title}}</h1>
-          <h2>{{subTitle}}</h2>
+          <v-fade-transition><h1>{{title}}</h1></v-fade-transition>
+          <v-fade-transition><h2>{{subTitle}}</h2></v-fade-transition>
         </v-flex>
         <v-flex xs-4 class="pl-5">
           <v-layout justify-end pa-5 id='subPartBtnC'>
