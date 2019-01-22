@@ -30,23 +30,33 @@
 					-Les orbites des éléctrons ne peuvent être situées qu'à certaines distances du noyau, 
 					on parle de couches éléctroniques discrètes.<br/>
 					-Plus la couche est proche du noyau, plus la force qui lie un éléctron au noyau l'est aussi et plus
-					l'énérgie qu'il faut fournir à un éléctron pour le 'séparer' du noyau doit être grande.<br/>
-					-La couche éléctronique situé a la plus grande distance du noyeau (ou couche externe)
-					est donc celle dont les éléctrons sont les plus facile à séparer du noyeau.
-					<v-card class='subheading mt-5 pa-2' flat>
+					l'énérgie qu'il faut fournir à l'éléctron pour le 'séparer' du noyau doit être grande.<br/>
+					-La couche éléctronique située à la plus grande distance du noyau (ou couche externe)
+					est donc celle dont les éléctrons sont les plus facile à séparer du noyau, ce qui fait que les matériaux peuvent être 
+					plus ou moin conducteur.
+					<v-card class='subheading mt-5' flat>
 						<v-card-title class='title'>Les ions</v-card-title>
 						<v-card-text>
-							Il arrive qu'un atome perde ou gagne un ou plusieurs éléctron(s) et devienne donc chargé éléctriquement.
-							<v-layout pa-5>
+							Il arrive qu'un atome perde ou gagne un ou plusieurs éléctron(s), il devient donc un ion éléctriquement chargé.
+							<v-layout pa-5 style='height:450px; overflow: hidden'>
 								<v-flex xs-6>
-									<p style='text-align: center' class='title grey--text'>schéma simplifié d'un<br/> ion de charge positive</p>
+									<p style='text-align: center' class='title grey--text'>Schéma simplifié d'un<br/> ion de charge positive</p>
 									<Elec2/>
 								</v-flex>
 								<v-flex xs-6>
-									<p style='text-align: center' class='title grey--text'>schéma simplifié d'un<br/> ion de charge négative</p>
+									<p style='text-align: center' class='title grey--text'>Schéma simplifié d'un<br/> ion de charge négative</p>
 									<Elec3/>
 								</v-flex>
 							</v-layout>
+						</v-card-text>
+					</v-card>
+					<v-card class='subheading pa-2' flat>
+						<v-card-title class='title'>Un peu de pratique</v-card-title>
+						Dans ce schéma, il y a deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
+						<Conducteur/>
+						<v-card-text>
+							-La différence des signe des deux matériaux éléctriquement chargés est la différence de potentiel évoqué plus tôt.<br/>
+							-Le courant éléctrique est la conséquence du déplacement des éléctrons dans la matière.
 						</v-card-text>
 					</v-card>
 				</v-card-text>
@@ -59,11 +69,13 @@
 import Elec1 from './schemas/Elec1.vue'
 import Elec2 from './schemas/Elec2.vue'
 import Elec3 from './schemas/Elec3.vue'
+import Conducteur from './schemas/Conducteur.vue'
 export default {
 	components: {
 		Elec1,
 		Elec2,
-		Elec3
+		Elec3,
+		Conducteur
 	}
 }
 </script>
