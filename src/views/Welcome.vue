@@ -23,7 +23,7 @@
           </v-card>
 	</div>
 			<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080; height: 100%; position: absolute; top: 0px;" xml:space="preserve">
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080; height: 100%; width: 100%; position: absolute; top: 0px;" xml:space="preserve">
 
 <g>
 	<g id="stars">
