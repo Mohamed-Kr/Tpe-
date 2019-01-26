@@ -1,5 +1,5 @@
 <template>
-<div>
+<div style='position: absolute; width:100%; height:100vh; overflow: hidden;top:0;left: 0px;'>
 	<div style="display: flex; position: absolute; width:100%; height:100vh; top:0; flex-direction: column; justify-content: space-between; align-items: center">
             <div class='white--text' style='z-index:999'>
               <p class="display-3 mb-4">Transition énergétique</p>
