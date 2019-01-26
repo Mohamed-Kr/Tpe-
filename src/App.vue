@@ -192,6 +192,9 @@ export default {
 </script>
 
 <style>
+#titleC, #subPartBtnC {
+  z-index: 999999;
+}
 * {
   user-select: none;
 }

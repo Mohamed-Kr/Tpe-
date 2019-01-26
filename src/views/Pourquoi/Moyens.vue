@@ -1,4 +1,10 @@
 <template>
+<div style="position: absolute; top: 0px; left:0px; height: 100vh; overflow: hidden">
+	<v-dialog v-model='prodDialog'>
+		<div v-if='mp == 1'>
+			<Charbon/>
+		</div>
+	</v-dialog>
 <svg version="1.1" id="Calque_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <g id="bg">
@@ -2444,25 +2450,68 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 			S1374.24,198,1374.24,198S1404.49,321.84,1404.49,338.54z"/>
 	</g>
 </g>
-<g id="sun">
-	<g id="sun_glow">
-		<circle class="st99" cx="144" cy="150" r="119"/>
-		<circle class="st99" cx="144.5" cy="150.5" r="106.5"/>
-		<circle class="st99" cx="144.5" cy="150.5" r="90.5"/>
+<g id="Btns">
+	<g class="ProdBtn">
+		<g class="push" style="opacity:0.26;">
+			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="37.5"/>
+		</g>
+		<g id="btn1">
+			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="17.5"/>
+		</g>
 	</g>
-	<g id="sun_center">
-		<circle class="st100" cx="144.5" cy="150.5" r="73.5"/>
-		<circle class="st66" cx="144.5" cy="150.5" r="54.5"/>
+	<g class="ProdBtn">
+		<g class="push" style="opacity:0.26;">
+			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="37.5"/>
+		</g>
+		<g id="btn2">
+			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="17.5"/>
+		</g>
+	</g>
+	<g class="ProdBtn">
+		<g class="push" style="opacity:0.26;">
+			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="37.5"/>
+		</g>
+		<g id="btn3">
+			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="17.5"/>
+		</g>
+	</g>
+	<g class="ProdBtn">
+		<g class="push" style="opacity:0.26;">
+			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="37.5"/>
+		</g>
+		<g id="btn4">
+			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="17.5"/>
+		</g>
+	</g>
+	<g class="ProdBtn">
+		<g class="push" style="opacity:0.26;">
+			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="37.5"/>
+		</g>
+		<g id="btn5">
+			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="17.5"/>
+		</g>
 	</g>
 </g>
 </svg>
+</div>
 </template>
 
 <script>
 import { TimelineMax } from 'gsap'
+import Charbon from './moyensProd/Charbon.vue'
+import Eolienne from './moyensProd/Eolienne.vue'
+import Hydro from './moyensProd/Hydro.vue'
+import Nucleaire from './moyensProd/Nucleaire.vue'
+import Solaire from './moyensProd/Solaire.vue'
 export default {
 	mounted() {
 		const pales = document.getElementsByClassName('pale')
+		const push = document.getElementsByClassName('push')
+		document.getElementById('btn1').addEventListener("click", () => {this.btnClicked(1)})
+		document.getElementById('btn2').addEventListener("click", () => {this.btnClicked(2)})
+		document.getElementById('btn3').addEventListener("click", () => {this.btnClicked(3)})
+		document.getElementById('btn4').addEventListener("click", () => {this.btnClicked(4)})
+		document.getElementById('btn5').addEventListener("click", () => {this.btnClicked(5)})
 		const tree = document.getElementsByClassName('treeT')
 		const smoke = [
 		document.getElementsByClassName('smoke1'),
@@ -2472,14 +2521,13 @@ export default {
 		]
 		const eaux1 = document.getElementById('eaux_1_')
 		const eaux = document.getElementById('eaux')
-		const sun = document.getElementById('sun_glow')
 		const mousses = document.getElementById('mousses')
 		const eols = new TimelineMax({onComplete: () => {eols.restart()}})
 		const eauxtl = new TimelineMax({onComplete: () => {eauxtl.restart()}})
 		const moussestl = new TimelineMax({onComplete: () => {moussestl.restart()}})
-		const suntl = new TimelineMax({onComplete: () => {suntl.restart()}})
 		const smoketl = new TimelineMax({onComplete: () => {smoketl.restart()}})
 		const treetl = new TimelineMax({onComplete: () => {treetl.restart()}})
+		const pushtl = new TimelineMax({onComplete: () => {pushtl.restart()}})
 
 		eols
 		.fromTo(pales, 5, {rotation: 0, transformOrigin: '48% 57%', ease: Linear.easeNone},
@@ -2498,9 +2546,10 @@ export default {
 		.fromTo(mousses, 0.5, {opacity: 0.8}, {opacity: 1})
 		.fromTo(mousses, 0.5, {opacity: 1}, {opacity: 0.8})
 
-		suntl
-		.fromTo(sun, 2, {opacity: 0.7}, {opacity: 1})
-		.fromTo(sun, 2, {opacity: 1}, {opacity: 0.7})
+		pushtl 
+		.fromTo(push, 2, {opacity: 0, scale: 0, transformOrigin: '50% 50%'}, {opacity: 0.5, scale: 1, transformOrigin: '50% 50%'})
+		.to(push,0.5, {opacity: 0})
+
 		smoketl
 		.set(smoke, {opacity: 0})
 		.to(smoke[0], 1, {opacity: 1})
@@ -2511,6 +2560,19 @@ export default {
 		.to(smoke[3], 1, {opacity: 1})
 		.to(smoke[2], 1, {opacity: 0})
 		.to(smoke[3], 1, {opacity: 0})
+	},
+	methods: {
+		btnClicked(mp) {
+			this.mp = mp
+			this.prodDialog = true
+		}
+	},
+	data: () => ({
+		mp: 0,
+		prodDialog: false
+	}),
+	components: {
+		Charbon, Eolienne, Hydro, Nucleaire, Solaire
 	}
 }
 </script>
