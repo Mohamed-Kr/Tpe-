@@ -1,12 +1,14 @@
 <template>
-<div style="position: absolute; top: 0px; left:0px; height: 100vh; overflow: hidden">
+<div style="position: absolute; top: 0px; left:0px; width: 100%; height: 100vh; overflow: hidden">
 	<v-dialog v-model='prodDialog'>
-		<div v-if='mp == 1'>
-			<Charbon/>
-		</div>
+		<Solaire v-if='mp==1' />
+		<Nucleaire v-if='mp==2' />
+		<Eolienne v-if='mp==3' />
+		<Hydro v-if='mp==4' />
+		<Charbon v-if='mp==5' />
 	</v-dialog>
 <svg version="1.1" id="Calque_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080; position: absolute; top: 0px; left:0px; width: 100%;" xml:space="preserve">
 <g id="bg">
 	<radialGradient id="SVGID_1_" cx="1021.8302" cy="933.9811" r="1271.606" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#304FFE"/>

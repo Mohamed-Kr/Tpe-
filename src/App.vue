@@ -40,11 +40,11 @@
     </div>
     <v-content>
       <v-layout>
-        <v-flex xs-8 id='titleC'>
+        <v-flex xs-8 id='titleC' class='zi'>
           <h1>{{title}}</h1>
           <h2>{{subTitle}}</h2>
         </v-flex>
-        <v-flex xs-4 class="pl-5">
+        <v-flex xs-4 class="pl-5 zi">
           <v-layout justify-end pa-5 id='subPartBtnC'>
           <v-tooltip bottom v-for='(sub, index) in cPart.subParts' :key='index'>
               <v-btn slot='activator' @click='changeSub(index); subTitle = sub.title' fab>
@@ -192,7 +192,7 @@ export default {
 </script>
 
 <style>
-#titleC, #subPartBtnC {
+.zi {
   z-index: 999999;
 }
 * {

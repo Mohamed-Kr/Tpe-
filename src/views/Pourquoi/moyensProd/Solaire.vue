@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		loldvvv
+		solaire
 	</v-container>
 </template>
 

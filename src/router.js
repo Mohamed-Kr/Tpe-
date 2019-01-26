@@ -43,7 +43,7 @@ export default new Router({
       }
     },
     {
-      path: '/Pourquoi-Changer2',
+      path: '/Pourquoi-Changer/2',
       name: 'pc2',
       component: function () {
         return import('./views/Pourquoi/2.vue')

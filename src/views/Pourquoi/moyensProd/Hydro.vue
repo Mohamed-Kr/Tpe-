@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		lolsds
+		hydro
 	</v-container>
 </template>
 

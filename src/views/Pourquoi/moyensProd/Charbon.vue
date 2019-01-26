@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		lol
+		charbon
 	</v-container>
 </template>
 

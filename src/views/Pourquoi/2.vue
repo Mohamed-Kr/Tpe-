@@ -1,10 +1,11 @@
 <template>
 	<v-container>
+		<Moyens/>
 	</v-container>
 </template>
 
 <script>
-import Moyens from './Moyens.vue'
+import Moyens from '../Pourquoi/Moyens.vue'
 export default {
 	components: {
 		Moyens

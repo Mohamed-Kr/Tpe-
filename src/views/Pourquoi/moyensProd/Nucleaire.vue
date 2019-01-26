@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		lolvddvf
+		nucleaire
 	</v-container>
 </template>
 
