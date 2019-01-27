@@ -1,6 +1,6 @@
 <template>
 	<v-container>
-		<Moyens/>
+		euijuj
 	</v-container>
 </template>
 
