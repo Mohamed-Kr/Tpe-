@@ -34,13 +34,21 @@ export default new Vuex.Store({
         color: '#EF5350', 
         route: '/Pourquoi-Changer/1', 
         subParts: [
-          { 
-            title: "Comment produire de l'éléctricité ?", 
-            route: '/Pourquoi-Changer/1' 
-          }, 
-          { 
-            title: "La production française", 
+          {
+            title: "Comment produire de l'éléctricité ?",
+            route: '/Pourquoi-Changer/1'
+          },
+          {
+            title: "La thermodynamique",
             route: '/Pourquoi-Changer/2'
+          },
+          {
+            title: "Notions importantes sur la production",
+            route: '/Pourquoi-Changer/3'
+          },
+          {
+            title: "Les principaux moyens de production en France",
+            route: '/Pourquoi-Changer/4'
           }
         ]
       }, 
@@ -65,7 +73,7 @@ export default new Vuex.Store({
         route: '/Conclusion/1', 
         subParts: [
           { 
-            title: "conclusion (si ta pa encor compri)", 
+            title: "", 
             route: '/Conclusion/1' 
           }, 
           { 

@@ -50,6 +50,20 @@ export default new Router({
       }
     },
     {
+      path: '/Pourquoi-Changer/3',
+      name: 'pc3',
+      component: function () {
+        return import('./views/Pourquoi/3.vue')
+      }
+    },
+    {
+      path: '/Pourquoi-Changer/4',
+      name: 'pc4',
+      component: function () {
+        return import('./views/Pourquoi/4.vue')
+      }
+    },
+    {
       path: '/Comment-Changer/1',
       name: 'cc1',
       component: function () {

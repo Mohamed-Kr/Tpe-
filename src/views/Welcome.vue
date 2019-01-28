@@ -215,7 +215,7 @@
 </div>
 </template>
 <script>
-import { TimelineMax } from 'gsap'
+import { TweenMax } from 'gsap'
   export default {
     data: () => ({
       persons: [

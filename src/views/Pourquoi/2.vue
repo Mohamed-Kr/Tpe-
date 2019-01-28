@@ -1,14 +1,12 @@
 <template>
 	<v-container>
-		<Moyens/>
+		lol partie 2
 	</v-container>
 </template>
 
 <script>
-import Moyens from '../Pourquoi/Moyens.vue'
 export default {
 	components: {
-		Moyens
 	}
 }
 </script>

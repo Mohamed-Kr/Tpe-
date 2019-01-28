@@ -175,7 +175,7 @@ export default {
         var max = 2
       }
       else if(document.location.toString().includes('Pourqu') || document.location.toString().includes('Comm')) {
-        var max = 1
+        var max = 3
       }
       else if(document.location.toString().includes('Conc') || document.location.toString().includes('Comm')) {
         var max = 1
