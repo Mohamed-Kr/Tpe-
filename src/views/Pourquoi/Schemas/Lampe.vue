@@ -639,6 +639,7 @@
 
 <script>
 import { TweenMax } from 'gsap'
+import  Draggable  from 'gsap/Draggable.js'
   export default {
 	  mounted() {
 		  	Draggable.create('#aimant',{
