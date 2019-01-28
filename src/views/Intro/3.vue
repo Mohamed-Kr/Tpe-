@@ -7,9 +7,9 @@
 				<v-card-title class='title mt-5'>Définition</v-card-title>
 				<v-card-text>
 				L'électricité est l'effet du déplacement de particules chargées (les éléctrons) 
-				dans un conducteur sous l'effet d'une difference de potentiel aux extremités de ce conducteur.
+				dans un conducteur sous l'effet d'une différence de potentiel aux extremités de ce conducteur.
 				<br/>
-				L'éléctricité n'est donc pas vraiment de l'énérgie mais plutôt un vecteur énérgétique, un 'moyen de
+				L'éléctricité n'est donc pas vraiment de l'énérgie mais peut être considérée un vecteur énérgétique, un 'moyen de
 				transport' pour l'énérgie.
 				</v-card-text>
 				</v-card>
@@ -20,22 +20,28 @@
 					<v-layout align-start>
 						<v-flex xs5 mt-5 pt-5>
 					Tout d'abord, rappelons que la matière est constituée d'atomes, formés par 
-					un noyeau, constitué de protons (charges positives) et de neutrons (charges neutre) 
-					et d'un nuage éléctronique, constitué d'éléctrons (charges négatives) 'orbitants' autour du noyeau.<br/>
-					Un atome est éléctriquement neutre et est donc composé d'autant d'éléctrons que de protons.
+					un noyau constitué de protons (charges positives), de neutrons (charges neutre) 
+					et d'un nuage éléctronique constitué d'éléctrons (charges négatives) 'orbitants' autour du noyau.<br/>
+					Un atome est donc composé d'autant d'éléctrons que de protons et est donc éléctriquement neutre.
 						</v-flex>
 						<v-flex xs7 style='height: 500px; overflow: hidden'>
-							<p style='text-align: center' class='title grey--text'>schéma simplifié d'un atome</p>
+							<p style='text-align: center' class='title grey--text'>Schéma simplifié d'un atome</p>
 							<Elec1/>
 						</v-flex>
 					</v-layout>
-					-Les orbites des éléctrons ne peuvent être situées qu'à certaines distances du noyau, 
-					on parle de couches éléctroniques discrètes.<br/>
-					-Plus la couche est proche du noyau, plus la force qui lie un éléctron au noyau l'est aussi et plus
-					l'énérgie qu'il faut fournir à l'éléctron pour le 'séparer' du noyau doit être grande.<br/>
-					-La couche éléctronique située à la plus grande distance du noyau (ou couche externe)
-					est donc celle dont les éléctrons sont les plus facile à séparer du noyau, ce qui fait que les matériaux peuvent être 
-					plus ou moin conducteur.
+					<v-card class='pa-2' flat>
+					Les orbites des éléctrons ne peuvent être situées qu'à certaines distances du noyau, 
+					on parle de couches éléctroniques discrètes.
+					</v-card>
+					<v-card class='pa-2' flat>
+					Plus la couche est proche du noyau, plus la force qui lie un éléctron au noyau est élevée et plus
+					l'énérgie qu'il faut fournir à l'éléctron pour le 'séparer' du noyau doit être grande.
+					</v-card>
+					<v-card class='pa-2' flat>
+					La couche éléctronique située à la plus grande distance du noyau (ou couche externe)
+					est donc celle dont les éléctrons sont les plus faciles à séparer du noyau, ce qui fait que les matériaux peuvent être 
+					plus ou moins conducteurs.
+					</v-card>
 				</v-card-text>
 				</v-card>
 				<v-card class='subheading ma-5'>
@@ -56,12 +62,10 @@
 				</v-card>
 					<v-card class='subheading pa-2 ma-5'>
 						<v-card-title class='title'>Un peu de pratique</v-card-title>
-						Dans ce schéma, il y a deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
+						<v-card class='pa-4' flat>
+							Le schéma ci-dessous présente deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
+						</v-card>
 						<Conducteur/>
-						<v-card-text>
-							-La différence des signe des deux matériaux éléctriquement chargés est la différence de potentiel évoqué plus tôt.<br/>
-							-Le courant éléctrique est la conséquence du déplacement des éléctrons dans la matière.
-						</v-card-text>
 					</v-card>
 		</v-card>
 	</v-container>
