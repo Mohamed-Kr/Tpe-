@@ -11,6 +11,21 @@
 				<br/>
 				L'éléctricité n'est donc pas vraiment de l'énérgie mais peut être considérée un vecteur énérgétique, un 'moyen de
 				transport' pour l'énérgie.
+				<br/>
+				<br/>
+				<v-card-title class='title mt-5'>Point historique</v-card-title>
+				Le XIXeme siècle a été un sciècle extrèmement riche en découvertes sur l'éléctrcité, particulièrement la fin: 
+			<v-card class='pl-3' flat>
+				En 1879, Joseph Swan invente la lampe à incandescence.
+			</v-card>
+			<v-card class='pl-3' flat>
+				En 1892, Heilbronn, en Allemagne, est la première ville d'Europe à être équipée d'un système de distribution d'électricité.
+			</v-card>
+			<v-card class='pl-3' flat>
+				Avant la fin du XIème siècle, la production industrielle d'électricité 
+				devient possible et les premières applications techniques apparaissent 
+				comme le moteur électrique, le télégraphe et le téléphone.
+			</v-card>
 				</v-card-text>
 				</v-card>
 			</v-card>
