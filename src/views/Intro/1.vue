@@ -1,9 +1,10 @@
 <template>
 	<v-container justify-center align-center mt-5>
 		<v-flex pa-3 headline white--text id='introTxt'>
-			A travers ce site, nous avons décider de tenter de répondre à une problématique 
-			importante de notre époque: Est-il possible de produire assez d'éléctricité pour tout le monde 
-			sans que ça n'ait d'impact sur notre planète ?
+			A travers ce TPE, nous avons décider de tenter de répondre à une problématique 
+			importante de notre époque: Est-il possible d'avoir un mix énérgétique élécrtique 100% renouvelable en France ? Un mix énérgétique étant
+			 l'ensemble des 
+			moyens de production éléctrique d'un territoire donné.
 			<br/><br/>
 			Nous avons choisis cette problématique car nous pensons qu'elle est trop souvent prise à la légère,
 			particulièrement d'un point de vue politique... 
