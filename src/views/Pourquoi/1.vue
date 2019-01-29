@@ -6,7 +6,7 @@
 			<v-card class='mt-5 pa-3'>
 				Il y a plusieurs façon de produire de l'éléctricité mais nous n'étuedierons ici que l'induction, 
 				phénomène découvert le 29 août 1831 par le chimiste Britanique Michael Faraday (1791-1867)
-				car.
+				car la trés grande majorité des moyens de productions éléctrique fonctionnent grâce à ce principe.
 			</v-card>
 			</v-card>
 				<v-card class='subheading ma-5 pa-3' >
