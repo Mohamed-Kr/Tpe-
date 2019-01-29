@@ -34,6 +34,41 @@ Plus la bobine comporte de tours, plus l’aimant qui se déplace va agir sur un
 			</v-card>
 					</v-card-text>
 				</v-card>
+				<v-card class='subheading ma-5 pa-3' >
+					<v-card-text>
+						<v-card-title class='title'>L'alternateur</v-card-title>
+			<v-card class='mt-2 pa-3' flat>
+  En 1831, donc la même année que la découverte de l'induction, Hippolyte Pixii (1808 - 1835), fabricant d'instruments de Paris,
+   sur les indications d'André-Marie Ampère, mathématicien, physicien, chimiste et philosophe français, construit le premier
+    alternateur.
+			</v-card>
+			<v-card class='mt-2 pa-3' flat>
+	Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor
+   en énergie électrique à courant alternatif.
+			</v-card>
+			<v-card class='mt-2 pa-3' flat>
+Plus de 95 % de l’énergie électrique est produite par les alternateurs, ce sont des machines électromécaniques fournissant des tensions alternatives 
+de fréquence proportionnelle à leur vitesse de rotation. Ces machines sont peu coûteuses 
+par raport à d'autre moyens de production éléctrique et ont un rendement de l'ordre de 95 %.
+			</v-card>
+			<v-card class='mt-2 pa-3 pb-0 title' flat>
+Principe de l'alternateur
+			</v-card>
+			<v-card class='pa-3' flat>
+Cette machine est constituée d'un rotor (partie tournante) et d'un stator (partie fixe).
+			</v-card>
+			<v-card class='mt-2 pa-3' flat>
+Le rotor est l'inducteur, il peut être constitué d'un aimant permanent (générant donc un champ constant), dans ce cas la tension délivrée 
+par la machine n'est pas réglable. En général, un électroaimant 
+assure l'induction. C'est un bobinage alimenté en courant continu, et créant un champ magnétique (c'est d'ailleur de ce constat qu'est 
+parti Faraday pour déduire L'induction, étant le phénomène inverse).
+			</v-card>
+			<v-card class='mt-2 pa-3' flat>
+Le stator est l'induit, il est constitué d'enroulements qui vont être le siège du courant électrique alternatif induit par la
+ variation du champ magnétique due à son mouvement (par rapport à l'induit).
+			</v-card>
+					</v-card-text>
+				</v-card>
 		</v-card>
 	</v-container>
 </template>
