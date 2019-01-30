@@ -92,10 +92,10 @@ export default {
     anim() {
     const start = [document.getElementById('titleC'), document.getElementsByClassName('sideBar')]
     const subPartBtnC = document.getElementById('subPartBtnC')
-    const tl = new TimelineMax() 
-    
+    const tl = new TimelineMax()
+
     tl
-    .fromTo(start, 1, { x: -500 }, { x: 0 }) 
+    .fromTo(start, 1, { x: -500 }, { x: 0 })
     .fromTo(subPartBtnC, 1, { x: 500 }, { x: 0 })
     },
     changePart(data) {
@@ -128,15 +128,27 @@ export default {
     seeLoc(loc) {
       if(loc.toString().includes('Intro')) {
         this.changePart(this.$store.state.parts[1])
+        this.cSub = loc.toString().substring(loc.toString().length - 1, loc.toString().length)
+        this.$router.push(this.$store.state.parts[1].subParts[this.cSub - 1].route);
+        this.subTitle = this.$store.state.parts[1].subParts[this.cSub - 1].title
       }
       else if(loc.toString().includes('Pourqu')) {
         this.changePart(this.$store.state.parts[2])
+        this.cSub = loc.toString().substring(loc.toString().length - 1, loc.toString().length)
+        this.$router.push(this.$store.state.parts[2].subParts[this.cSub - 1].route);
+        this.subTitle = this.$store.state.parts[2].subParts[this.cSub - 1].title
       }
       else if(loc.toString().includes('Comm')) {
         this.changePart(this.$store.state.parts[3])
+        this.cSub = loc.toString().substring(loc.toString().length - 1, loc.toString().length)
+        this.$router.push(this.$store.state.parts[3].subParts[this.cSub - 1].route);
+        this.subTitle = this.$store.state.parts[3].subParts[this.cSub - 1].title
       }
       else if(loc.toString().includes('Conc')) {
         this.changePart(this.$store.state.parts[4])
+        this.cSub = loc.toString().substring(loc.toString().length - 1, loc.toString().length)
+        this.$router.push(this.$store.state.parts[4].subParts[this.cSub - 1].route);
+        this.subTitle = this.$store.state.parts[4].subParts[this.cSub - 1].title
       }
       else {
         this.changePart(this.$store.state.parts[0])
