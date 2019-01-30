@@ -1,8 +1,7 @@
 <template>
 	<v-container>
-		<v-card class='pt-2 pb-4'>
-			<v-card class='subheading ma-3 pa-3' flat>
-			<v-card-title class='headline'>Il suffirait donc de trouver un système créant un mouvement pérpetuel qui ferait bouger continuelement
+			<v-card class='subheading ma-3 pa-3 transparent' flat>
+			<v-card-title class='headline white--text'>Il suffirait donc de trouver un système créant un mouvement pérpetuel qui ferait bouger continuelement
 				un aiment à coté d'une bobine de cuivre !
 			</v-card-title>
 			</v-card>
@@ -49,7 +48,6 @@
 			</v-card>
 					</v-card-text>
 				</v-card>
-		</v-card>
 	</v-container>
 </template>
 

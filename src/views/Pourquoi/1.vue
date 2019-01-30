@@ -1,17 +1,16 @@
 <template>
 	<v-container>
-		<v-card class='pt-2 pb-4'>
-			<v-card class='subheading ma-3 pa-3' flat>
-			<v-card-title class='headline'>A première vue, il est assez facile de produire de l'éléctricité.</v-card-title>
-			<v-card class='mt-5 pa-3'>
-				Il y a plusieurs façon de produire de l'éléctricité mais nous n'étuedierons ici que l'induction, 
-				phénomène découvert le 29 août 1831 par le chimiste Britanique Michael Faraday (1791-1867)
-				car la trés grande majorité des moyens de productions éléctrique fonctionnent grâce à ce principe.
-			</v-card>
+			<v-card class='subheading ma-3 pa-3 transparent' flat>
+			<v-card-title class='headline white--text'>A première vue, il est assez facile de produire de l'éléctricité.</v-card-title>
 			</v-card>
 				<v-card class='subheading ma-5 pa-3' >
 					<v-card-text>
 						<v-card-title class='title'>L'induction</v-card-title>
+			<v-card class='mt-5 pa-3' flat>
+				Il y a plusieurs façon de produire de l'éléctricité mais nous n'étuedierons ici que l'induction, 
+				phénomène découvert le 29 août 1831 par le chimiste Britanique Michael Faraday (1791-1867)
+				car la trés grande majorité des moyens de productions éléctrique fonctionnent grâce à ce principe.
+			</v-card>
 			<v-card class='mt-2 pa-3' flat>
 				Essayez de déplacer l'aimant à l'intérieur de la bobine de cuivre (vue en coupe), bobine dont les 
 				extémités ont été reliés à une lampe.
@@ -70,7 +69,6 @@ Le stator est l'induit, il est constitué d'enroulements qui vont être le sièg
 			</v-card>
 					</v-card-text>
 				</v-card>
-		</v-card>
 	</v-container>
 </template>
 

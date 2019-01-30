@@ -2,7 +2,7 @@
 
 <v-container>
     <v-layout justify-center>
-        <v-flex xs12 md10 lg8>
+        <v-flex xs11>
                 <v-card class='subheading mb-5 pa-3' flat>
                     <v-card-title class='headline'>Nous parlerons plus tard de production éléctrique, rappellons donc ce qu'est l'éléctricité.</v-card-title>
                     <v-card>
