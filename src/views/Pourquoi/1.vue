@@ -57,6 +57,7 @@ Principe de l'alternateur
 			<v-card class='pa-3' flat>
 Cette machine est constituée d'un rotor (partie tournante) et d'un stator (partie fixe).
 			</v-card>
+			<Alternateur/>
 			<v-card class='mt-2 pa-3' flat>
 Le rotor est l'inducteur, il peut être constitué d'un aimant permanent (générant donc un champ constant), dans ce cas la tension délivrée 
 par la machine n'est pas réglable. En général, un électroaimant 
@@ -75,9 +76,10 @@ Le stator est l'induit, il est constitué d'enroulements qui vont être le sièg
 
 <script>
 import Lampe from './Schemas/Lampe.vue'
+import Alternateur from './Schemas/Alternateur.vue'
 export default {
 	components: {
-		Lampe
+		Lampe, Alternateur
 	}
 }
 </script>
