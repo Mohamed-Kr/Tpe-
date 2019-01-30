@@ -1,17 +1,19 @@
 <template>
 	<v-container justify-center align-center mt-5>
-		<v-flex pa-3 headline white--text id='introTxt'>
-			A travers ce TPE, nous avons décider de tenter de répondre à une problématique 
-			importante de notre époque: Est-il possible d'avoir un mix énérgétique élécrtique 100% renouvelable en France ? Un mix énérgétique étant
-			 l'ensemble des 
-			moyens de production éléctrique d'un territoire donné.
-			<br/><br/>
-			Nous avons choisis cette problématique car nous pensons qu'elle est trop souvent prise à la légère,
-			particulièrement d'un point de vue politique... 
-			<br/><br/>
-			Mais bien heureusement: ces quelques dérnières années, il y a eu une certaine prise de conscience 
-			sur le sujet
-		</v-flex>
+		<v-layout justify-center>
+			<v-flex xs12 md10 pa-3 headline white--text id='introTxt'>
+				<!-- Introduction des enjeux, formidable réseau électrique, besoin d'une transformation, cadrage, problématique -->
+				Aujourd'hui nous vivons une époque formidable... Nous avons à disposition une électricité accessible partout en France, notre réseau électrique est syncronisé avec des millers de points de productions électriques partout en Europe. Mais le système actuel est remis en question. En cause, le réchauffement climatique et les problèmes liées à l'utilisation massive du nucléaire. Nous devons et nous sommes déjà en train de nous adapter pour réduire notre impact sur l'environment et ainsi nous préserver nous même.
+				<br>
+				Cette transformation débute par une énergie propre, car l'énergie et à la base de notre société, l'énergie constitue un enjeu et un défie majeur pour notre futur, en France et partout dans le Monde.
+				<br>
+				Dans ce TPE nous allons aborder la question de la transition énergétique électrique en France seulement, car l'énergie est un domaine très vaste.
+				L'électricité n'est pas en elle même de l'énergie, même si nous n'allons pas rentrer dans les détails pour vous parler de la nature quantique de l'énergie nous pouvons quand même vous preciser que l'électricité n'est qu'un vecteur d'énergie, et ce vecteur est très utile et permet de faire fonctionner tout type d'appareils : de la machine industrielle à la voiture.
+				<br>
+				<br>
+				C'est pourquoi nous allons nous demander <b>comment passer à un mix énergétique électrique 100% renouvelable en France ?</b>
+			</v-flex>
+		</v-layout>
 	</v-container>
 </template>
 
@@ -21,7 +23,7 @@ export default {
 	mounted () {
 		const introTxt = document.getElementById('introTxt')
 		const tli = new TimelineMax()
-		
+
 		tli
 		.fromTo(introTxt, 1, {y: 800}, {y : 0})
 	}
