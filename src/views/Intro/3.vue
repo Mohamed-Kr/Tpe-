@@ -55,7 +55,7 @@
           </v-card>
         </v-card-text>
       </v-card>
-      <v-card class='subheading mt-5'>
+      <v-card class='subheading mt-5 pa-3'>
         <v-card-title class='title'>Les ions</v-card-title>
         <v-card-text>
           Il arrive qu'un atome perde ou gagne un ou plusieurs éléctron(s), il devient alors un ion et est donc éléctriquement chargé.
@@ -73,8 +73,8 @@
           </v-layout>
         </v-card-text>
       </v-card>
-      <v-card class='subheading pa-2 mt-5'>
-        <v-card-title class='title'>Un peu de pratique</v-card-title>
+      <v-card class='subheading mt-5 pa-3'>
+        <v-card-title class='title'>Un peu de pratique...</v-card-title>
         <v-card class='pa-4' flat>
           Le schéma ci-dessous présente deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
         </v-card>
