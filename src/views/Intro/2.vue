@@ -24,7 +24,7 @@
 					>{{ item.date }}</span>
 					<v-card class="elevation-2">
 						<v-layout row>
-                <v-flex xs7>
+                <v-flex xs6="item.image != undefined" xs12="item.image == undefined">
                   <v-card-title primary-title class="headline">
                     {{ item.title }}
                   </v-card-title>
@@ -32,12 +32,12 @@
 									 {{ item.description }}
 									</v-card-text>
                 </v-flex>
-                <v-flex xs5>
+                <v-flex xs6 v-if="item.image != undefined">
 									<v-layout justify-center align-center fill-height>
 										<v-img
 	                    :src="item.image"
-											width="50px"
-	                    contain
+											width="200px"
+	                    cover
 	                  ></v-img>
 									</v-layout>
                 </v-flex>
