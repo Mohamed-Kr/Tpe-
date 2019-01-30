@@ -17,20 +17,31 @@
               </v-tooltip>
           </div>
           <v-dialog v-model="dialog" width="500">
-              <v-btn slot="activator" flat large class='white--text pa-4 mb-4'>
-                  <v-icon x-large y-large>widgets</v-icon>
-              </v-btn>
+              <v-layout slot="activator" justify-center>
+                  <v-btn flat fab class='white--text mb-4'>
+                      <v-icon x-large y-large>widgets</v-icon>
+                  </v-btn>
+              </v-layout>
               <v-card dark class='pa-3'>
                   <v-card-title class="display-1">Sommaire</v-card-title>
                   <template v-for='part in parts'>
-                      <v-btn large block :color='part.color' dark @click='changePart(part); dialog=false' :key='part.title' class='mb-0'>
+                      <v-btn large block :color='part.color' dark @click='changePart(part); dialog=false' :key='part.title' class='mb-0 mt-3'>
                           {{ part.title }}
                       </v-btn>
-                      <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: center;'>
-                          <template v-for='sub in part.subParts'>
-                              <v-flex :class='"xs-" + 12/part.subParts.lenght' :key='sub.title + "0"'>
+                      <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: space-between;' class="mt-2">
+                          <template v-for='(sub, index) in part.subParts'>
+                              <v-flex :class='"xs-" + 12/part.subParts.length + (index == 0 ? " pr-2 ": (index == part.subParts.length - 1 ? " pl-2 " : " px-2 "))' :key='sub.title + "0"'>
                                   <v-tooltip bottom>
-                                      <v-btn slot="activator" :color='part.color' :key='sub.title' class='mt-0' @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub); subTitle = sub.title' block>{{part.subParts.indexOf(sub) + 1}}</v-btn>
+                                      <v-btn
+                                        outline
+                                        slot="activator"
+                                        :color='part.color'
+                                        :key='sub.title'
+                                        class='mt-0'
+                                        @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub); subTitle = sub.title'
+                                        block>
+                                        {{part.subParts.indexOf(sub) + 1}}
+                                      </v-btn>
                                       <span>{{ sub.title }}</span>
                                   </v-tooltip>
                               </v-flex>
