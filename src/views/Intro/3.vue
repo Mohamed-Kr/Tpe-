@@ -2,9 +2,8 @@
 
 <v-container>
     <v-layout justify-center>
-        <v-flex xs12 md10 lg9>
-            <v-card class='pt-2 pb-4'>
-                <v-card class='subheading ma-3 pa-3' flat>
+        <v-flex xs12 md10 lg8>
+                <v-card class='subheading mb-5 pa-3' flat>
                     <v-card-title class='headline'>Nous parlerons plus tard de production éléctrique, rappellons donc ce qu'est l'éléctricité.</v-card-title>
                     <v-card>
                         <v-card-title class='title mt-3'>Définition</v-card-title>
@@ -33,7 +32,7 @@
 											</v-card-text>
 										</v-card>
                 </v-card>
-                <v-card class='subheading ma-5 pa-2'>
+                <v-card class='subheading mt-5 pa-3'>
                     <v-card-title class='title'>La matière</v-card-title>
                     <v-card-text>
                         <v-layout align-start>
@@ -57,7 +56,7 @@
                         </v-card>
                     </v-card-text>
                 </v-card>
-                <v-card class='subheading ma-5'>
+                <v-card class='subheading mt-5'>
                     <v-card-title class='title'>Les ions</v-card-title>
                     <v-card-text>
                         Il arrive qu'un atome perde ou gagne un ou plusieurs éléctron(s), il devient alors un ion et est donc éléctriquement chargé.
@@ -75,7 +74,7 @@
                         </v-layout>
                     </v-card-text>
                 </v-card>
-                <v-card class='subheading pa-2 ma-5'>
+                <v-card class='subheading pa-2 mt-5'>
                     <v-card-title class='title'>Un peu de pratique</v-card-title>
                     <v-card class='pa-4' flat>
                         Le schéma ci-dessous présente deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
