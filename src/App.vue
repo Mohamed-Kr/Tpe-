@@ -223,6 +223,10 @@ export default {
     z-index: 999999;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     user-select: none;
 }
