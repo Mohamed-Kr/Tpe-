@@ -1,7 +1,6 @@
 <template>
-	<v-container>
-		nucleaire
-	</v-container>
+		<v-card>
+		</v-card>
 </template>
 
 <script>

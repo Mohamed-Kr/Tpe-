@@ -1,7 +1,6 @@
 <template>
-	<v-container>
-		charbon
-	</v-container>
+		<v-card>
+		</v-card>
 </template>
 
 <script>

@@ -95,7 +95,7 @@ export default {
 }
 </script>
 
-<style type="text/css">
+<style type="text/css" scoped>
 	.el30{fill:#F2F2F2;stroke:#808080;stroke-miterlimit:10;}
 	.el31{fill:#F2F2F2;stroke:#E6E6E6;stroke-miterlimit:10;}
 	.el32{fill:#999999;}
