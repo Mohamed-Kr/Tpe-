@@ -7,7 +7,7 @@
         </div>
       </v-layout>
     </div>
-    <div class='sideBar'>
+    <div class='sideBar' v-if="!$vuetify.breakpoint.smAndDown">
       <div class='sideBtnC'>
         <v-tooltip right v-for="part in parts" :key='part.title'>
           <v-btn  slot="activator" @click='changePart(part); cSub = 0' icon class='btns'><div class='sideBtn'></div></v-btn>
@@ -39,7 +39,7 @@
       </v-dialog>
     </div>
     <v-content>
-      <v-layout>
+      <v-layout v-if="$route.path != '/'">
         <v-flex xs-8 id='titleC' class='zi'>
           <h1>{{title}}</h1>
           <h2>{{subTitle}}</h2>

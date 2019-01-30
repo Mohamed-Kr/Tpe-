@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<v-layout justify-center align-center fill-height>
-			<v-flex xs12 md10>
+			<v-flex xs11 md12 lg10>
 				<v-card class="mb-5">
 					<v-card-text>
 
@@ -36,7 +36,8 @@
 									<v-layout justify-center align-center fill-height>
 										<v-img
 	                    :src="item.image"
-	                    cover
+											width="50px"
+	                    contain
 	                  ></v-img>
 									</v-layout>
                 </v-flex>

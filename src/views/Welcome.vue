@@ -7,8 +7,8 @@
 						</div>
           <v-card style='z-index:999;'>
             <v-card-text>
-              <v-layout justify-center row wrap>
-                <v-flex xs12 md4 v-for="(person, index) in persons" :key="index">
+              <v-layout justify-center row>
+                <v-flex xs12 md10 v-for="(person, index) in persons" :key="index">
                   <v-layout justify-center align-center :mb-2="$vuetify.breakpoint.smAndDown">
                     <v-avatar class="">
                       <img :src="person.img"/>
@@ -230,17 +230,17 @@ import { TweenMax } from 'gsap'
 											document.getElementById('helice_2_'),document.getElementById('helice_3_'),document.getElementById('helice_4_') ]
 			const durables = [document.getElementById('eols'), document.getElementById('pvs')]
 			const earth = [document.getElementById('earth'), document.getElementById('eols'), document.getElementById('pvs'), durables]
-			
+
 
       const tlw = new TimelineMax()
       const earthAnim = new TimelineMax({onComplete: () => earthAnim.restart()})
       const tlStars = new TimelineMax({onComplete: () => tlStars.restart()})
 			const eolst = new TimelineMax({onComplete: () => eolst.restart()})
-			
+
 			tlStars
 			.fromTo(stars, 8, {opacity: 1}, {opacity: 0.4, ease:Linear.easeNone})
 			.fromTo(stars, 8, {opacity: 0.4}, {opacity: 1, ease:Linear.easeNone})
-			
+
       tlw
 			.fromTo([durables, earth], 4, {opacity: 0}, {opacity : 1})
 
@@ -249,7 +249,7 @@ import { TweenMax } from 'gsap'
 			.fromTo(earth, 4, {y: 50}, {y: 0})
 
 			eolst
-			.fromTo(helices, 5, {rotation: 0, transformOrigin: '45% 60%', ease:Linear.easeNone}, 
+			.fromTo(helices, 5, {rotation: 0, transformOrigin: '45% 60%', ease:Linear.easeNone},
 													{rotation: 360, transformOrigin: '45% 60%', ease:Linear.easeNone})
 
     }
