@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     parts: [
       {
-        title : 'Bienvenu',
+        title : 'Bienvenue',
         color: '#000000',
         route: '/'}, 
       { 
