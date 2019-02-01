@@ -2457,7 +2457,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="37.5"/>
 		</g>
-		<g class="btnProd">
+		<g id="btn1" class='btnProd'>
 			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="17.5"/>
 		</g>
 	</g>
@@ -2465,7 +2465,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="37.5"/>
 		</g>
-		<g class="btnProd">
+		<g id="btn2" class='btnProd'>
 			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="17.5"/>
 		</g>
 	</g>
@@ -2473,7 +2473,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="37.5"/>
 		</g>
-		<g class="btnProd">
+		<g id="btn3" class='btnProd'>
 			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="17.5"/>
 		</g>
 	</g>
@@ -2481,7 +2481,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="37.5"/>
 		</g>
-		<g class="btnProd">
+		<g id="btn4" class='btnProd'>
 			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="17.5"/>
 		</g>
 	</g>
@@ -2489,7 +2489,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="37.5"/>
 		</g>
-		<g class="btnProd">
+		<g id="btn5" class='btnProd'>
 			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="17.5"/>
 		</g>
 	</g>
