@@ -1,6 +1,6 @@
 <template>
 <div style="position: absolute; top: 0px; left:0px; width: 100%; height: 100vh; overflow: hidden">
-	<v-dialog v-model='prodDialog' flat max-width="70%">
+	<v-dialog v-model='prodDialog' flat max-width="70%" style='z-index:9999999999999999999999;'>
 		<Solaire v-if='mp==1' />
 		<Nucleaire v-if='mp==2' />
 		<Eolienne v-if='mp==3' />
@@ -2457,7 +2457,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="37.5"/>
 		</g>
-		<g id="btn1">
+		<g class="btnProd">
 			<circle style="fill:#F2F2F2;" cx="707.5" cy="531.5" r="17.5"/>
 		</g>
 	</g>
@@ -2465,7 +2465,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="37.5"/>
 		</g>
-		<g id="btn2">
+		<g class="btnProd">
 			<circle style="fill:#F2F2F2;" cx="295.5" cy="658.5" r="17.5"/>
 		</g>
 	</g>
@@ -2473,7 +2473,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="37.5"/>
 		</g>
-		<g id="btn3">
+		<g class="btnProd">
 			<circle style="fill:#F2F2F2;" cx="878.5" cy="292.5" r="17.5"/>
 		</g>
 	</g>
@@ -2481,7 +2481,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="37.5"/>
 		</g>
-		<g id="btn4">
+		<g class="btnProd">
 			<circle style="fill:#F2F2F2;" cx="1566.5" cy="741.5" r="17.5"/>
 		</g>
 	</g>
@@ -2489,7 +2489,7 @@ kwISeKiWE0gggT6CoIQEEqjrpIBMIKjlBBJIoOv1wTIg7gPLgIj6HGr6rG8ZEN5BXX9mWQaEFxBn
 		<g class="push" style="opacity:0.26;">
 			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="37.5"/>
 		</g>
-		<g id="btn5">
+		<g class="btnProd">
 			<circle style="fill:#F2F2F2;" cx="1850.5" cy="448.5" r="17.5"/>
 		</g>
 	</g>
@@ -2580,6 +2580,9 @@ export default {
 </script>
 
 <style type="text/css" scoped>
+	.btnProd {
+		cursor: pointer;
+	}
 	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
 	.st1{opacity:0.44;fill:#FFFFFF;}
 	.st2{fill:url(#SVGID_2_);}
