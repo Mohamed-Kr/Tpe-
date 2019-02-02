@@ -3,7 +3,7 @@
 		<v-layout justify-center align-center fill-height>
 	    <v-flex xs11 md9 lg10 xl8>
 				<v-card class="mb-5">
-					<v-card-text>
+					<v-card-text style='font-size: 1.2em;'>
 
 					Tout d'abord avant de parler de l'histoire de l'énergie électrique, il convient de préciser qu'il n'y a jamais eu vraiment de transition énergétique, c'est à dire un moment où dans l'histoire nous avons complétement changé de mode de production électrique. Or, à l'heure actuelle nous utilison encore du charbon pour produire 29% de l'électricité mondial et cette part est loin de diminuer. Même si des nouveaux moyens de productions sont apparus nous gardons l'usage des premiers moyens pas forcement très propre.
 
@@ -28,7 +28,7 @@
                   <v-card-title primary-title class="headline">
                     {{ item.title }}
                   </v-card-title>
-									<v-card-text>
+									<v-card-text style='font-size: 1.1em;'>
 									 {{ item.description }}
 									</v-card-text>
                 </v-flex>
