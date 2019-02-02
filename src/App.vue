@@ -130,6 +130,7 @@ export default {
             document.title = "TPE 1S1 | " + data.title
             this.cPart = data
             this.$router.push(data.route)
+            window.scrollTo(0,0); 
             var loc = window.location
             this.cSub = parseInt(window.location.toString().slice(-1)) - 1
             if (loc.toString().includes('Intro')) {
@@ -175,6 +176,7 @@ export default {
         changeSub(sub) {
             this.cSub = sub + 1
             this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) + (sub + 1))
+            window.scrollTo(0,0); 
         },
         checkKey(e) {
             e = e || window.event;
@@ -182,11 +184,13 @@ export default {
                 this.cSub = 0
                 if (this.$store.state.parts.indexOf(this.cPart) != 0 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) - 1)])
+                    window.scrollTo(0,0); 
                 }
             } else if (e.keyCode === 40) {
                 this.cSub = 0
                 if (this.$store.state.parts.indexOf(this.cPart) != 4 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) + 1)])
+                    window.scrollTo(0,0); 
                 }
             } else if (e.keyCode === 32) {
                 this.dialog = !this.dialog
@@ -195,6 +199,7 @@ export default {
                     this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].title
                     this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].route)
                     this.cSub--
+                    window.scrollTo(0,0); 
                 }
             } else if (e.keyCode === 39) {
                 if (document.location.toString().includes('Intro')) {
@@ -208,6 +213,7 @@ export default {
                     this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].title
                     this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].route)
                     this.cSub++
+                    window.scrollTo(0,0); 
                 }
             }
         }
