@@ -60,7 +60,7 @@
               <v-flex xs-4 class="pl-5 zi">
                   <v-layout justify-end pa-5 id='subPartBtnC'>
                       <v-tooltip bottom v-for='(sub, index) in cPart.subParts' :key='index'>
-                          <v-btn slot='activator' @click='changeSub(index); subTitle = sub.title' fab>
+                          <v-btn slot='activator' @click='changeSub(index + 1); subTitle = sub.title' fab>
                               {{ index + 1}}
                           </v-btn>
                           <label>{{sub.title}}</label>
@@ -131,7 +131,7 @@ export default {
             this.cPart = data
             this.$router.push(data.route)
             window.scrollTo(0,0); 
-            this.cSub = parseInt(window.location.toString().slice(-1)) - 1
+            this.cSub = 1
             if (data.title != 'Bienvenue') {
             this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(data)].subParts[0].title
             }
@@ -164,41 +164,39 @@ export default {
             }
         },
         changeSub(sub) {
-            this.cSub = sub + 1
+            this.cSub = sub
+            if (this.cPart.route != '/') {
             this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) +  this.cSub)
-            if (this.cPart.title != '') {
-            this.subTitle  = this.cPart.subParts[sub].title
+            this.subTitle = this.cPart.subParts[sub - 1].title
             }
             window.scrollTo(0,0); 
         },
         checkKey(e) {
             e = e || window.event;
             if (e.keyCode === 38) {
-                this.cSub = 0
+                if (this.cPart.route != '/') {
+                this.changeSub(1)
+                }
                 if (this.$store.state.parts.indexOf(this.cPart) != 0 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) - 1)])
                 }
             } else if (e.keyCode === 40) {
-                this.cSub = 0
+                if (this.cPart.route != '/') {
+                this.changeSub(1)
+                }
                 if (this.$store.state.parts.indexOf(this.cPart) != 4 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) + 1)])
                 }
             } else if (e.keyCode === 32) {
                 this.dialog = !this.dialog
             } else if (e.keyCode === 37) {
-                if (this.cSub != 1 && this.subTitle != '') {
-                this.changeSub(this.cSub - 2)
+                if (this.cSub > 1 && this.subTitle != '') {
+                this.changeSub(this.cSub - 1)
                 }
-            } else if (e.keyCode === 39) {
-                if (document.location.toString().includes('Intro')) {
-                    var max = 3
-                } else if (document.location.toString().includes('Pourqu') || document.location.toString().includes('Comm')) {
-                    var max = 4
-                } else if (document.location.toString().includes('Conc') || document.location.toString().includes('Comm')) {
-                    var max = 2
-                }
+            } else if (e.keyCode === 39 && this.cPart.route != '/') {
+                var max = this.cPart.subParts.length
                 if (this.cSub < max) {
-                this.changeSub(parseInt(this.cSub))
+                this.changeSub(parseInt(this.cSub) + 1)
                 }
             }
         }
