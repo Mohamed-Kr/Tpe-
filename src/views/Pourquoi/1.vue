@@ -3,7 +3,9 @@
   <v-layout justify-center>
     <v-flex xs11 md9 lg10 xl8>
       <v-card class='subheading mx-3 px-3 transparent' flat>
-        <v-card-title class='headline white--text'>A première vue, il est assez facile de produire de l'éléctricité.</v-card-title>
+        <v-card-title class='headline white--text'>Pour pouvoir avoir un regard critique sur la production éléctrique, il faut commencer par comprendre
+          ce qu'est réelment un moyen de production éléctrique, nous allons commencer par étudier le principe sur lequel ils fonctionnent.
+        </v-card-title>
       </v-card>
       <v-card class='subheading mx-5 mt-4 pa-3'>
         <v-card-text>
