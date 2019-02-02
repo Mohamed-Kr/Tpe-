@@ -5,7 +5,15 @@
 			la France est au 18e rang européen ; la filière a produit 0,4 % de la production d'énergie renouvelable française en 2016.
 
 			Part: moins de 2%
-			Rendement: très variable (en moyenne : 14,5%)
+Les filière éoliennes et solaire photovoltaïque représentent quant à elles 45 % du parc EnR.
+
+
+au minimum: 66 €/MWh
+
+problème : le solaire n’est pas pilotable (pas élastique à la consommation)
+Les performances d’une installation photovoltaïque dépendent de l’orientation des panneaux solaire et des zones d'ensoleillement dans lesquels ils sont placés.
+très faible rendement (5%)
+
 
 			<v-layout>
 				<v-flex xs6>
