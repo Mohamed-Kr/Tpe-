@@ -131,22 +131,11 @@ export default {
             this.cPart = data
             this.$router.push(data.route)
             window.scrollTo(0,0); 
-            var loc = window.location
             this.cSub = parseInt(window.location.toString().slice(-1)) - 1
-            if (loc.toString().includes('Intro')) {
-                this.subTitle = this.$store.state.parts[1].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
-            } else if (loc.toString().includes('Pourqu')) {
-                this.subTitle = this.$store.state.parts[2].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
-            } else if (loc.toString().includes('Comm')) {
-                this.subTitle = this.$store.state.parts[3].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
-            } else if (loc.toString().includes('Conc')) {
-                this.subTitle = this.$store.state.parts[4].subParts[parseInt(window.location.toString().slice(-1)) - 1].title
-            } else {
-                if (this.cPart.route == '/') {
-                    this.title = ''
-                    this.subTitle = ''
-                }
+            if (data.title != 'Bienvenue') {
+            this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(data)].subParts[0].title
             }
+            window.scrollTo(0,0); 
         },
         seeLoc(loc) {
             if (loc.toString().includes('Intro')) {
@@ -170,12 +159,16 @@ export default {
                 this.$router.push(this.$store.state.parts[4].subParts[this.cSub - 1].route);
                 this.subTitle = this.$store.state.parts[4].subParts[this.cSub - 1].title
             } else {
-                this.changePart(this.$store.state.parts[0])
+                this.cPart = this.$store.state.parts[0]
+                this.changePart(this.cPart)
             }
         },
         changeSub(sub) {
             this.cSub = sub + 1
-            this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) + (sub + 1))
+            this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) +  this.cSub)
+            if (this.cPart.title != '') {
+            this.subTitle  = this.cPart.subParts[sub].title
+            }
             window.scrollTo(0,0); 
         },
         checkKey(e) {
@@ -184,36 +177,28 @@ export default {
                 this.cSub = 0
                 if (this.$store.state.parts.indexOf(this.cPart) != 0 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) - 1)])
-                    window.scrollTo(0,0); 
                 }
             } else if (e.keyCode === 40) {
                 this.cSub = 0
                 if (this.$store.state.parts.indexOf(this.cPart) != 4 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) + 1)])
-                    window.scrollTo(0,0); 
                 }
             } else if (e.keyCode === 32) {
                 this.dialog = !this.dialog
             } else if (e.keyCode === 37) {
                 if (this.cSub != 0 && this.subTitle != '') {
-                    this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].title
-                    this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1)) - 2].route)
-                    this.cSub--
-                    window.scrollTo(0,0); 
+                this.changeSub(this.cSub - 2)
                 }
             } else if (e.keyCode === 39) {
                 if (document.location.toString().includes('Intro')) {
-                    var max = 2
-                } else if (document.location.toString().includes('Pourqu') || document.location.toString().includes('Comm')) {
                     var max = 3
+                } else if (document.location.toString().includes('Pourqu') || document.location.toString().includes('Comm')) {
+                    var max = 4
                 } else if (document.location.toString().includes('Conc') || document.location.toString().includes('Comm')) {
-                    var max = 1
+                    var max = 2
                 }
                 if (this.cSub < max) {
-                    this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].title
-                    this.$router.push(this.$store.state.parts[this.$store.state.parts.indexOf(this.cPart)].subParts[parseInt(window.location.toString().slice(-1))].route)
-                    this.cSub++
-                    window.scrollTo(0,0); 
+                this.changeSub(parseInt(this.cSub))
                 }
             }
         }
