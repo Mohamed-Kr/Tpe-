@@ -9,21 +9,21 @@
       <v-card class='subheading mx-5 mt-4 pa-3'>
         <v-card-text>
           <v-card-title class='title'>Un mouvement perpetuel ?</v-card-title>
-          <v-card class='mt-2 px-3' flat>
-            Depuis la Renaissance, des inventeurs ont tenté de construire des systèmes mécaniques capable de perpétuer leur mouvement, pensant qu'ils pourraient constituer une source illimitée de travail. Leurs mécanismes ne fonctionnaient pas comme ils l'auraient
+          <v-card class='mt-2 px-3' flat
+          >Depuis la Renaissance, des inventeurs ont tenté de construire des systèmes mécaniques capable de perpétuer leur mouvement, pensant qu'ils pourraient constituer une source illimitée de travail. Leurs mécanismes ne fonctionnaient pas comme ils l'auraient
             éspéré, car les connaissances techniques de l'époque ne permettaient pas de réduire de façon significative les frottements entre les pièces, causant l'arrêt du mouvement de leurs systemes.
           </v-card>
           <v-layout style='display: flex; align-content: center; justify-items: center' class="px-3 pt-5">
             <v-flex xs12 md4 ml-5>
               <v-img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nioutaik.fr%2Fimages%2Finfinibullshit%2Finfini14.gif&f=1'></v-img>
             </v-flex>
-            <v-flex xs12 md6 pl-5 pt-2>
-              Cette animation présente un essai de systèmes capable de rester indéfiniment en mouvement, le fonctionnement de ce système violerait la première loi de la thermodynamique. D'ailleur, la disposition des boules bleues fait que le centre de gravité du système
+            <v-flex xs12 md6 pl-5 pt-2
+            >Cette animation présente un essai de systèmes capable de rester indéfiniment en mouvement, le fonctionnement de ce système violerait la première loi de la thermodynamique. D'ailleur, la disposition des boules bleues fait que le centre de gravité du système
               ne se situe pas exactement au centre de la roue, ce qui diminue l'efficacité de ce système à perpetuer son mouvement
             </v-flex>
           </v-layout>
-          <v-card class='mt-2 px-3' flat>
-            On sait qu'un mouvement perpétuel est théoriequement possible. Mais nous savons aussi que sans aucune énergie apportée, il ne peut pas devenir une source d'énergie : en effet, cela reviendrait à créer de l'énérgie à proprement parler, alors que d'après
+          <v-card class='mt-2 px-3' flat
+          >On sait qu'un mouvement perpétuel est théoriequement possible. Mais nous savons aussi que sans aucune énergie apportée, il ne peut pas devenir une source d'énergie : en effet, cela reviendrait à créer de l'énérgie à proprement parler, alors que d'après
             le premier principe de la thermodynamique elle ne peut ni être créée ni être détruite mais uniquement être transformée. Un « moteur perpétuel », source d'énergie utilisant un mouvement perpétuel, est donc impossible.
           </v-card>
         </v-card-text>
@@ -31,8 +31,8 @@
       <v-card class='subheading ma-5 pa-3'>
         <v-card-text>
           <v-card-title class='title'>Transformer intelligement ?</v-card-title>
-          <v-card class='mt-2 px-3' flat>
-            Il serait donc logique de se dire que si nous ne pouvons pas créer de l'énérgie, nous n'avons qu'a transformer toute l'énérgie présente sous une forme qui nous est 'inutile' en énérgie mécanique et ainsi faire tourner indéfiniment une turbine sans pertes
+          <v-card class='mt-2 px-3' flat
+          >Il serait donc logique de se dire que si nous ne pouvons pas créer de l'énérgie, nous n'avons qu'a transformer toute l'énérgie présente sous une forme qui nous est 'inutile' en énérgie mécanique et ainsi faire tourner indéfiniment une turbine sans pertes
             considérables. Mais c'est là qu'intervient le deuxième principe de la thérmodynamique, d'aprés lequel les transformations que subit l'énérgie ne la font tendre que vers son état le plus stable, nous ne pouvons donc pas transformer n'importe
             quelle énérgie en énérgie mécanique.
           </v-card>

@@ -6,8 +6,8 @@
         <v-card-title class='headline'>Nous parlerons plus tard de production éléctrique, rappellons donc ce qu'est l'éléctricité.</v-card-title>
         <v-card>
           <v-card-title class='title mt-3'>Définition</v-card-title>
-          <v-card-text>
-            L'électricité est l'effet du déplacement de particules chargées (les éléctrons) dans un conducteur sous l'effet d'une différence de potentiel aux extremités de ce conducteur.
+          <v-card-text
+          >L'électricité est l'effet du déplacement de particules chargées (les éléctrons) dans un conducteur sous l'effet d'une différence de potentiel aux extremités de ce conducteur.
             <br/> L'éléctricité n'est donc pas vraiment de l'énérgie mais peut être considérée un vecteur énérgétique, un 'moyen de transport' pour l'énérgie.
           </v-card-text>
         </v-card>
@@ -35,8 +35,8 @@
         <v-card-title class='title'>La matière</v-card-title>
         <v-card-text>
           <v-layout align-start>
-            <v-flex xs5 mt-5 pt-5>
-              Tout d'abord, rappelons que la matière est constituée d'atomes, formés par un noyau constitué de protons (charges positives), de neutrons (charges neutre) et d'un nuage éléctronique constitué d'éléctrons (charges négatives) 'orbitants' autour du noyau.
+            <v-flex xs5 mt-5 pt-5
+            >Tout d'abord, rappelons que la matière est constituée d'atomes, formés par un noyau constitué de protons (charges positives), de neutrons (charges neutre) et d'un nuage éléctronique constitué d'éléctrons (charges négatives) 'orbitants' autour du noyau.
               <br/> Un atome est donc composé d'autant d'éléctrons que de protons et est donc éléctriquement neutre.
             </v-flex>
             <v-flex xs7 style='height: 500px; overflow: hidden'>
@@ -44,14 +44,14 @@
               <Elec1/>
             </v-flex>
           </v-layout>
-          <v-card class='pa-2' flat>
-            Les orbites des éléctrons ne peuvent être situées qu'à certaines distances du noyau, on parle de couches éléctroniques discrètes.
+          <v-card class='pa-2' flat
+          >Les orbites des éléctrons ne peuvent être situées qu'à certaines distances du noyau, on parle de couches éléctroniques discrètes.
           </v-card>
-          <v-card class='pa-2' flat>
-            Plus la couche est proche du noyau, plus la force qui lie un éléctron au noyau est élevée et plus l'énérgie qu'il faut fournir à l'éléctron pour le 'séparer' du noyau doit être grande.
+          <v-card class='pa-2' flat
+          >Plus la couche est proche du noyau, plus la force qui lie un éléctron au noyau est élevée et plus l'énérgie qu'il faut fournir à l'éléctron pour le 'séparer' du noyau doit être grande.
           </v-card>
-          <v-card class='pa-2' flat>
-            La couche éléctronique située à la plus grande distance du noyau (ou couche externe) est donc celle dont les éléctrons sont les plus faciles à séparer du noyau, ce qui fait que les matériaux peuvent être plus ou moins conducteurs.
+          <v-card class='pa-2' flat
+          >La couche éléctronique située à la plus grande distance du noyau (ou couche externe) est donc celle dont les éléctrons sont les plus faciles à séparer du noyau, ce qui fait que les matériaux peuvent être plus ou moins conducteurs.
           </v-card>
         </v-card-text>
       </v-card>
@@ -75,8 +75,8 @@
       </v-card>
       <v-card class='subheading mt-5 pa-3'>
         <v-card-title class='title'>Un peu de pratique...</v-card-title>
-        <v-card class='pa-4' flat>
-          Le schéma ci-dessous présente deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
+        <v-card class='pa-4' flat
+        >Le schéma (très simplifié) ci-dessous présente deux matériaux de charges éléctriques opposées, appuyez sur le bouton pour les relier avec un matériau conducteur.
         </v-card>
         <Conducteur/>
       </v-card>

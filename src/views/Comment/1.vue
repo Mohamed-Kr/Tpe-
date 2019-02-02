@@ -9,8 +9,8 @@
       <v-card class='subheading mx-5 mt-4 pa-3'>
         <v-card-text>
           <v-card-title class='title'>Une consommation inconstante</v-card-title>
-          <v-card class='mt-2 px-3' flat>
-La consommation est sensible à la météo et plus particulièrement à la température. Par exemple en hiver, plus il fait froid plus les ménages et les entreprises consomment de l'électricité pour se chauffer. On dit que la consommation est thermosensible.
+          <v-card class='mt-2 px-3' flat
+          >La consommation est sensible à la météo et plus particulièrement à la température. Par exemple en hiver, plus il fait froid plus les ménages et les entreprises consomment de l'électricité pour se chauffer. On dit que la consommation est thermosensible.
 De même, la consommation est beaucoup moins élevée la nuit car les industries ne fonctionnent pas et les ménages consomment moins.
           </v-card>
         </v-card-text>
@@ -18,8 +18,8 @@ De même, la consommation est beaucoup moins élevée la nuit car les industries
       <v-card class='subheading ma-5 pa-3'>
         <v-card-text>
           <v-card-title class='title'>Une inconstance problématique</v-card-title>
-          <v-card class='mt-2 px-3' flat>
-Cette inconstance est assez problématique au niveau de la production car sur d’aussi grosses échelles, les moyens de stockage électrique actuels sont encore trop peu performants,
+          <v-card class='mt-2 px-3' flat
+          >Cette inconstance est assez problématique au niveau de la production car sur d’aussi grosses échelles, les moyens de stockage électrique actuels sont encore trop peu performants,
 Les moyens de production électrique s’adaptent donc, par exemple, les pales ré-orientables des barrages permettent de concentrer leur production pendant les périodes de forte consommation. Elles sont capables de passer de l'arrêt à leur puissance maximale en quelques minutes (voir partie sur l'hydroélectricité).
 La consommation est pourtant le facteur le plus important car plus nous consommons, plus nous devons produire, nous avons donc le devoir de veiller sur notre consommation.
           
