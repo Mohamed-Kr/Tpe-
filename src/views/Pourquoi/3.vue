@@ -41,9 +41,11 @@
 					contrairement au barrage, car dans ces dernières, les pales sont orientables ce qui permet d’ajuster
 					la puissance de la turbine.
           </v-card>
-
-
-
+        </v-card-text>
+      </v-card>
+      <v-card class='subheading ma-5 pa-3'>
+        <v-card-text>
+          <v-card-title class='title'>La polution</v-card-title>
         </v-card-text>
       </v-card>
     </v-flex>
