@@ -186,7 +186,7 @@ export default {
             } else if (e.keyCode === 32) {
                 this.dialog = !this.dialog
             } else if (e.keyCode === 37) {
-                if (this.cSub != 0 && this.subTitle != '') {
+                if (this.cSub != 1 && this.subTitle != '') {
                 this.changeSub(this.cSub - 2)
                 }
             } else if (e.keyCode === 39) {
