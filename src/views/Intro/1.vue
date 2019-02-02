@@ -1,8 +1,8 @@
 <template>
-	<v-container justify-center align-center mt-2>
+	<v-container justify-center align-center mt-2 style='overflow: hidden; height: 77vh'>
 		<v-layout justify-center>
-			<v-flex xs11 md10 lg11 white--text id='introTxt'>
-				<v-card>
+			<v-flex xs11 md10 lg11 white--text>
+				<v-card  id='introTxt'>
 							<v-card-text style="font-size: 1.5rem">
 								<!-- Introduction des enjeux, formidable réseau électrique, besoin d'une transformation, cadrage, problématique -->
 								Aujourd'hui nous vivons une époque formidable... Nous avons un réseau électrique constitué de millers de points de productions, tous syncronisés et permettant une accessibilité à l'éléctricité partout en France.
