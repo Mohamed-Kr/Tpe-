@@ -31,21 +31,36 @@
 						A tout instant, sur un réseau électrique, la production doit égaler la consommation.
           </v-card>
 					<v-card class='mt-2 px-3' flat>
-					L’électricité, actuellement, ne se stocke pas, sur une grande échelle.
-					Donc tout écart faible entre la production et la consommation sera immédiatement 
-					compensé par une modification automatique du niveau de production de centrales spécialement 
-					équipées, ce sont des moyen de production pilotables.
+					Nos capacité en stockage éléctrique ne sont actuellement pas assez avancées pour être utiles sur une si grande echelle,
+					tout écart faible entre la production et la consommation aura donc à être immédiatement 
+					compensé par une modification au niveau de la production. La capacité moyens de production à s'adapter à 
+					la consomation est appelé 'la pilotabilité'.
           </v-card>
 					<v-card class='mt-2 px-3' flat>
-					Par exemple, du côté des énergies renouvelable, les panneaux photovoltaïques ne sont pas pilotables,
-					contrairement au barrage, car dans ces dernières, les pales sont orientables ce qui permet d’ajuster
-					la puissance de la turbine.
+					Par exemple, du côté des énergies renouvelable, les panneaux photovoltaïques ne sont pas pilotables
+					contrairement aux barrages hydroéléctriques, étant dotés de pales orientables, permetant d’ajuster
+					la vitesse du rotor.
           </v-card>
         </v-card-text>
       </v-card>
       <v-card class='subheading ma-5 pa-3'>
         <v-card-text>
-          <v-card-title class='title'>La polution</v-card-title>
+          <v-card-title class='title'>L'impact sur l'environnement</v-card-title>
+					<v-card class='mt-2 px-3' flat>
+            Le secteur de l'électricité est unique parmi les secteurs 
+            industriels à cause de ses émissions qui contribuent largement 
+            à la quasi-totalité des problèmes de qualité de l'air. La production 
+            d'électricité est à l'origine d'une grande partie des émissions 
+            d'oxydes d'azote et de dioxyde de soufre, qui contribuent au smog, aux pluies 
+            acides et à la formation de particules fines. Les centrales électriques émettent aussi 
+            du dioxyde de carbone, un gaz qui contribue à l'effet de serre. 
+          </v-card>
+					<v-card class='mt-2 px-3' flat>
+            Nous résumons souvent l'impact de la production éléctrique sur l'environement à la polution mais en réalité,
+            les moyens de production exploitant des énérgies durables peuvent aussi avoir un impact sur l'environnement. Par exemple, les barrages 
+            hydroélectriques et les lignes à haute tension ont une influence majeure sur les cours d'eau et la 
+            biodiversité. 
+          </v-card>
         </v-card-text>
       </v-card>
     </v-flex>
