@@ -15,7 +15,7 @@
             fonctionnent grâce à ce principe.
           </v-card>
           <v-card class='mt-1 pa-3' flat
-          >Essayez de déplacer l'aimant à l'intérieur de la bobine de cuivre (vue en coupe), bobine dont les extémités ont été reliés à une lampe.
+          >Essayez de déplacer l'aimant à l'intérieur de la bobine de cuivre (vue en coupe), bobine dont les extémités ont été reliés aux bornes d'une lampe.
           </v-card>
           <Lampe/>
           <v-card class='mt-2 pa-3' flat
@@ -40,7 +40,8 @@
           >En 1831, donc la même année que la découverte de l'induction, Hippolyte Pixii (1808 - 1835), fabricant d'instruments de Paris, sur les indications d'André-Marie Ampère, mathématicien, physicien, chimiste et philosophe français, construit le premier alternateur.
           </v-card>
           <v-card class='mt-2 px-3' flat
-          >Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor en énergie électrique à courant alternatif.
+          >Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor en énergie électrique à courant alternatif,
+          alternatif car les éléctrons sont alternativement atirés et repoussés par l'aimant.
           </v-card>
           <v-card class='mt-2 px-3' flat
           >Plus de 95 % de l’énergie électrique est produite par les alternateurs, ce sont des machines électromécaniques fournissant des tensions alternatives de fréquence proportionnelle à leur vitesse de rotation. Ces machines sont peu coûteuses par raport à
@@ -54,8 +55,9 @@
           </v-card>
           <Alternateur/>
           <v-card class='mt-2 px-3' flat
-          >Le rotor est l'inducteur, il peut être constitué d'un aimant permanent (générant donc un champ constant), dans ce cas la tension délivrée par la machine n'est pas réglable. En général, un électroaimant assure l'induction. C'est un bobinage alimenté en
-            courant continu, et créant un champ magnétique (c'est d'ailleur de ce constat qu'est parti Faraday pour déduire L'induction, étant le phénomène inverse).
+          >Le rotor est l'inducteur, il peut être constitué d'un aimant permanent (générant donc un champ constant, comme sur le schéma).
+           En général, un électroaimant assure l'induction. C'est un bobinage alimenté en
+            courant continu, créant donc un champ magnétique (c'est d'ailleur de ce constat qu'est parti Faraday pour découvrir l'induction, étant le phénomène inverse).
           </v-card>
           <v-card class='mt-3 px-3' flat
           >Le stator est l'induit, il est constitué d'enroulements qui vont être le siège du courant électrique alternatif induit par la variation du champ magnétique due à son mouvement (par rapport à l'induit).
