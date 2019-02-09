@@ -2532,7 +2532,7 @@ export default {
 		const pushtl = new TimelineMax({onComplete: () => {pushtl.restart()}})
 
 		eols
-		.fromTo(pales, 5, {rotation: 0, transformOrigin: '48% 57%', ease: Linear.easeNone},
+		.fromTo(pales, 10, {rotation: 0, transformOrigin: '48% 57%', ease: Linear.easeNone},
 						  {rotation: 360, transformOrigin: '48% 57%', ease: Linear.easeNone})
 		treetl
 		.fromTo(tree, 6, {rotation: 6, transformOrigin: '50% 100%'},
@@ -2549,7 +2549,7 @@ export default {
 		.fromTo(mousses, 0.5, {opacity: 1}, {opacity: 0.8})
 
 		pushtl 
-		.fromTo(push, 2, {opacity: 0, scale: 0, transformOrigin: '50% 50%'}, {opacity: 0.5, scale: 1, transformOrigin: '50% 50%'})
+		.fromTo(push, 2, {opacity: 0, scale: 0, transformOrigin: '50% 50%'}, {opacity: 0.4, scale: 1, transformOrigin: '50% 50%'})
 		.to(push,0.5, {opacity: 0})
 
 		smoketl
