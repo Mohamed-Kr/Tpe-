@@ -56,8 +56,9 @@
             du dioxyde de carbone, un gaz qui contribue à l'effet de serre. 
           </v-card>
 					<v-card class='mt-2 px-3' flat
-          >Nous résumons souvent l'impact de la production éléctrique sur l'environement à la polution mais en réalité,
-            les moyens de production exploitant des énérgies durables peuvent aussi avoir un impact sur l'environnement. Par exemple, les barrages 
+          >Nous résumons souvent l'impact de la production éléctrique sur l'environement à la polution et ses conséquences mais en réalité,
+            même sans prendre en compte la polution liée à leur création, les moyens de production exploitant des énérgies durables
+            ont aussi un impact sur l'environnement. Par exemple, les barrages 
             hydroélectriques et les lignes à haute tension ont une influence majeure sur les cours d'eau et la 
             biodiversité. 
           </v-card>
