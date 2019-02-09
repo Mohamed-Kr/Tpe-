@@ -1,6 +1,6 @@
 <template>
 	<v-card class='pa-4'>
-		<v-card-title class='display-1'>éolien</v-card-title>
+		<v-card-title class='display-1'>Énergie éolienne</v-card-title>
 		<v-card class='mt-2 px-3' flat>
 
 			L’énergie la moins cher
