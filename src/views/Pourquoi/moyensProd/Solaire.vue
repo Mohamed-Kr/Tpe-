@@ -10,10 +10,12 @@
 					Trois régions se partagent les deux tiers de la production nationale en 2017.
 					 Il s’agit de la Nouvelle Aquitaine, l’Occitanie, et la Provence-Alpes-Côte-d’Azur.
 					 <v-img src='https://www.edf.fr/sites/default/files/mediatheque/2018/solaire/energie-a-z_solaire-pv_cap-regions_2018.png' aspect-ratio="1.7" contain></v-img>
-					Cela montre à quelle point la production issue de l'énérgie solaire est dépendante de la position géographique et de la météo.
+					Cela montre à quelle point la production issue de l'énérgie solaire est dépendante de la position géographique et de la météo, 
+					principaux créateur de potentiel.
 					<br/><br/>
-					La consommation d’électricité d’origine photovoltaïque représente 2 % de la consommation d’électricité nationale en 2017. 
-					Par comparaison, elle avoisine les 7 % en Allemagne, en Italie et en Grèce. <br/><br/>
+					En 2017, la puissance installé du parc photovoltaïque en France 
+					métropolitaine atteint 7 660 MW. Il est en progression de 887 MW par rapport à 2016. 
+					<br/><br/>
 				Les panneaux photovoltaïques ont un trés faible rendement: seulement 5% de l'énérgie solaire est transformée en éléctricité.
 				</v-card-text>
 			</v-card>

@@ -69,12 +69,21 @@
       <v-card class='subheading ma-5 pa-3'>
         <v-card-title class='title'>Un peu de vocabulaire</v-card-title>
       <v-card class='subheading ma-5 pa-3'>
+        <v-card-title class='title'>Les parcs</v-card-title>
+        <v-card-text>
+					<v-card class='mt-2 px-3' flat
+          >Un parc, lorsqu'il est question de production éléctrique, correspond à toutes les
+          centrales d'un même type.
+          </v-card>
+        </v-card-text>
+      </v-card>
+      <v-card class='subheading ma-5 pa-3'>
         <v-card-title class='title'>La puissance installée</v-card-title>
         <v-card-text>
 					<v-card class='mt-2 px-3' flat
           >Le terme « puissance installée » est utilisé pour définir la capacité 
-          maximale théorique de production d'électricité de l'ensemble des centrales 
-          d'un type donné, ou dans un pays donné.
+          maximale théorique de production d'électricité d'un parc donné, 
+          ou dans un pays donné.
           </v-card>
         </v-card-text>
       </v-card>
