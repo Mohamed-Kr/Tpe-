@@ -4,12 +4,14 @@
     <v-flex xs11 md9 lg10 xl8>
 	      <v-card class='subheading mx-3 px-3 transparent' flat>
 	        <v-card-title class='headline white--text'
-          >Pour produire de l'éléctricité, il faut donc trouver une énérgie exploitable mais il y a en réalité beaucoup d'aspects à prendre en compte lors de la création d'un moyen de production.
+          >Pour produire de l'éléctricité, il faut donc trouver une énérgie exploitable mais 
+          il y a en réalité beaucoup d'aspects à prendre en compte lors de la création d'un moyen de production.
+          <br/>Nous verrons aussi quelques termes techniques liées à la production éléctrique
 	        </v-card-title>
       </v-card>
       <v-card class='subheading mx-5 mt-4 pa-3'>
-        <v-card-text>
           <v-card-title class='title'>Le rendement</v-card-title>
+        <v-card-text>
 					<v-card class='mt-2 px-3' flat
           >Comme nous venons de le voir, nous ne créons pas de l'énérgie mais nous la transformons, 
 					nous pouvons séparer les énérgies obtenue suite à cette transformation en deux catégories, 
@@ -24,8 +26,8 @@
         </v-card-text>
       </v-card>
       <v-card class='subheading ma-5 pa-3'>
-        <v-card-text>
           <v-card-title class='title'>La pilotabilité</v-card-title>
+        <v-card-text>
 					
 					<v-card class='mt-2 px-3' flat
           >A tout instant, sur un réseau électrique, la production doit égaler la consommation.
@@ -44,8 +46,8 @@
         </v-card-text>
       </v-card>
       <v-card class='subheading ma-5 pa-3'>
+        <v-card-title class='title'>L'impact sur l'environnement</v-card-title>
         <v-card-text>
-          <v-card-title class='title'>L'impact sur l'environnement</v-card-title>
 					<v-card class='mt-2 px-3' flat
           >Le secteur de l'électricité est unique parmi les secteurs 
             industriels à cause de ses émissions qui contribuent largement 
@@ -63,6 +65,28 @@
             biodiversité. 
           </v-card>
         </v-card-text>
+      </v-card>
+      <v-card class='subheading ma-5 pa-3'>
+        <v-card-title class='title'>Un peu de vocabulaire</v-card-title>
+      <v-card class='subheading ma-5 pa-3'>
+        <v-card-title class='title'>La puissance installée</v-card-title>
+        <v-card-text>
+					<v-card class='mt-2 px-3' flat
+          >Le terme « puissance installée » est utilisé pour définir la capacité 
+          maximale théorique de production d'électricité de l'ensemble des centrales 
+          d'un type donné, ou dans un pays donné.
+          </v-card>
+        </v-card-text>
+      </v-card>
+      <v-card class='subheading ma-5 pa-3'>
+        <v-card-title class='title'>Le potentiel théorique</v-card-title>
+        <v-card-text>
+					<v-card class='mt-2 px-3' flat
+          >La notion de potentiel désigne la quantité théorique d'énergie disponible pour un type
+          de production sur un territoire (terrestre ou marin) donné.
+          </v-card>
+        </v-card-text>
+      </v-card>
       </v-card>
     </v-flex>
   </v-layout>

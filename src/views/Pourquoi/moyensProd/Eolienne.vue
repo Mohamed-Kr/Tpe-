@@ -2,8 +2,8 @@
 		<v-card class='pa-4'>
 			<v-card-title class='display-2'>Énergie éolienne</v-card-title>
 			<v-card flat class='my-4 px-5 title'>
-				Parmi les Énergies Renouvelables, le solaire occupe encore une place minime mais connait une très forte progression 
-				depuis quelques années.
+				Le secteur de l'énergie éolienne en France a pris progressivement de l'importance : 
+				en 2017, il fournissait 4,5 % de la production d'électricité du pays.
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-text>
