@@ -6,19 +6,24 @@
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-text>
-Les barrages hydroéléctriques ont été un des premiers moyens de production éléctrique,
-leur production représente aujourd'hui environ 10% du mix éléctrique,
-sa part est en augmentation, particulièrement depuis la fin de la seconde 
-guerre mondiale.
-<br/><br/>
-Ils ont un rendement d'environ 80% et représente 51% de la production éléctrique 
-issue d'énérgies renouvelables.
-<br/><br/>
-La production d'électricité annuelle d'une centrale hydroélectrique d'une 
-puissance de 1MW permet d'alimenter environ 1 700 habitants toute l'année.
-<br/>
-Une caractéristique intérréssante des centrales hydroélectrique est le stockage d’énergie, en pompant de l’eau du bas jusqu’en haut du barrage
-
+					Les barrages hydroéléctriques ont été un des premiers moyens de production éléctrique,
+					leur production représente aujourd'hui environ 10% du mix éléctrique,
+					sa part est en augmentation, particulièrement depuis la fin de la seconde 
+					guerre mondiale.
+					<br/><br/>
+					Le potentiel brut hydroélectrique techniquement exploitable de la France est estimé à 
+					100 TWh/an, dont 70 TWh/an sont considérés comme économiquement 
+					exploitables. À la fin 2008, la France disposait de 25,3 GW en exploitation qui ont 
+					produit 50 TWh en 2008, soit 72 % du potentiel économiquement exploitable.
+					<br/><br/>
+					Ils ont un rendement d'environ 80% et représente 51% de la production éléctrique 
+					issue d'énérgies renouvelables.
+					<br/><br/>
+					La production d'électricité annuelle d'une centrale hydroélectrique d'une 
+					puissance de 1MW permet d'alimenter environ 1 700 habitants toute l'année.
+					<br/><br/>
+					Une caractéristique intérréssante des centrales hydroélectrique est le stockage d’énergie, 
+					en pompant de l’eau du bas jusqu’en haut du barrage
 				</v-card-text>
 			</v-card>
 			<v-card class='mt-2 px-3'>
