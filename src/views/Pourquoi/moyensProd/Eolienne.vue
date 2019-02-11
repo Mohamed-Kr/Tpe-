@@ -30,6 +30,7 @@ revenu: 1000€ max par an
 							<v-card-title class='title'>Avantages:</v-card-title>
 							<v-card-text>
 								<ul>
+									<li>Durable</li>
 								</ul>
 							</v-card-text>
 						</v-card>

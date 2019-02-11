@@ -1,10 +1,13 @@
 <template>
-	<v-card class='pa-4'>
-		<v-card-title class='display-1'>Les barrages hydroéléctriques</v-card-title>
-		<v-card class='mt-2 px-3' flat>
-
-
-
+		<v-card class='pa-4'>
+			<v-card-title class='display-2'>Les barrages hydroéléctriques</v-card-title>
+			<v-card flat class='my-4 px-5 title'>
+				Les énergies fossiles (ou hydrocarbures) sont issues de la transformation de matières 
+				organiques et sont stockées sous terre.
+			</v-card>
+			<v-card class='mt-2 px-3'>
+				<v-card-text>
+					
 Hydraulique
 Cette production représente environ 10% dans le mix national, elle représente 16,6 % de la production mondiale d’électricité, sa part est en très forte augmentation ces dernière années. C’est un moyen de production très appréciés par les pays émergents. En France, c’est un moyen de production très important depuis la fin de la seconde guerre mondiale.
 Part: ≃10%
@@ -37,31 +40,48 @@ Les centrales aux fils de l’eau avec une hauteur de chute basse (inférieur à
 
 Un avantage des centrales hydroélectrique est le stockage d’énergie, en pompant de l’eau du bas jusqu’en haut du barrage
 
-
-			<v-layout>
-				<v-flex xs6>
-		<v-card-title class='title'>Avantages:</v-card-title>
-		
-Installation à grande échelle
-Simple moyen de production
-Gros historique français dans l’hydroélectrique
-Élasticité à la consommation: avec des réservoirs
-Pilotable
-Propre
-				</v-flex>
-				<v-flex xs6>
-		<v-card-title class='title'>Désavantages:</v-card-title>
-		
-Risques et problèmes, catastrophes écologiques etc. en cas de rupture d’un barrage
-Besoin de déplacer des populations et de noyer des terres agricoles lors de la construction
-				</v-flex>
-			</v-layout>
+				</v-card-text>
+			</v-card>
+			<v-card class='mt-2 px-3'>
+				<v-card-title class='title'>Comment ça marche?</v-card-title>
+				<v-card-text>
+				</v-card-text>
+			</v-card>
+				<v-layout mt-5 color='white--text'>
+					<v-flex xs1>
+					</v-flex>
+					<v-flex xs5>
+						<v-card  style='height: 100%;' color='light-green lighten-1 white--text'>
+							<v-card-title class='title'>Avantages:</v-card-title>
+							<v-card-text>
+								<ul>
+									<li>Pilotable</li>
+									<li>Durable</li>
+								</ul>
+							</v-card-text>
+						</v-card>
+					</v-flex>
+					<v-flex xs1>
+					</v-flex>
+					<v-flex xs5>
+						<v-card  style='height: 100%;' color='red lighten-1 white--text'>
+							<v-card-title class='title'>Désavantages:</v-card-title>
+							<v-card-text>
+								<ul>
+									<li>Risques et problèmes, catastrophes écologiques etc. en cas de rupture d’un barrage</li>
+									<li>Besoin de déplacer des populations et de noyer des terres agricoles lors de la construction</li>
+								</ul>
+							</v-card-text>
+						</v-card>
+					</v-flex>
+					<v-flex xs1>
+					</v-flex>
+				</v-layout>
 		</v-card>
-	</v-card>
 </template>
 
-<script>
-export default {
-
+<style scoped>
+* {
+	font-size: 20px;
 }
-</script>
+</style>

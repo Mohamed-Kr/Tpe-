@@ -52,6 +52,7 @@ au rang mondial derrière les états unis.
 							<v-card-text>
 								<ul>
 									<li>Conséquences en cas d’accident</li>
+									<li>Utilise une ressource limitée</li>
 									<li>Difficultés à traiter les déchets</li>
 									<li>Coûts d’installation, d’entretien et de démantèlement élevées</li>
 								</ul>

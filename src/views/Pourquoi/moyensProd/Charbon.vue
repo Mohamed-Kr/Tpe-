@@ -70,7 +70,7 @@
 							<v-card-title class='title'>Désavantages:</v-card-title>
 							<v-card-text>
 								<ul>
-									<li>Ressources Limitées</li>
+									<li>Utilise une ressource limitée</li>
 									<li>Cause importante du réchauffement climatique</li>
 									<li>Cause des maladies respiratoires</li>
 								</ul>
