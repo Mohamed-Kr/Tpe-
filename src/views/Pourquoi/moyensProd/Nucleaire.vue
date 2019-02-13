@@ -29,6 +29,22 @@ au rang mondial derrière les états unis.
 			<v-card class='mt-2 px-3'>
 				<v-card-title class='title'>Comment ça marche?</v-card-title>
 				<v-card-text>
+					Les réacteurs nucléaire fonctionnent grâce à la fission nucléaire.
+					Pour que la fission se produise, on ajoute généralement un neutron au noyau d'un atome lourd,
+					le noyau se divise en deux, laissant place à deux noyaux moins lourd. La division du noyau
+					dégage une quantité importante de chaleur. 
+					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.bertrandbarre.com%2Fimages%2Fpic_reaction_en_chaine.gif&f=1"></v-img>
+					Quelques uns des neutrons ne participe pas à la formation des deux nouveaux noyaux et vont donc 
+					causer la fission des atomes voisins: c'est une réaction en chaîne.
+					<br/><br/>
+					Dans le réacteur, la fission des atomes d'uranium produit donc une grande quantité de chaleur.
+					Cette chaleur fait augmenter la température de l'eau qui circule autour du réacteur, à 320 °C. 
+					L'eau est maintenue sous pression pour l'empêcher de bouillir. Ce circuit fermé est appelé circuit primaire.
+					<br/><br/>
+					Le circuit primaire communique avec un deuxième circuit fermé, appelé circuit secondaire par l'intermédiaire 
+					d'un générateur de vapeur. Dans ce générateur de vapeur, l'eau chaude du circuit primaire chauffe l'eau du 
+					circuit secondaire qui se transforme en vapeur. La pression de cette vapeur fait tourner une turbine qui entraîne 
+					à son tour un alternateur.
 				</v-card-text>
 			</v-card>
 				<v-layout mt-5 color='white--text'>
@@ -39,7 +55,7 @@ au rang mondial derrière les états unis.
 							<v-card-title class='title'>Avantages:</v-card-title>
 							<v-card-text>
 								<ul>
-									<li>pas de rejet de CO2</li>
+									<li>peu rejet de CO2</li>
 								</ul>
 							</v-card-text>
 						</v-card>
