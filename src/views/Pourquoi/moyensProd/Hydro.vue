@@ -36,6 +36,7 @@
 					Cette eau actionne les turbines qui entraînent à leur tour des alternateurs pour produire du courant électrique. 
 					Un transformateur injecte ensuite cette électricité dans le réseau éléctrique.
 					<br/><br/>
+					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-HlLaV6iDi1E%2FW6ZsrD4Tw-I%2FAAAAAAAAtdE%2FdPaOUOXgiz4VrqFt3nDZPfGq0OHb3VwZACLcBGAs%2Fs1600%2Fhidroelektrik_santral_baraj.gif&f=1"></v-img>
 					Leurs pâles orientables permettent de concentrer la production pendant les périodes de forte consommation. elles sont capables de passer de l'arrêt
 					à leur puissance maximale en quelques minutes, et donc de faire face aux variations parfois très rapides de la demande 
 					par exemple, lorsqu'un réacteur nucléaire tombe en panne, le réseau perd plus de 1 000 MW quasi-instantanément, cette caractéristique
