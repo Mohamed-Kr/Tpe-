@@ -2,7 +2,10 @@
 		<v-card class='pa-4'>
 			<v-card-title class='display-2'>Énergie solaire</v-card-title>
 			<v-card flat class='my-4 px-5 title'>
-				Parmi les Énergies Renouvelables, le solaire occupe encore une place minime mais connait une très forte progression 
+				C'est en 1958 que la première application réelle des cellules photovoltaïques est trouvée, avec 
+				l'alimentation des émetteurs radio du satellite Vanguard 1. <br/>
+				Aujourd'hui, cette théchnologie s'est beaucoup dévelopée, parmi les Énergies Renouvelables, le solaire occupe 
+				encore une place minime mais connait une très forte progression 
 				depuis quelques années.
 			</v-card>
 			<v-card class='mt-2 px-3'>
@@ -22,6 +25,14 @@
 			<v-card class='mt-2 px-3'>
 				<v-card-title class='title'>Comment ça marche?</v-card-title>
 				<v-card-text>
+					Une cellule photovoltïque est composée de deux couches de silicium, une dans 
+					laquelle du bore a été ajouté, la rendant ainsi chargée négativement et une autre dans 
+					laquelle du du phosphore à été ajouté, la rendant ainsi chargée positivement.
+					<br/><br/>
+					La couche chargée négativement est exposée à la lumière, le silicium est un semi-conducteur, 
+					la lumière y ajoute donc des éléctrons. Cet ajout d'éléctrons agrandis la différence de potentiel.
+					il suffit de relier les deux couches pour obtenir
+					du courant éléctrique (ici continu).
 				</v-card-text>
 			</v-card>
 				<v-layout mt-5 color='white--text'>

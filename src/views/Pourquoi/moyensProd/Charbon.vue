@@ -34,10 +34,12 @@
 					<v-card class='pa-4 my-2'>
 						<v-card-title class='title'>Le charbon</v-card-title>
 						<v-card-text>
-							Cette énergie est également très énergétique et 
-							permet à certains pays de produire de l’électricité 
-							et de la chaleur. En France, nous n’avons plus de centrales 
-							à charbon pour produire de l’électricité. Sa combustion émet elle aussi beaucoup de 
+							Les propriétés du charbon ont rapidement été découvertes. C’est un combustible  très énergétique. 
+							Le charbon a d’abord servi pour chauffer les maisons et faire fonctionner les machines, 
+							 puis très rapidement il a été utilisé pour produire de l’électricité.
+
+							En France à prévue de fermer toutes ses centrales à charbon d'ici 2022.
+							Sa combustion émet beaucoup de 
 							gaz à effet de serre, c’est d’ailleurs l’énergie fossile la plus émettrice de CO2.
 						</v-card-text>
 					</v-card> 
