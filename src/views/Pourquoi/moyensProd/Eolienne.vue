@@ -20,6 +20,7 @@ revenu: 1000€ max par an
 
 2016 : 12GW
 2030 : objectif 32% d’énergie renouvelable 
+<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.industrialoutpost.com%2Fwp-content%2Fuploads%2F2016%2F11%2Fgiphy.gif&f=1"></v-img>
 				</v-card-text>
 			</v-card>
 				<v-layout mt-5 color='white--text'>
