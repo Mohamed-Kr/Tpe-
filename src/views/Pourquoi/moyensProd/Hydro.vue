@@ -2,14 +2,19 @@
 		<v-card class='pa-4'>
 			<v-card-title class='display-2'>Les barrages hydroéléctriques</v-card-title>
 			<v-card flat class='my-4 px-5 title'>
-				Le secteur de l'hydroélectricité en France bénéficie d'un potentiel important grâce à la présence de massifs montagneux : Alpes, Pyrénées, Massif central.
+				L'énergie hydraulique est une énergie renouvelable qui utilise
+				 l'énergie cinétique et potentielle de l'eau (rivière, chute 
+				 d'eau et marée) pour produire de l'énergie mécanique et, surtout, 
+				 de l'électricité. On parle alors d'hydroélectricité.
+				 <br/>
+				 Le secteur de l'hydroélectricité en France bénéficie d'un potentiel important grâce à la présence de massifs montagneux : Alpes, Pyrénées, Massif central.
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-text>
 					Les barrages hydroéléctriques ont été un des premiers moyens de production éléctrique,
 					leur production représente aujourd'hui environ 10% du mix éléctrique,
 					sa part est en augmentation, particulièrement depuis la fin de la seconde 
-					guerre mondiale.
+					guerre mondiale: de 1945 à 1960, 120 grands barrages furent construits.
 					<br/><br/>
 					Le potentiel brut hydroélectrique techniquement exploitable de la France est estimé à 
 					100 TWh/an, dont 70 TWh/an sont considérés comme économiquement 
@@ -18,29 +23,27 @@
 					<br/><br/>
 					Ils ont un rendement d'environ 80% et représente 51% de la production éléctrique 
 					issue d'énérgies renouvelables.
-					<br/><br/>
-					La production d'électricité annuelle d'une centrale hydroélectrique d'une 
-					puissance de 1MW permet d'alimenter environ 1 700 habitants toute l'année.
-					<br/><br/>
-					Une caractéristique intérréssante des centrales hydroélectrique est le stockage d’énergie, 
-					en pompant de l’eau du bas jusqu’en haut du barrage
 				</v-card-text>
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-title class='title'>Comment ça marche?</v-card-title>
 				<v-card-text>
-- permettent de concentrer leur production pendant les périodes de forte consommation. elles sont capables de passer de l'arrêt
- à leur puissance maximale en quelques minutes, et donc de faire face aux variations parfois très rapides de la demande ou de l'offre 
- par exemple, lorsqu'un réacteur nucléaire tombe en panne, le réseau perd plus de 1 000 MW quasi-instantanément ; ces caractéristiques 
- les rendent indispensables à la sécurité du système électrique.
-
-
-
-Les centrales aux fils de l’eau avec une hauteur de chute basse (inférieur à 50m) 
-sont moins onéreuse mais produisent moins comparé à des centrales hydroélectrique accolé à un barrage. 
-Elle sont aussi beaucoup moins dangereuse sur le plan environnemental que des centrales à hautes chutes (200m ou plus)  
-car les barrages à basse chutes doivent moins retenir d’eau et donc moins de pression, ce qui signifie qu’en cas de rupture 
-elles inondent beaucoup moins.
+					Le barrage retient une partie de l'eau qui s'écoule et crée un lac de retenue. Ce lac constitue un stock d'eau,
+					 c'est donc un moyen de stocker de l’énergie renouvelable. Le débit du cours d'eau ou l'ouverture des vannes du barrage entraîne 
+					 l'eau dans un canal de dérivation jusqu'aux turbines électriques. Plus le débit et la hauteur de chute d'eau sont importants, 
+					 plus l'eau transporte d'énergie.
+					<br/><br/>
+					Cette eau actionne les turbines qui entraînent à leur tour des alternateurs pour produire du courant électrique. 
+					Un transformateur injecte ensuite cette électricité dans le réseau éléctrique.
+					<br/><br/>
+					Leurs pâles orientables permettent de concentrer la production pendant les périodes de forte consommation. elles sont capables de passer de l'arrêt
+					à leur puissance maximale en quelques minutes, et donc de faire face aux variations parfois très rapides de la demande 
+					par exemple, lorsqu'un réacteur nucléaire tombe en panne, le réseau perd plus de 1 000 MW quasi-instantanément, cette caractéristique
+					les rendent indispensables à la sécurité du système électrique.
+					<br/><br/>
+					Les barrages hydroélectriques ont toutefois des inconvénients vis-à-vis du fonctionnement des écosystèmes.
+					En effet, après le transport de l'électricité dans le réseau, 
+					l'eau rejoint enfin le cours d'eau, parfois avec un débit important, ce qui peut perturber les écosystèmes.
 				</v-card-text>
 			</v-card>
 				<v-layout mt-5 color='white--text'>
@@ -53,6 +56,7 @@ elles inondent beaucoup moins.
 								<ul>
 									<li>Pilotable</li>
 									<li>Durable</li>
+									<li>Capacité de stockage</li>
 								</ul>
 							</v-card-text>
 						</v-card>
@@ -64,9 +68,7 @@ elles inondent beaucoup moins.
 							<v-card-title class='title'>Désavantages:</v-card-title>
 							<v-card-text>
 								<ul>
-									<li>Risques et problèmes, catastrophes écologiques etc. en cas de rupture d’un barrage</li>
-									<li>Besoin de déplacer des populations et de noyer des terres agricoles lors de la construction</li>
-									<li>Offrent un "moyen de stockage" éléctrique à grande echelle et sur le long terme</li>
+									<li>Influence sur les écosystèmes</li>
 								</ul>
 							</v-card-text>
 						</v-card>
