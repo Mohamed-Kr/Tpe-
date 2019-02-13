@@ -37,14 +37,24 @@ au rang mondial derrière les états unis.
 					Quelques uns des neutrons ne participe pas à la formation des deux nouveaux noyaux et vont donc 
 					causer la fission des atomes voisins: c'est une réaction en chaîne.
 					<br/><br/>
+					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ensi.ch%2Ffr%2Fwp-content%2Fuploads%2Fsites%2F4%2F2013%2F06%2Fdruckwasser_anim_700px.gif&f=1"></v-img>
 					Dans le réacteur, la fission des atomes d'uranium produit donc une grande quantité de chaleur.
 					Cette chaleur fait augmenter la température de l'eau qui circule autour du réacteur, à 320 °C. 
-					L'eau est maintenue sous pression pour l'empêcher de bouillir. Ce circuit fermé est appelé circuit primaire.
+					L'eau est maintenue sous pression pour l'empêcher de bouillir. Ce circuit fermé est appelé circuit primaire (1,2,3).
 					<br/><br/>
-					Le circuit primaire communique avec un deuxième circuit fermé, appelé circuit secondaire par l'intermédiaire 
+					Le circuit primaire communique avec un deuxième circuit fermé, appelé circuit secondaire (4,5,6,7,9) par l'intermédiaire 
 					d'un générateur de vapeur. Dans ce générateur de vapeur, l'eau chaude du circuit primaire chauffe l'eau du 
 					circuit secondaire qui se transforme en vapeur. La pression de cette vapeur fait tourner une turbine qui entraîne 
 					à son tour un alternateur.
+					<br/><br/>
+					Un transformateur élève la tension du courant électrique produit par l'alternateur pour 
+					qu'il puisse être plus facilement transporté dans les lignes très haute tension (8).
+					<br/><br/>
+					À la sortie de la turbine, la vapeur du circuit secondaire est à nouveau transformée en eau grâce 
+					à un condenseur dans lequel circule de l'eau froide en provenance de la mer ou d'un fleuve. Ce troisième 
+					circuit est appelé circuit de refroidissement (10).
+					<br/><br/>
+					Les 3 circuits d'eau sont étanches les uns par rapport aux autres.
 				</v-card-text>
 			</v-card>
 				<v-layout mt-5 color='white--text'>
