@@ -29,7 +29,7 @@ au rang mondial derrière les états unis.
 			<v-card class='mt-2 px-3'>
 				<v-card-title class='title'>Comment ça marche?</v-card-title>
 				<v-card-text>
-					Les réacteurs nucléaire fonctionnent grâce à la fission nucléaire.
+					Les réacteurs nucléaire fonctionnent grâce à la fission nucléaire, phénomène découvert en 1896 par Henri Becquerel.
 					Pour que la fission se produise, on ajoute généralement un neutron au noyau d'un atome lourd,
 					le noyau se divise en deux, laissant place à deux noyaux moins lourd. La division du noyau
 					dégage une quantité importante de chaleur. 
