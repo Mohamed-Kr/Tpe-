@@ -92,7 +92,8 @@
         <v-card-text>
 					<v-card class='mt-2 px-3' flat
           >La notion de potentiel désigne la quantité théorique d'énergie disponible pour un type
-          de production sur un territoire (terrestre ou marin) donné.
+          de production sur un territoire (terrestre ou marin) donné, elle s'applique surtout aux
+          énérgies renouvelables.
           </v-card>
         </v-card-text>
       </v-card>
