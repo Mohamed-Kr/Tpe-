@@ -43,6 +43,7 @@ revenu: 1000€ max par an
 							<v-card-title class='title'>Désavantages:</v-card-title>
 							<v-card-text>
 								<ul>
+									<li>Non pilotable</li>
 								</ul>
 							</v-card-text>
 						</v-card>
