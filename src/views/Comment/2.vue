@@ -4,8 +4,8 @@
       <v-flex xs11 md12 lg10 xl8>
         <v-card class='subheading mx-3 px-3 transparent' flat>
           <v-card-title class='headline white--text'>
-            Au final, à partir des constats qu'on peut faire on peut présenter plusieurs solutions plus ou moins
-            plausibles afin de répondre au probléme énergétique.
+            Voilà donc les solutions issues de nos réfléxions/recherches sur la possibilité 
+            d'un mix éléctrique 100% renouvelable que nous avons décider de vous présenter.
           </v-card-title>
         </v-card>
       <div>
