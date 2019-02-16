@@ -1,6 +1,6 @@
 <template>
 <div style="position: absolute; top: 0px; left:0px; width: 100%; height: 100vh; overflow: hidden">
-	<v-dialog v-model='prodDialog' width="70%">
+	<v-dialog v-model='prodDialog' width="70%" style='z-index:999;'>
 		<Solaire v-if='mp==1' />
 		<Nucleaire v-if='mp==2' />
 		<Eolienne v-if='mp==3' />
