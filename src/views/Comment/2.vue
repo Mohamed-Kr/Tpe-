@@ -8,36 +8,30 @@
             plausibles afin de répondre au probléme énergétique.
           </v-card-title>
         </v-card>
-        <!-- <Foudre /> -->
-
       <div>
-    <v-stepper v-model="e1">
-      <v-stepper-header>
-        <template v-for="step in steps">
-          <v-stepper-step
-            :key="`${step}-step`"
-            :step="step"
-            editable
-          >
-           {{ step.title }} 
-          </v-stepper-step>
-
-          <v-divider
-            v-if="step !== steps"
-            :key="step"
-          ></v-divider>
-        </template>
-      </v-stepper-header>
-
-      <v-stepper-items>
-        <v-stepper-content step="1">
-
-        </v-stepper-content>
-      </v-stepper-items>
-    </v-stepper>
-  </div>
-
-
+        <v-stepper v-model="e1">
+          <v-stepper-header>
+            <template v-for="(step, index) in steps">
+              <v-stepper-step
+                :key="`${step}-step`"
+                :step="index + 1"
+                editable>
+              {{ step.title }} 
+              </v-stepper-step>
+              <v-divider
+                v-if="step !== steps"
+                :key="step"
+              ></v-divider>
+            </template>
+          </v-stepper-header>
+          <v-stepper-items>
+              <Actuels v-if='e1==1'/>
+              <Stockage v-if='e1==2'/>
+              <Foudre v-if='e1==3'/>
+              <Fusion v-if='e1==4'/>
+          </v-stepper-items>
+        </v-stepper>
+      </div>
       </v-flex>
     </v-layout>
   </v-container>

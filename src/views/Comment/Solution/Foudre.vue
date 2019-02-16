@@ -15,7 +15,7 @@
             width="350"></v-img>-->
 
           <video controls loop="true" autoplay="true">²
-            <source src="../../assets/flash.mp4" type="image/mp4">
+            <source src="../../../assets/flash.mp4" type="image/mp4">
           </video>
 
           Imaginez qu'on arrive à prévoir où la foudre tombe et que l'on arrive à récupérer toute cette grande quantité d'énergie et la stocker quelque part. On aurait résolu le problème énergétique ?<br>
