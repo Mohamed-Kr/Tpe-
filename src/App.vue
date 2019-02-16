@@ -125,7 +125,7 @@ export default {
               })
         },
         changePart(data) {
-            document.getElementById('app').style.backgroundColor = data.color
+            document.getElementById('app').style.background = data.color
             this.title = data.title
             document.title = "TPE 1S1 | " + data.title
             this.cPart = data

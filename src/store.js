@@ -8,11 +8,11 @@ export default new Vuex.Store({
     parts: [
       {
         title : 'Bienvenue',
-        color: '#000000',
+        color: 'radial-gradient(circle, rgb(0,0,0) 36%, rgb(0,0,0) 100%)',
         route: '/'}, 
       { 
         title: 'Introduction',
-        color: '#00B8D4', 
+        color: 'linear-gradient(0deg, rgba(3,169,244,1) 0%, rgba(1,87,155,1) 100%)', 
         route: '/Intro/1', 
         subParts: [
           { 
@@ -31,7 +31,7 @@ export default new Vuex.Store({
       }, 
       {
         title: 'Pourquoi changer ?', 
-        color: '#EF5350', 
+        color: 'linear-gradient(0deg, rgba(244,67,54,1) 0%, rgba(183,28,28,1) 100%)', 
         route: '/Pourquoi-Changer/1', 
         subParts: [
           {
@@ -54,7 +54,7 @@ export default new Vuex.Store({
       }, 
       { 
         title: 'Comment changer ?', 
-        color: '#7CB342', 
+        color: 'linear-gradient(0deg, rgba(129,199,132,1) 0%, rgba(76,175,80,1) 100%)', 
         route: '/Comment-Changer/1', 
         subParts: [
           { 
@@ -69,7 +69,7 @@ export default new Vuex.Store({
       }, 
       {
         title : 'Conclusion', 
-        color: 'orange', 
+        color: 'linear-gradient(0deg, rgba(255,235,59,1) 0%, rgba(255,160,0,1) 100%)', 
         route: '/Conclusion/1', 
         subParts: [
           { 
