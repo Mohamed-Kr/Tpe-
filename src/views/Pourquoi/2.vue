@@ -1,7 +1,7 @@
 <template>
 <v-container>
   <v-layout justify-center align-center fill-height>
-    <v-flex xs11 md9 lg10 xl8>
+    <v-flex xs11 md12 lg10 xl8>
       <v-card class='subheading mx-3 px-3 transparent' flat>
         <v-card-title class='headline white--text'>Il suffirait donc de trouver un système créant un mouvement pérpetuel qui ferait bouger continuelement un aiment à coté d'une bobine de cuivre !
         </v-card-title>

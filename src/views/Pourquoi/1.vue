@@ -1,7 +1,7 @@
 <template>
 <v-container>
   <v-layout justify-center>
-    <v-flex xs11 md9 lg10 xl8>
+    <v-flex xs11 md12 lg10 xl8>
       <v-card class='subheading mx-3 px-3 transparent' flat>
         <v-card-title class='headline white--text'>Pour pouvoir avoir un regard critique sur la production éléctrique, il faut commencer par comprendre
           ce qu'est réelment un moyen de production éléctrique, nous allons commencer par étudier le principe sur lequel ils fonctionnent.

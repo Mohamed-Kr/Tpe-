@@ -1,7 +1,7 @@
 <template>
 	<v-container>
 		<v-layout justify-center align-center fill-height>
-	    <v-flex xs11 md9 lg10 xl8>
+	    <v-flex xs11 md12 lg10 xl8>
 				<v-card class="mb-5">
 					<v-card-text style='font-size: 1.2em;'>
 
