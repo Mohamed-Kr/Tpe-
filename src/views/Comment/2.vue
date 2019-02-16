@@ -9,6 +9,7 @@
           </v-card-title>
         </v-card>
         <Foudre />
+        <Fusion />
       </v-flex>
       <!--<div>
         partie solution avc moyen actuels: <br>
@@ -22,10 +23,6 @@
         solaire:
         encore plus faible rendement donc à produire en encore beaucoup plus grande quantité et elle ne produit de l'électricité que le jour, ce qui fait qu’elle est impossible à considérer comme seul moyen de production étant donné la difficulté de stockage de l’énergie électrique
       </div>-->
-      <div>
-        <!-- Orage -->
-        <v-card></v-card>
-      </div>
     </v-layout>
   </v-container>
 </template>

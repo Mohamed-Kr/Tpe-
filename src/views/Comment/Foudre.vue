@@ -14,7 +14,7 @@
             src="https://i.imgur.com/d8Nf0aB.gif"
             width="350"></v-img>-->
 
-          <video controls loop="true" autoplay="true">²
+          <video controls loop autoplay>
             <source src="../../assets/flash.mp4" type="image/mp4">
           </video>
 
