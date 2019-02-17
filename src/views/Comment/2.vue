@@ -13,14 +13,14 @@
           <v-stepper-header>
             <template v-for="(step, index) in steps">
               <v-stepper-step
-                :key="`${step}-step`"
+                :key="'loul'+index"
                 :step="index + 1"
                 editable>
               {{ step.title }} 
               </v-stepper-step>
               <v-divider
                 v-if="step !== steps"
-                :key="step"
+                :key="step.title"
               ></v-divider>
             </template>
           </v-stepper-header>
