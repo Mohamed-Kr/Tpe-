@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && cp .htaccess ./dist"
+    "build": "vue-cli-service build",
+    "deploy": "npm run build && cp .htaccess ./dist"
   },
   "dependencies": {
     "gsap": "^2.0.2",

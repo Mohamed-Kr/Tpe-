@@ -25,7 +25,7 @@
               <v-card dark class='pa-3'>
                   <v-card-title class="display-1">Sommaire</v-card-title>
                   <template v-for='part in parts'>
-                      <v-btn large block :color='part.color' dark @click='changePart(part); dialog=false' :key='part.title' class='mb-0 mt-3'>
+                      <v-btn large block :color='part.menuColor' dark @click='changePart(part); dialog=false' :key='part.title' class='mb-0 mt-3'>
                           {{ part.title }}
                       </v-btn>
                       <div :key='part.color + "6"' style='display: flex; width: 100%; justify-content: space-between;' class="mt-2">
@@ -35,7 +35,7 @@
                                       <v-btn
                                         outline
                                         slot="activator"
-                                        :color='part.color'
+                                        :color='part.menuColor'
                                         :key='sub.title'
                                         class='mt-0'
                                         @click='dialog=false;changePart(part); $router.push(sub.route); cSub = part.subParts.indexOf(sub); subTitle = sub.title'
@@ -130,12 +130,12 @@ export default {
             document.title = "TPE 1S1 | " + data.title
             this.cPart = data
             this.$router.push(data.route)
-            window.scrollTo(0,0); 
+            window.scrollTo(0,0);
             this.cSub = 1
             if (data.title != 'Bienvenue') {
             this.subTitle = this.$store.state.parts[this.$store.state.parts.indexOf(data)].subParts[0].title
             }
-            window.scrollTo(0,0); 
+            window.scrollTo(0,0);
         },
         seeLoc(loc) {
             if (loc.toString().includes('Intro')) {
@@ -169,7 +169,7 @@ export default {
             this.$router.push(this.cPart.route.substring(0, this.cPart.route.length - 1) +  this.cSub)
             this.subTitle = this.cPart.subParts[sub - 1].title
             }
-            window.scrollTo(0,0); 
+            window.scrollTo(0,0);
         },
         checkKey(e) {
             e = e || window.event;
