@@ -28,8 +28,9 @@
           <v-card-title class='title'>Une consommation grandissante</v-card-title>
             <v-card class='mt-2 px-3' flat
               >Malgrés la part durable de la production éléctrique encore assez petite, la consommation ne fait que grandir.
-              Il y a eu le chauffage éléctrique qui est devenu tellement commun que chaque degré celcius en moins dans la température moyenne
-              du pays fait augmenter la consommation de 2400 MW...
+              Il y a eu le chauffage éléctrique qui est devenu tellement commun (56% de la consomation Française...)  que chaque 
+              degré celcius en moins dans la température moyenne
+              du pays fait augmenter la consommation de 2400 MW.
               <br/>
               <br/>Nous pensons que la démocratisation de l'utilisation de l'éléctricité est en grande partie
               dûe au fait que nous avons tendance à ne pas considérer la production de l'éléctricité que
@@ -49,7 +50,7 @@
               rapport à l'éléctricité durable. Mais bienheureusement, il y a de plus en plus de geste visant à diminuer la consommation,
               l'état à par exemple mis en place des moyens d'isoler sa maison, sous les frais des entreprise comme Total, ou
               encore des entreprises rémunéré pour l'éléctricité dont ils ont éviter la consommation inutile,
-              par exemple à l'aide de chauffages inteligents.
+              par exemple à l'aide de chauffages inteligents. La consomation tend à être pilotée à grande echelle.
             </v-card>
         </v-card-text>
       </v-card>
