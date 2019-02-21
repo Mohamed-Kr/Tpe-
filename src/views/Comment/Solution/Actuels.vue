@@ -7,6 +7,9 @@
     <v-card-text class="pa-3">
       <v-card-title class='title'>Est-ce possible avec les moyens actuels ?</v-card-title>
       <v-card class='px-3' flat>
+        - oui si consommation baisse
+        - oui si réseau intélligent
+        - un nouveau reseau
       </v-card>
     </v-card-text>
   </v-card>
