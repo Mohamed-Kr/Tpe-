@@ -1,7 +1,7 @@
 <template>
-  <v-container justify-center align-center mt-2 style='overflow: hidden; height: 77vh'>
+  <v-container justify-center align-center mt-2>
     <v-layout justify-center>
-      <v-flex xs11 md12 lg10 xl8 white--text>
+      <v-flex xs11 md12 lg10 xl8 white--text mb-5>
         <v-card id='introTxt'>
           <v-img
             height="200px"
