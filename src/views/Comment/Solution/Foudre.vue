@@ -14,9 +14,9 @@
             src="https://i.imgur.com/d8Nf0aB.gif"
             width="350"></v-img>-->
 
-          <video controls loop="true" autoplay="true">
-            <source src="../../../assets/flash.mp4" type="image/mp4">
-          </video>
+          <!--<video controls loop="true" autoplay="true">
+            <source src="https://s.werobot.fr/flash.mp4" type="image/mp4">
+          </video>-->
 
           Imaginez qu'on arrive à prévoir où la foudre tombe et que l'on arrive à récupérer toute cette grande quantité d'énergie et la stocker quelque part. On aurait résolu le problème énergétique ?<br>
           Avant de savoir si on peut utiliser cette énergie pour alimenter le réseau, on peut s'interroger sur la nature d'un éclair.

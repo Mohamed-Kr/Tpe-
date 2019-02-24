@@ -11,8 +11,16 @@
 					La fusion nucléaire est la réaction nucléaire la plus présente dans l'univers c'est celle qui alimente toutes étoiles.
 					Même si nous savons reproduire la réaction de fusion de façon non contrôlé. Il est pourtant très difficile de réaliser une réaction de fusion contrôler
 					et de canaliser l'energie produite.
+					<br>
+					La Réaction est connue depuis le début du XX<sup>e</sup> siècle et en 1920 on suggère que c'est cette réaction qui est à l'orgine de l'énergie produite par les étoiles.
+					En 1934, Rutherford réalise la première réaction de fusion en laboratoire.
+					<br>
 					Depuis les années 40, cette réaction est utilisé dans le milieu militaire pour créer des bombes thermonucléaire mais elle n'est pas encore utilisé dans
 					le milieu civil.
+					<br><br>
+					Après la seconde guerre mondial, la guerre froide et la course à l'armement permet de mettre en place des moyens pour mieux comprendre cette réaction.
+
+					En 1958, les premiers programmes de recherches scientifiques internationnaux concernant la fusion controllé voient le jour pendant le congret "Atom for peace" à Genève.
 					<br>
 					<br>
 					Le concept de la fusion nucléaire est de créer un plasma suffisament chaud et dense afin de permettre la reaction de fusion de deux atomes d'hydrogène.
@@ -37,6 +45,7 @@
 					en effet cette technique utilise seulement de l'hydrogène ou alors ces isotopes (le deutérium et le tritium).
 					Cependant, cette technique est beaucoup plus compliqué à mettre en place et nécéssite de nombreuses avancées technologique ainsi qu'un énorme investissement
 					dans la recherche, en outre, même si nous commencons à maitriser la technologie, il ne sera pas possible de l'industrialiser avant 2040 au minimum.
+					<br>
 					<br>
 					Car pour l'instant les reacteurs sont expérimentaux et servent principalement à la recherche scientifique pour mieux comprendre le phénomène en effectuant des réactions de fusion de quelques secondes seulement.
 					<!-- histoire des trucs au niveau de la durée de la réaction -->
