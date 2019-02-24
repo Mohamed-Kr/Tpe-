@@ -5,11 +5,13 @@
 				<v-card class="mb-5">
 					<v-card-text style='font-size: 1.2em;'>
 
-					Tout d'abord avant de parler de l'histoire de l'énergie électrique, il convient de préciser qu'il n'y a jamais eu vraiment de transition énergétique, c'est à dire un moment où dans l'histoire nous avons complétement changé de mode de production électrique. Or, à l'heure actuelle nous utilison encore du charbon pour produire 29% de l'électricité mondial et cette part est loin de diminuer. Même si des nouveaux moyens de productions sont apparus nous gardons l'usage des premiers moyens pas forcement très propre.
+					Tout d'abord avant de parler de l'histoire de l'énergie électrique, il convient de préciser qu'il n'y a jamais eu vraiment de transition énergétique, c'est à dire un moment où dans l'histoire nous avons complétement changé de mode de production électrique. Or, à l'heure actuelle nous utilison encore du charbon pour produire 29% de l'électricité mondial et cette part est loin de diminuer. Même si des nouveaux moyens de productions sont apparus nous gardons l'usage des premiers moyens pas forcément très propre.
 
-					<br>
+					<br><br>
 
 					Nous allons ici vous présenter l'histoire de l'énergie électrique et tout particulièrement de l'histoire des moyens de productions électriques.
+
+					<br>
 				</v-card-text>
 				</v-card>
 				<v-timeline>
@@ -60,17 +62,31 @@ export default {
 				description: "Thales de Milet découvre l'électricité statique.",
 				color: "green"
 			},
+      {
+        date: "XIIXe siècle",
+        title: "Caractérisation et découverte de l'électricité statique",
+        description: "Ce n'est qu'a partir du XIIXe siècle, que les scientifiques commencent à comprendre ce phénomène et à faire des expériences avec.",
+        color: "light-green",
+				image: "https://upload.wikimedia.org/wikipedia/commons/5/50/Machine_de_Ramsden.jpg"
+      },
+			{
+        date: "1878, Etats Unis",
+        title: "Invention de l'ampoule par Edison",
+        description: "Cette invention marque le début de la diffusion de l'électricité et industrialisation, à la fin du XIXe siècle l'électricité est de plus en plus utilisé, on en produit exclusivement avec du charbon",
+        color: "lime",
+				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.qiannipicture.com%2Fpic%2FUploadFile%2FP2%2FSKU166369%2FA1829B5693979E9177FF1697230303939226FB23136393139A56D28C139C9BCBD233C7CB37CFD24363CC43D283F7335353639D938393DF3346CFF51383.jpg&f=1	"
+      },
 			{
 				date: "1891, Allemagne",
 				title: "Première ligne à haute tension",
 				description: "La toute première ligne à haute tension à courant alternatif est créé pour relier deux grandes villes industrielle d'Allemagne.",
-				color: "amber"
+				color: "yellow"
 			},
 			{
 				date: "1963, France",
 				title: "Première centrale nucléaire française",
 				description: "La toute première centrale nucléaire civile française pour produire de l'électricité entre service à Chinon en France",
-				color: "orange",
+				color: "amber",
 				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flesoufflecestmavie.e.l.f.unblog.fr%2Ffiles%2F2012%2F09%2Fcentrale-nucl%C3%A9aire-chinon.jpg&f=1"
 			},
 			{
@@ -84,7 +100,7 @@ export default {
 				date: "Années 2010",
 				title: "Croissance de l'énergie électrique renouvelable",
 				description: "Après la catastrophe nucléaire de Fukushima, l'Allemagne se tourne vers les énergie renouvelable et entame une transition énergétique.",
-				color: "indigo",
+				color: "deep-orange",
 				image: "https://i.imgur.com/fSSyBgr.png"
 			}
 		]

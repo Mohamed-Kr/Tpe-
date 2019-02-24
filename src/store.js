@@ -22,7 +22,7 @@ export default new Vuex.Store({
             route: '/Intro/1'
           },
           {
-            title: "Histoire du mix",
+            title: "Histoire de l'électricité",
             route: '/Intro/2'
           },
           {
