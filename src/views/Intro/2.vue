@@ -36,7 +36,7 @@
 									<v-layout justify-center align-center fill-height>
 										<v-img
 	                    :src="item.image"
-											width="200px"
+											height="100%"
 	                    cover
 	                  ></v-img>
 									</v-layout>

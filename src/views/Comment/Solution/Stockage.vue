@@ -45,11 +45,16 @@
           <br>
           <br>
           Grâce à l'électrolyse on créé du dihydrogène et de l'oxygène qui peut être stocké dans des réservoir sous pression (Power to Gas).
+          L'électrolyse consiste à faire passer un courant électrique dans l'eau.
+
           On peut combiner le dihydrogène à du dioxyde de carbone afin de créer du méthane : c'est la méthanisation.
-          Le méthane est facile à stocker et à bruler ce qui rend cette méthode pratique pour du stockage à long terme.
+          <br><br>
+          <pre>CO<sub>2</sub> + 4 H<sub>2</sub> → CH<sub>4</sub> + 2 H<sub>2</sub>O</pre>
+          <div>Equation de la réaction chimique de la méthanisation.</div>
+          <br>
           Pour récupérer de l'électricité, on brule simplement le méthane afin de produire de la chaleur qui est ensuite convertit en électricité via les procédées classique.
-          <br>
-          <br>
+          <br><br>
+          Le méthane est facile à stocker et à bruler ce qui rend cette méthode pratique pour du stockage à long terme.
           Cette méthode dispose de nombreux avantage mais n'est pas propre car la combustion du méthane produit du CO<sub>2</sub> (on récupère le CO<sub>2</sub> utilisé pour créer le méthane).
           <br>
           En France cette méthode représente 17 GW de puissance.

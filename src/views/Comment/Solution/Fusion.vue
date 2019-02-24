@@ -17,6 +17,7 @@
 					<br>
 					Le concept de la fusion nucléaire est de créer un plasma suffisament chaud et dense afin de permettre la reaction de fusion de deux atomes d'hydrogène.
 					Ce besoin demande de dépenser beaucoup d'énergie pour arriver à un plasma permettant la fusion.
+					On met alors en place différentes techniques afin d'arriver à cet état de fusion.
 					La réaction de fusion fait fussionner deux noyaux d'atomes d'hydrogène ce qui créé de l'hélium ainsi qu'une énorme quantité d'énergie.
 					Tout l'enjeux est de créer plus d'énergie que le système en consomme.
 					<br>
@@ -25,9 +26,10 @@
 					<br>
 					<br>
 					<ul>
-						<li><a href="https://iter.org">ITER</a> Un projet international réunissant 35 pays dans le but de créer un réacteur expérimental de fusion à confinement magnétique dans le sud de la France à Cadarache</li>
-						<li>Le laser mégajoule, un projet français qui consiste à concentrer l'énergie de plusieurs laser très puissant sur une très petite cible afin de reproduire les conditions de fusion</li>
-						<li>La Z machine [WIP]</li>
+						<li>JET (Joint European Torus), Le réacteur à fusion le plus puissant à ce jour, issue d'une coopération scientifique Européenne, servant à récolter des données pendant des réactions durant quelques secondes. Pendant les tests, le tokamak (la chambre de confinement magnétique) de JET est l'endroit le plus chaud du système solaire avec la température interne de plus de 100 millions de degrés.</li>
+						<li><a href="https://iter.org">ITER</a> Un projet international réunissant 35 pays dans le but de créer un réacteur expérimental de fusion à confinement magnétique dans le sud de la France à Cadarache. Plus puissant que JET</li>
+						<li>Le laser mégajoule, un projet français à but militaire dans un premier temps, qui consiste à concentrer l'énergie de plusieurs laser très puissant sur une très petite cible afin de reproduire les conditions de fusion</li>
+						<li>La Z machine, un projet de base militaire Américain, elle reproduit l'environment de fusion en créant des rayons X pulsés à partir de décharge à très haute tension.</li>
 					</ul>
 					<br>
 					Cette source d'énergie possède de nombreux avantages comme celle par exemple d'être beaucoup moins dangereuse que la fission nucléaire ainsi que
@@ -35,6 +37,8 @@
 					en effet cette technique utilise seulement de l'hydrogène ou alors ces isotopes (le deutérium et le tritium).
 					Cependant, cette technique est beaucoup plus compliqué à mettre en place et nécéssite de nombreuses avancées technologique ainsi qu'un énorme investissement
 					dans la recherche, en outre, même si nous commencons à maitriser la technologie, il ne sera pas possible de l'industrialiser avant 2040 au minimum.
+					<br>
+					Car pour l'instant les reacteurs sont expérimentaux et servent principalement à la recherche scientifique pour mieux comprendre le phénomène en effectuant des réactions de fusion de quelques secondes seulement.
 					<!-- histoire des trucs au niveau de la durée de la réaction -->
 					<br>
 					Les nombreux avantages de cette technique la rend intéréssant mais les multiples problèmes dût à la difficulté de mise en place et de son coût la
