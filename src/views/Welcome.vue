@@ -219,7 +219,7 @@ import { TweenMax } from 'gsap'
   export default {
     data: () => ({
       persons: [
-        {name: "Kylian Buhot", img: "https://api-v2.stail.eu/app/B7wax7VR5QmORF18/logo?hash=special_1547800819942&size=25"},
+        {name: "Kylian Buhot", img: "https://i.imgur.com/rFsWnjI.jpg"},
         {name: "Matthieu Bessat", img: "https://static.werobot.fr/profiles/matthieu.jpg"},
         {name: "Mohamed-El-Hassan Krifa", img: "https://static.werobot.fr/profiles/mohamed.jpg"},
       ]
