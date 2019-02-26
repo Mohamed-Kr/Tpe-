@@ -59,12 +59,14 @@
               </v-flex>
               <v-flex xs-4 class="pl-5 zi">
                   <v-layout justify-end pa-5 id='subPartBtnC'>
-                      <v-tooltip bottom v-for='(sub, index) in cPart.subParts' :key='index'>
-                          <v-btn slot='activator' @click='changeSub(index + 1); subTitle = sub.title' fab>
-                              {{ index + 1}}
-                          </v-btn>
-                          <label>{{sub.title}}</label>
-                      </v-tooltip>
+                      <div v-for='(sub, index) in cPart.subParts' :key='index'>
+                          <v-tooltip :disabled="sub.title === ''" bottom>
+                              <v-btn slot='activator' @click='changeSub(index + 1); subTitle = sub.title' fab>
+                                  {{ index + 1}}
+                              </v-btn>
+                              <span>{{sub.title}}</span>
+                          </v-tooltip>
+                      </div>
                   </v-layout>
               </v-flex>
           </v-layout>
