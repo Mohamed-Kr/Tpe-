@@ -3,7 +3,7 @@
   <v-layout justify-center align-center fill-height>
     <v-flex xs11 md12 lg10 xl8>
       <v-card class='subheading mx-3 px-3 transparent' flat>
-        <v-card-title class='headline white--text'>Il suffirait donc de trouver un système constement en mouvement sur lequel on disposerait un aimant et qu'on placerait ensuite prés d'une bobine !
+        <v-card-title class='headline white--text'>Il suffirait donc de trouver un système constement en mouvement sur lequel on disposerait un aimant et que l'on placerait ensuite prés d'une bobine !
         </v-card-title>
       </v-card>
       <v-card class='subheading mx-5 mt-4 pa-3'>
