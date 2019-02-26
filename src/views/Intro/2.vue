@@ -60,20 +60,20 @@ export default {
 				date: "600 av. J.-C.",
 				title: "Premières traces d'expériences avec de l'électricité statique",
 				description: "Thales de Milet découvre l'électricité statique.",
-				color: "green"
+				color: "deep-orange"
 			},
       {
         date: "XVIIIe siècle",
         title: "Découverte de l'électricité statique",
         description: "A partir du XVIIIe siècle, les scientifiques commencent à comprendre ce phénomène et à l'étudier.",
-        color: "light-green",
+        color: "orange",
 				image: "https://upload.wikimedia.org/wikipedia/commons/5/50/Machine_de_Ramsden.jpg"
       },
 			{
         date: "1878, Etats Unis",
         title: "Invention de l'ampoule par Edison",
         description: "Cette invention marque le début de l'utilisation domestique et industrielle de l'électricité, à la fin du XIXe siècle son utilisation est très répandue, sa production était alors exclusivement faite dans des centrales utilisant la combustion du charbon.",
-        color: "lime",
+        color: "amber",
 				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.qiannipicture.com%2Fpic%2FUploadFile%2FP2%2FSKU166369%2FA1829B5693979E9177FF1697230303939226FB23136393139A56D28C139C9BCBD233C7CB37CFD24363CC43D283F7335353639D938393DF3346CFF51383.jpg&f=1	"
       },
 			{
@@ -86,21 +86,21 @@ export default {
 				date: "1963, France",
 				title: "Première centrale nucléaire française",
 				description: "La toute première centrale nucléaire française voit le jour dans la ville de Chinon.",
-				color: "amber",
+				color: "lime",
 				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Flesoufflecestmavie.e.l.f.unblog.fr%2Ffiles%2F2012%2F09%2Fcentrale-nucl%C3%A9aire-chinon.jpg&f=1"
 			},
 			{
 				date: "1986, URSS",
 				title: "Catastrophe nucléaire de Tchernobyl",
 				description: "La première catastrophe nucléaire de grande ampleur, elle a causé une prise de conscience du danger que peut représenter ce moyen de production, elle marque la fin de la croissance très rapide des réacteurs nucléaires.",
-				color: "orange",
+				color: "light-green",
 				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jeunes-ecologistes.org%2Fwp-content%2Fuploads%2F2011%2F09%2Ftchernobyl1.jpg&f=1"
 			},
 			{
 				date: "Années 2010",
 				title: "Début de la production électrique renouvelable",
 				description: "Après la catastrophe nucléaire de Fukushima, l'Allemagne se tourne vers les énergies renouvelables et entame une transition énergétique.",
-				color: "deep-orange",
+				color: "green",
 				image: "https://i.imgur.com/fSSyBgr.png"
 			}
 		]
