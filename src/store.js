@@ -78,7 +78,7 @@ export default new Vuex.Store({
         route: '/Conclusion/1',
         subParts: [
           {
-            title: "",
+            title: "Conclusion",
             route: '/Conclusion/1'
           },
           {
