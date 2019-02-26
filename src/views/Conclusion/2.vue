@@ -15,7 +15,10 @@
                 <v-list-tile-title>
                   {{ source.name }}
                 </v-list-tile-title>
-                <v-list-tile-sub-title>
+                <v-list-tile-sub-title v-if="source.sub === undefined || source.sub === null">
+                  {{ source.link }}
+                </v-list-tile-sub-title>
+                <v-list-tile-sub-title v-else>
                   {{ source.link }}
                 </v-list-tile-sub-title>
               </v-list-tile-content>
@@ -56,23 +59,44 @@
       sources: [
         // exemple de source
         {
-          domain: 'notion.so',
           link: 'https://www.notion.so/lefuturiste/Script-et-structure-de-la-vid-o-de-M-Bidouille-sur-la-transition-nerg-tique-f097413547c544e1b1f6642d57cea7cf',
-          name: 'Script et structure de la vidéo de M.Bidouille sur la transition énergétique'
+          name: 'Script et structure de la vidéo de M.Bidouille sur la transition énergétique',
+          sub: 'Dr Matthieu Bessat'
         },
         {
-          domain: 'bilan-electrique-2017.rte-france.com',
+          link: 'https://www.youtube.com/watch?v=OZvcI5-HHSU',
+          name: 'La transition énergétique - mix 100% ENR ?',
+          sub: 'Monsieur Bidouille'
+        },
+        {
+          link: 'https://www.connaissancedesenergies.org/une-page-pour-decider/reduire-de-50-la-consommation-energetique-d-ici-a-2050-est-ce-possible',
+          name: 'Réduire de 50% la consommation énergétique d’ici à 2050 : est-ce possible ?',
+          sub: 'Bruno Rebelle'
+        },
+        {
           link: 'https://bilan-electrique-2017.rte-france.com/',
-          name: 'Bilan électrique 2017 RTE'
+          name: 'Bilan électrique 2017',
+          sub: 'RTE france'
         }
       ]
     }),
+    created () {
+      this.sources = this.sources.map(source => {
+        source.domain = source.link.replace('http://','').replace('https://','').split(/[/?#]/)[0];
+        return source
+      })
+    },
     methods: {
-      copy: function () {
-
+      copy: function (value) {
+        let textArea = document.createElement("textarea");
+        textArea.value = value;
+        document.body.appendChild(textArea);
+        textArea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textArea);
       },
-      goTo: function () {
-
+      goTo: function (url) {
+        window.open(url, '_blank').focus();
       }
     }
   }
