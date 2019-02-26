@@ -27,18 +27,18 @@
         <v-card-text>
           <v-card-title class='title'>Une consommation grandissante</v-card-title>
             <v-card class='mt-2 px-3' flat
-              >Malgrés la part durable de la production éléctrique encore assez petite, la consommation ne fait que grandir.
-              Il y a eu le chauffage éléctrique qui est devenu tellement commun (56% de la consomation Française...)  que chaque 
+              >Malgrés la part durable de la production électrique encore assez petite, la consommation ne fait que grandir.
+              Il y a eu le chauffage éle ctrique qui est devenu tellement commun (56% de la consomation Française...)  que chaque 
               degré celcius en moins dans la température moyenne
               du pays fait augmenter la consommation de 2400 MW.
               <br/>
-              <br/>Nous pensons que la démocratisation de l'utilisation de l'éléctricité est en grande partie
-              dûe au fait que nous avons tendance à ne pas considérer la production de l'éléctricité que
+              <br/>Nous pensons que la démocratisation de l'utilisation de l'électricité est en grande partie
+              dûe au fait que nous avons tendance à ne pas considérer la production de l'électricité que
               l'on consomme mais seulement la manière dont on la consomme. Par exemple, nous aurions tendance
-              à penser qu'une voiture éléctrique polluerait beaucoup moins qu'une voiture fonctionnant à l'essence,
+              à penser qu'une voiture électrique polluerait beaucoup moins qu'une voiture fonctionnant à l'essence,
               ce qui est vrai si nous ne comparons que la façon dont l'énérgie est consoméé mais si nous prenons en compte
               la production des voiture et les moyens d'obtenir l'énérgie, pour une même utilisation quasi-quotidienne
-              la voiture éléctrique ne devient plus 'rentable écologiquement' qu'aprés quatre à cinq ans.
+              la voiture électrique ne devient plus 'rentable écologiquement' qu'aprés quatre à cinq ans.
             </v-card>
         </v-card-text>
       </v-card>
@@ -46,10 +46,10 @@
         <v-card-text>
           <v-card-title class='title'>Un nouveau rapport à la consommation</v-card-title>
             <v-card class='mt-2 px-3' flat
-              >La consomation éléctrique actuelle (et plus particulièrement son évolution) referme un peu la perspective d'un
-              rapport à l'éléctricité durable. Mais bienheureusement, il y a de plus en plus de geste visant à diminuer la consommation,
+              >La consomation électrique actuelle (et plus particulièrement son évolution) referme un peu la perspective d'un
+              rapport à l'électricité durable. Mais bienheureusement, il y a de plus en plus de geste visant à diminuer la consommation,
               l'état à par exemple mis en place des moyens d'isoler sa maison, sous les frais des entreprise comme Total, ou
-              encore des entreprises rémunéré pour l'éléctricité dont ils ont éviter la consommation inutile,
+              encore des entreprises rémunéré pour l'électricité dont ils ont éviter la consommation inutile,
               par exemple à l'aide de chauffages inteligents. La consomation tend à être pilotée à grande echelle.
             </v-card>
         </v-card-text>

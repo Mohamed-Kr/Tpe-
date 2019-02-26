@@ -1,6 +1,6 @@
 <template>
 		<v-card class='pa-4'>
-			<v-card-title class='display-2'>Les barrages hydroéléctriques</v-card-title>
+			<v-card-title class='display-2'>Les barrages hydroélectriques</v-card-title>
 			<v-card flat class='my-4 px-5 title'>
 				L'énergie hydraulique est une énergie renouvelable qui utilise
 				 l'énergie cinétique et potentielle de l'eau (rivière, chute 
@@ -11,8 +11,8 @@
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-text>
-					Les barrages hydroéléctriques ont été un des premiers moyens de production éléctrique,
-					leur production représente aujourd'hui environ 10% du mix éléctrique,
+					Les barrages hydroélectriques ont été un des premiers moyens de production électrique,
+					leur production représente aujourd'hui environ 10% du mix électrique,
 					sa part est en augmentation, particulièrement depuis la fin de la seconde 
 					guerre mondiale: de 1945 à 1960, 120 grands barrages furent construits.
 					<br/><br/>
@@ -21,7 +21,7 @@
 					exploitables. À la fin 2008, la France disposait de 25,3 GW en exploitation qui ont 
 					produit 50 TWh en 2008, soit 72 % du potentiel économiquement exploitable.
 					<br/><br/>
-					Ils ont un rendement d'environ 80% et représente 51% de la production éléctrique 
+					Ils ont un rendement d'environ 80% et représente 51% de la production électrique 
 					issue d'énérgies renouvelables.
 				</v-card-text>
 			</v-card>
@@ -34,7 +34,7 @@
 					 plus l'eau transporte d'énergie.
 					<br/><br/>
 					Cette eau actionne les turbines qui entraînent à leur tour des alternateurs pour produire du courant électrique. 
-					Un transformateur injecte ensuite cette électricité dans le réseau éléctrique.
+					Un transformateur injecte ensuite cette électricité dans le réseau électrique.
 					<br/><br/>
 					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-HlLaV6iDi1E%2FW6ZsrD4Tw-I%2FAAAAAAAAtdE%2FdPaOUOXgiz4VrqFt3nDZPfGq0OHb3VwZACLcBGAs%2Fs1600%2Fhidroelektrik_santral_baraj.gif&f=1"></v-img>
 					Leurs pâles orientables permettent de concentrer la production pendant les périodes de forte consommation. elles sont capables de passer de l'arrêt

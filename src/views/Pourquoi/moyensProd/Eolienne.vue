@@ -37,7 +37,7 @@
 					<br/><br/>
 					-Si la vitesse du vent est trop faible (par exemple moins de 10 km/h), l'éolienne s'arrête en raison 
 					des forces de frottement sec qui s'opposent à la rotation de l'hélice. Cette diminution de la vitesse 
-					de rotation ne permet plus de fournir assez d'éléctricité. Dans ce cas, l'éolienne n'est donc plus 
+					de rotation ne permet plus de fournir assez d'électricité. Dans ce cas, l'éolienne n'est donc plus 
 					productrice d'électricité, mais pourrait au contraire devenir consommatrice, elle est donc 
 					automatiquement déconnectée du réseau. 
 					<br/><br/>

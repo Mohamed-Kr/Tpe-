@@ -23,7 +23,7 @@
                 </v-list-tile-sub-title>
               </v-list-tile-content>
               <v-list-tile-action>
-                <v-layout>
+                <v-layout><!-- 
                   <v-tooltip bottom class="pr-3">
                     <template slot="activator">
                       <v-btn icon color="info" @click="copy(source.link)" outline>
@@ -31,10 +31,10 @@
                       </v-btn>
                     </template>
                     <span>Copier le lien</span>
-                  </v-tooltip>
+                  </v-tooltip> -->
                   <v-tooltip bottom class="pl-3 pr-3">
                     <template slot="activator">
-                      <v-btn icon color="success" @click="goTo(source.link)" :loading="isGoToLoading">
+                      <v-btn icon color="info" @click="goTo(source.link)" :loading="isGoToLoading">
                         <v-icon>open_in_new</v-icon>
                       </v-btn>
                     </template>
@@ -77,6 +77,16 @@
           link: 'https://bilan-electrique-2017.rte-france.com/',
           name: 'Bilan électrique 2017',
           sub: 'RTE france'
+        },
+        {
+          link: 'https://www.edf.fr/',
+          name: 'EDF France',
+          sub: 'EDF France'
+        },
+        {
+          link: 'https://fr.wikipedia.org/wiki/Accueil',
+          name: 'Wikipédia',
+          sub: 'Wikipédia'
         }
       ]
     }),
