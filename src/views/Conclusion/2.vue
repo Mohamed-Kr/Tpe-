@@ -1,23 +1,80 @@
 <template>
-	<v-container>
-		<v-list>
-			<v-list-tile v-for="source in sources" :key='source'>
-				<v-list-tile-action>
-					<a :href='source.link'>{{ source.name }}</a>
-				</v-list-tile-action>
-			</v-list-tile>
-		</v-list>
-	</v-container>
+  <v-container>
+    <v-layout justify-center>
+      <v-flex xs11 md12 lg10 xl8>
+        <v-list two-line>
+          <template
+            v-for="(source, index) in sources">
+            <v-divider
+              :key="'divider_top_' + index" />
+            <v-list-tile>
+              <v-list-tile-avatar>
+                <img :src="'https://logo.clearbit.com/' + source.domain">
+              </v-list-tile-avatar>
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  {{ source.name }}
+                </v-list-tile-title>
+                <v-list-tile-sub-title>
+                  {{ source.link }}
+                </v-list-tile-sub-title>
+              </v-list-tile-content>
+              <v-list-tile-action>
+                <v-layout>
+                  <v-tooltip bottom class="pr-3">
+                    <template slot="activator">
+                      <v-btn icon color="info" @click="copy(source.link)" outline>
+                        <v-icon>file_copy</v-icon>
+                      </v-btn>
+                    </template>
+                    <span>Copier le lien</span>
+                  </v-tooltip>
+                  <v-tooltip bottom class="pl-3 pr-3">
+                    <template slot="activator">
+                      <v-btn icon color="success" @click="goTo(source.link)" :loading="isGoToLoading">
+                        <v-icon>open_in_new</v-icon>
+                      </v-btn>
+                    </template>
+                    <span>Aller sur le lien</span>
+                  </v-tooltip>
+                </v-layout>
+              </v-list-tile-action>
+            </v-list-tile>
+            <v-divider
+              :key="'divider_bottom_' + index" v-if="index + 1 === sources.length"/>
+          </template>
+        </v-list>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
-export default {
-	data: () => ({
-	sources: [
-			{link: 'https://youtube.com', name: 'Youtube'},
-			{link: 'https://youube.com', name: 'Youube'}
-		]
-	})		
-}
+  export default {
+    data: () => ({
+      isGoToLoading: false,
+      sources: [
+        // exemple de source
+        {
+          domain: 'notion.so',
+          link: 'https://www.notion.so/lefuturiste/Script-et-structure-de-la-vid-o-de-M-Bidouille-sur-la-transition-nerg-tique-f097413547c544e1b1f6642d57cea7cf',
+          name: 'Script et structure de la vidéo de M.Bidouille sur la transition énergétique'
+        },
+        {
+          domain: 'bilan-electrique-2017.rte-france.com',
+          link: 'https://bilan-electrique-2017.rte-france.com/',
+          name: 'Bilan électrique 2017 RTE'
+        }
+      ]
+    }),
+    methods: {
+      copy: function () {
+
+      },
+      goTo: function () {
+
+      }
+    }
+  }
 </script>
 
