@@ -1,28 +1,29 @@
 <template>
-<div style='position: absolute; width:100%; height:100vh; overflow: hidden;top:0;left: 0px;'>
-	<div style="display: flex; position: absolute; width:100%; height:100vh; top:0; flex-direction: column; justify-content: space-between; align-items: center">
-            <div class='white--text' style='z-index:999'>
-              <p class="display-3 mb-4">Transition énergétique</p>
-              <p class="headline mb-4 pl-5">Vers un mix éléctrique 100% renouvelable ?</p>
-						</div>
-          <v-card style='z-index:999;'>
-            <v-card-text>
-              <v-layout justify-center row>
-                <v-flex xs12 md10 v-for="(person, index) in persons" :key="index">
-                  <v-layout justify-center align-center :mb-2="$vuetify.breakpoint.smAndDown">
-                    <v-avatar class="">
-                      <img :src="person.img"/>
-                    </v-avatar>
-                    <div class="ml-4">
-                      {{ person.name }}
-                    </div>
-                  </v-layout>
-                </v-flex>
+  <div style='position: absolute; width:100%; height:100vh; overflow: hidden;top:0;left: 0px;'>
+    <div
+      style="display: flex; position: absolute; width:100%; height:100vh; top:0; flex-direction: column; justify-content: space-between; align-items: center">
+      <div class='white--text' style='z-index:999'>
+        <p class="display-3 mb-4">Transition énergétique</p>
+        <p class="headline mb-4 pl-5">Vers un mix éléctrique 100% renouvelable ?</p>
+      </div>
+      <v-card style='z-index:999;'>
+        <v-card-text>
+          <v-layout justify-space-between row>
+            <v-flex xs12 v-for="(person, index) in persons" :key="index" :mr-3="index < persons.length - 1">
+              <v-layout justify-center align-center :mb-2="$vuetify.breakpoint.smAndDown">
+                <v-avatar class="">
+                  <img :src="person.img"/>
+                </v-avatar>
+                <div class="ml-4">
+                  {{ person.name }}
+                </div>
               </v-layout>
-            </v-card-text>
-          </v-card>
-	</div>
-			<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            </v-flex>
+          </v-layout>
+        </v-card-text>
+      </v-card>
+    </div>
+    <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080; width: 100%; position: absolute; top: -70px;" xml:space="preserve">
 
 <g>
@@ -212,67 +213,139 @@
 	</g>
 </g>
 </svg>
-</div>
+  </div>
 </template>
 <script>
-import { TweenMax } from 'gsap'
+  import {TweenMax} from 'gsap'
+
   export default {
     data: () => ({
       persons: [
         {name: "Kylian Buhot", img: "https://i.imgur.com/rFsWnjI.jpg"},
         {name: "Matthieu Bessat", img: "https://static.werobot.fr/profiles/matthieu.jpg"},
-        {name: "Mohamed-El-Hassan Krifa", img: "https://static.werobot.fr/profiles/mohamed.jpg"},
+        {name: "Mohamed-El-Hassan Krifa", img: "https://i.imgur.com/sV1TgFm.jpg"},
       ]
     }),
-    mounted () {
-			const stars = document.getElementById('stars')
-			const helices = [document.getElementById('helice_1_'),document.getElementById('helice_5_'),document.getElementById('helice'),
-											document.getElementById('helice_2_'),document.getElementById('helice_3_'),document.getElementById('helice_4_') ]
-			const durables = [document.getElementById('eols'), document.getElementById('pvs')]
-			const earth = [document.getElementById('earth'), document.getElementById('eols'), document.getElementById('pvs'), durables]
+    mounted() {
+      const stars = document.getElementById('stars')
+      const helices = [document.getElementById('helice_1_'), document.getElementById('helice_5_'), document.getElementById('helice'),
+        document.getElementById('helice_2_'), document.getElementById('helice_3_'), document.getElementById('helice_4_')]
+      const durables = [document.getElementById('eols'), document.getElementById('pvs')]
+      const earth = [document.getElementById('earth'), document.getElementById('eols'), document.getElementById('pvs'), durables]
 
 
       const tlw = new TimelineMax()
       const earthAnim = new TimelineMax({onComplete: () => earthAnim.restart()})
       const tlStars = new TimelineMax({onComplete: () => tlStars.restart()})
-			const eolst = new TimelineMax({onComplete: () => eolst.restart()})
+      const eolst = new TimelineMax({onComplete: () => eolst.restart()})
 
-			tlStars
-			.fromTo(stars, 8, {opacity: 1}, {opacity: 0.4, ease:Linear.easeNone})
-			.fromTo(stars, 8, {opacity: 0.4}, {opacity: 1, ease:Linear.easeNone})
+      tlStars
+        .fromTo(stars, 8, {opacity: 1}, {opacity: 0.4, ease: Linear.easeNone})
+        .fromTo(stars, 8, {opacity: 0.4}, {opacity: 1, ease: Linear.easeNone})
 
       tlw
-			.fromTo([durables, earth], 4, {opacity: 0}, {opacity : 1})
+        .fromTo([durables, earth], 4, {opacity: 0}, {opacity: 1})
 
-			earthAnim
-			.fromTo(earth, 4, {y: 0}, {y: 50})
-			.fromTo(earth, 4, {y: 50}, {y: 0})
+      earthAnim
+        .fromTo(earth, 4, {y: 0}, {y: 50})
+        .fromTo(earth, 4, {y: 50}, {y: 0})
 
-			eolst
-			.fromTo(helices, 5, {rotation: 0, transformOrigin: '45% 60%', ease:Linear.easeNone},
-													{rotation: 360, transformOrigin: '45% 60%', ease:Linear.easeNone})
+      eolst
+        .fromTo(helices, 5, {rotation: 0, transformOrigin: '45% 60%', ease: Linear.easeNone},
+          {rotation: 360, transformOrigin: '45% 60%', ease: Linear.easeNone})
 
     }
   }
 </script>
 
 <style type="text/css" scoped>
-	.st0{stroke:#000000;stroke-miterlimit:10;}
-	.st1{fill:#F2F2F2;stroke:#000000;stroke-miterlimit:10;}
-	.st2{fill:#0071BC;}
-	.st3{clip-path:url(#SVGID_2_);}
-	.st4{fill:#39B54A;}
-	.st5{fill:#F2F2F2;}
-	.st6{opacity:0.21;clip-path:url(#SVGID_2_);fill:#4D4D4D;}
-	.st7{opacity:0.19;fill:#FFFFFF;}
-	.st8{opacity:0.5;fill:#FFFFFF;}
-	.st9{fill:#FFFF6F;}
-	.st10{fill:#FFFFFF;}
-	.st11{fill:#E6E6E6;stroke:#999999;stroke-miterlimit:10;}
-	.st12{fill:#E6E6E6;stroke:#999999;stroke-miterlimit:10;}
-	.st13{fill:#E6E6E6;stroke:#B3B3B3;stroke-miterlimit:10;}
-	.st14{fill:none;}
-	.st15{fill:#333333;stroke:#363434;stroke-miterlimit:10;}
-	.st16{fill:#999999;}
-	.st17{opacity:0.69;fill:url(#SVGID_5_);stroke:#000000;stroke-miterlimit:10;}
+  .st0 {
+    stroke: #000000;
+    stroke-miterlimit: 10;
+  }
+
+  .st1 {
+    fill: #F2F2F2;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+  }
+
+  .st2 {
+    fill: #0071BC;
+  }
+
+  .st3 {
+    clip-path: url(#SVGID_2_);
+  }
+
+  .st4 {
+    fill: #39B54A;
+  }
+
+  .st5 {
+    fill: #F2F2F2;
+  }
+
+  .st6 {
+    opacity: 0.21;
+    clip-path: url(#SVGID_2_);
+    fill: #4D4D4D;
+  }
+
+  .st7 {
+    opacity: 0.19;
+    fill: #FFFFFF;
+  }
+
+  .st8 {
+    opacity: 0.5;
+    fill: #FFFFFF;
+  }
+
+  .st9 {
+    fill: #FFFF6F;
+  }
+
+  .st10 {
+    fill: #FFFFFF;
+  }
+
+  .st11 {
+    fill: #E6E6E6;
+    stroke: #999999;
+    stroke-miterlimit: 10;
+  }
+
+  .st12 {
+    fill: #E6E6E6;
+    stroke: #999999;
+    stroke-miterlimit: 10;
+  }
+
+  .st13 {
+    fill: #E6E6E6;
+    stroke: #B3B3B3;
+    stroke-miterlimit: 10;
+  }
+
+  .st14 {
+    fill: none;
+  }
+
+  .st15 {
+    fill: #333333;
+    stroke: #363434;
+    stroke-miterlimit: 10;
+  }
+
+  .st16 {
+    fill: #999999;
+  }
+
+  .st17 {
+    opacity: 0.69;
+    fill: url(#SVGID_5_);
+    stroke: #000000;
+    stroke-miterlimit: 10;
+  }
 </style>
