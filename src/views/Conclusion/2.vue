@@ -16,14 +16,14 @@
                   {{ source.name }}
                 </v-list-tile-title>
                 <v-list-tile-sub-title v-if="source.sub === undefined || source.sub === null">
-                  {{ source.link }}
+                  {{ source.domain }}
                 </v-list-tile-sub-title>
                 <v-list-tile-sub-title v-else>
-                  {{ source.link }}
+                  {{ source.sub }}
                 </v-list-tile-sub-title>
               </v-list-tile-content>
               <v-list-tile-action>
-                <v-layout><!-- 
+                <v-layout><!--
                   <v-tooltip bottom class="pr-3">
                     <template slot="activator">
                       <v-btn icon color="info" @click="copy(source.link)" outline>
@@ -75,18 +75,15 @@
         },
         {
           link: 'https://bilan-electrique-2017.rte-france.com/',
-          name: 'Bilan électrique 2017',
-          sub: 'RTE france'
+          name: 'Bilan électrique 2017'
         },
         {
           link: 'https://www.edf.fr/',
-          name: 'EDF France',
-          sub: 'EDF France'
+          name: 'EDF France'
         },
         {
           link: 'https://fr.wikipedia.org/wiki/Accueil',
-          name: 'Wikipédia',
-          sub: 'Wikipédia'
+          name: 'Wikipédia'
         }
       ]
     }),
