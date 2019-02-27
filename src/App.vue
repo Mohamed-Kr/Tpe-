@@ -219,7 +219,6 @@ html {
 }
 
 * {
-    user-select: none;
     font-family: 'Mukta', sans-serif;
 }
 

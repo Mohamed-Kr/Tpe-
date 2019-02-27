@@ -2,7 +2,7 @@
 		<v-card class='pa-4'>
 			<v-card-title class='display-2'>Énergie nucléaire</v-card-title>
 			<v-card flat class='my-4 px-5 title'>
-				En France, la prodution d'éléctricité nucléaire est mise en place dans les années 1950 et 1960.
+				En France, la prodution d'électricité nucléaire est mise en place dans les années 1950 et 1960.
 			</v-card>
 			<v-card class='mt-2 px-3'>
 				<v-card-text>

@@ -10,7 +10,7 @@
         <v-card-text>
           Il faut tout d'abord regarder la puissance théorique en énérgie renouvelable disponible sur le territoire Français, 
           car si il n'y a pas la production théorique nécéssaire pour alimenter le pays, même dans les conditions optimales, le mix 
-          éléctrique ne pourra pas être renouvelable à 100%. Mais bienheuresement, elle est de 1268 TWh (si l'on prend 2013 pour année météorologique 
+          électrique ne pourra pas être renouvelable à 100%. Mais bienheuresement, elle est de 1268 TWh (si l'on prend 2013 pour année météorologique 
           de référence), soit trois fois la demande qui est éstimée à 422 TWh.
           <br/><br/>
           Maintenant que l'on est sûr que théoriquement, la puissance disponible est suffisante, il faut regarder les 
@@ -32,7 +32,7 @@
             <li>Les step (station de transfer d'énérgie par pompage), autreent dis, remplir des barrages en pompant
               puis faire tourner les turbines avec l'eau lorsqu'en vient le besoin (en moyenne sur 32h).
             </li>
-            <li>Le stockage intersaisonnier, dont le principe est de synthétiser du gaz avec de l'éléctricité et de bruler ce gaz
+            <li>Le stockage intersaisonnier, dont le principe est de synthétiser du gaz avec de l'électricité et de bruler ce gaz
                 lorsqu'en vient le besoin.
             </li>
           </ul>
@@ -45,8 +45,8 @@
           une éstimation sur le nombre d'éolienne dis qu'il faudra 60000 éolienne terrestres et 5000 en mer.<br/>
           Nous sommes aujourd'hui à environ 10000 éoliennes au total.
           <br/><br/>
-          Pour que le mix éléctrique soit à 100% renouvelable, il faudrait donc construire 55000 éoliennes et dix fois plus 
-          de panneau solaire que ce que nous avons actuellemnet, et pour ce qui est de l'hydroéléctrique, la puissance installé 
+          Pour que le mix électrique soit à 100% renouvelable, il faudrait donc construire 55000 éoliennes et dix fois plus 
+          de panneau solaire que ce que nous avons actuellemnet, et pour ce qui est de l'hydroélectrique, la puissance installé 
           est déja suffisante.
           <br/><br/>
           Le coût de la mise en place de ce mix est éstimé à 50,4 milliards d'euros par ans, de plus elle n'est 

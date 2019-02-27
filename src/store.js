@@ -26,7 +26,7 @@ export default new Vuex.Store({
             route: '/Intro/2'
           },
           {
-            title: "Définition de l'éléctricité",
+            title: "Définition de l'électricité",
             route: '/Intro/3'
           }
         ]
@@ -38,7 +38,7 @@ export default new Vuex.Store({
         route: '/Pourquoi-Changer/1',
         subParts: [
           {
-            title: "Comment produire de l'éléctricité ?",
+            title: "Comment produire de l'électricité ?",
             route: '/Pourquoi-Changer/1'
           },
           {
@@ -50,7 +50,7 @@ export default new Vuex.Store({
             route: '/Pourquoi-Changer/3'
           },
           {
-            title: "Les principaux moyens de production en France",
+            title: "Les principaux moyens de production",
             route: '/Pourquoi-Changer/4'
           }
         ]

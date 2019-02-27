@@ -5,7 +5,7 @@
         <v-card class='subheading mx-3 px-3 transparent' flat>
           <v-card-title class='headline white--text'>
             Voilà donc les solutions issues de nos réfléxions/recherches sur la possibilité 
-            d'un mix éléctrique 100% renouvelable que nous avons décider de vous présenter.
+            d'un mix électrique 100% renouvelable que nous avons décider de vous présenter.
           </v-card-title>
         </v-card>
       <div>

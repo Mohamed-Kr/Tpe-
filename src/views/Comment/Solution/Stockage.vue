@@ -91,9 +91,9 @@
         <!-- MOyens futur et alternatifs -->
         <div class="headline mb-3">Les supraconducteurs</div>
         <p>
-          Le déplacement des éléctrons dans la matière change lorsqu'elle est amenée à une certaine température apelée 'température
-          critique', arrivé à cette température, le déplacement des éléctrons devient tel que la résistance du matériau
-          est nulle, l'éléctricité s'y déplace sans perte ni réchauffement du matériau.
+          Le déplacement des électrons dans la matière change lorsqu'elle est amenée à une certaine température apelée 'température
+          critique', arrivé à cette température, le déplacement des électrons devient tel que la résistance du matériau
+          est nulle, l'électricité s'y déplace sans perte ni réchauffement du matériau.
           <br/><br/>
           Actuellement, un des matériau ayant une température critique relativement chaude est la céramique,
           de l'azote liquide suffit à le rendre supra-conducteur.

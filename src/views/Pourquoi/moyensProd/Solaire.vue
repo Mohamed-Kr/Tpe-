@@ -19,7 +19,7 @@
 					En 2017, la puissance installé du parc photovoltaïque en France 
 					métropolitaine atteint 7 660 MW. Il est en progression de 887 MW par rapport à 2016. 
 					<br/><br/>
-				Les panneaux photovoltaïques ont un trés faible rendement: seulement 5% de l'énérgie solaire est transformée en éléctricité.
+				Les panneaux photovoltaïques ont un trés faible rendement: seulement 5% de l'énérgie solaire est transformée en électricité.
 				</v-card-text>
 			</v-card>
 			<v-card class='mt-2 px-3'>
@@ -30,9 +30,9 @@
 					laquelle du du phosphore à été ajouté, la rendant ainsi chargée positivement.
 					<br/><br/>
 					La couche chargée négativement est exposée à la lumière, le silicium est un semi-conducteur, 
-					la lumière y ajoute donc des éléctrons. Cet ajout d'éléctrons agrandis la différence de potentiel.
+					la lumière y ajoute donc des électrons. Cet ajout d'électrons agrandis la différence de potentiel.
 					il suffit de relier les deux couches pour obtenir
-					du courant éléctrique (ici continu).
+					du courant électrique (ici continu).
 					<v-img class="py-5" style='width:70%; margin: auto;' contain src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fenergia.n.e.f.unblog.fr%2Ffiles%2F2010%2F06%2Fshemaenergiephotovoltaique.jpg&f=1"></v-img>
 					la couche type n est celle contenant du bore<br/>
 					et la couche type p est celle contenant du phosphore.
