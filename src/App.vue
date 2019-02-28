@@ -174,7 +174,7 @@ export default {
             window.scrollTo(0,0);
         },
         checkKey(e) {
-            e = e || window.event;
+            e = e || window.event;/* 
             if (e.keyCode === 38) {
                 if (this.cPart.route != '/') {
                 this.changeSub(1)
@@ -189,7 +189,7 @@ export default {
                 if (this.$store.state.parts.indexOf(this.cPart) != 4 && !this.dialog) {
                     this.changePart(this.$store.state.parts[(this.$store.state.parts.indexOf(this.cPart) + 1)])
                 }
-            } else if (e.keyCode === 32) {
+            } else  */if (e.keyCode === 32) {
                 this.dialog = !this.dialog
             } else if (e.keyCode === 37) {
                 if (this.cSub > 1 && this.subTitle != '') {

@@ -37,7 +37,7 @@
           <v-layout align-start>
             <v-flex xs5 mt-5 pt-5
             >Tout d'abord, rappelons que la matière est constituée d'atomes, formés par un noyau constitué de protons (charges positives), de neutrons (charges neutres) et d'un nuage électronique constitué d'électrons (charges négatives) 'orbitants' autour du noyau.
-              <br/> Un atome est donc composé d'autant d'électrons que de protons et est donc électriquement neutre.
+              <br/> Un atome est composé d'autant d'électrons que de protons et est donc électriquement neutre.
             </v-flex>
             <v-flex xs7 style='height: 500px; overflow: hidden'>
               <p style='text-align: center' class='title grey--text'>Schéma simplifié d'un atome</p>

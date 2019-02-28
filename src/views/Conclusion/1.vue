@@ -17,17 +17,16 @@
                   du côté de la production que de celui de la consommation.
                 </p>
                 <p>
-                  La solution la plus réaliste aujourd'hui reste celle consistant à combiner les moyens actuels, 
-                  pour laquelle la mise en place d'une production beaucoup plus décentralisée que la production actuelle,
-                  n'étant concentrée principalement que dans les grandes centrales, est nécessaire. Une production décentralisée implique
-                  la mise en place d'un réseau intelligent. La problématique de la durabilité est liée très 
-                  étroitement à la consommation, dont le pilotage à grande échelle et l'intelligence sont indispensables.
+                  La solution la plus réaliste, aujourd'hui, reste celle consistant à combiner les moyens de production renouvelables actuels. 
+                  Cette solution mène à une production décentralisée, impliquant donc la mise en place d'un résau intelligent. 
+                  Le pilotage à grande échelle de la consommation reste nécéssaire à un rapport propre à l'électricité.
                 </p>
                 <p>
-                  Enfin, l'orientation très technique de nos travaux atténue l'aspect social, pourtant tout aussi important,
-                  étant donné que la possibilité technique n'induit pas le passage à l'acte. L'humanité arrêtera elle
-                  de ne regarder que l'instant présent et acceptera elle de sacrifier aujourd'hui un peu de son confort 
-                  pour le bien de la Terre ?
+                  Enfin, l'orientation très technique de nos recherches atténue l'aspect social, pourtant tout aussi important,
+                  étant donné que la possibilité technique n'induit pas forcément le consensus.
+                  <br/>
+                  Quelle est la mentalité des français vis-à-vis de cette révolution des énergies et des modes de consommation, et
+                  permet elle la mise en place d'une transition énergétique ?
                 </p>
               </v-card-text>
             </v-card>

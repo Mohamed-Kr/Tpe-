@@ -92,7 +92,7 @@ export default {
 			{
 				date: "1986, URSS",
 				title: "Catastrophe nucléaire de Tchernobyl",
-				description: "La première catastrophe nucléaire de grande ampleur, elle a causé une prise de conscience du danger que peut représenter ce moyen de production, elle marque la fin de la croissance très rapide des réacteurs nucléaires.",
+				description: "Elle est la première catastrophe nucléaire de grande ampleur et a causé une prise de conscience du danger que peut représenter ce moyen de production, elle marque la fin de la croissance très rapide des réacteurs nucléaires.",
 				color: "light-green",
 				image: "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.jeunes-ecologistes.org%2Fwp-content%2Fuploads%2F2011%2F09%2Ftchernobyl1.jpg&f=1"
 			},
