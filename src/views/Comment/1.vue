@@ -47,10 +47,11 @@
           <v-card-title class='title'>Un nouveau rapport à la consommation</v-card-title>
             <v-card class='mt-2 px-3' flat
               >La consommation électrique actuelle (plus particulièrement son évolution) referme un peu la perspective d'un
-              rapport à l'électricité totalement durable. Mais bienheureusement, il y a de plus en plus de gestes visant à diminuer la consommation,
+              rapport à l'électricité totalement durable. Mais bienheureusement, il y a de plus en plus de gestes visants à diminuer la consommation,
               l'Etat a par exemple mis en place la possibilité d'isoler sa maison sous les frais d'entreprises ayant un grand impact sur l'environnement
               (Total, par exemple) ou encore la possibilité à des entreprises d'être rémunérés pour l'électricité dont ils évitent la consommation inutile,
-              par exemple à l'aide de chauffages intelligents. La consommation tend à être pilotée à grande échelle.
+              par exemple à l'aide de chauffages intelligents. La consommation tend à être pilotée à grande échelle, pilotage nécessaire à 
+              la mise en place d'un mix 100% renouvelable.
             </v-card>
         </v-card-text>
       </v-card>
