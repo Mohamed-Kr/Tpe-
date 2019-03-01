@@ -20,22 +20,22 @@ Elle est ensuite devenue progressivement la principale source de production d'é
 	</v-flex>
 </v-layout>
 La France a bien heureusement décidé de réduire la part du nucléaire dans sa production d’électricité de moitié avant 2025
-lors de l'adoption de la loi relative à la transition énergétique pour la croissance verte de 20151. 
+lors de l'adoption de la loi relative à la transition énergétique pour la croissance verte de 2015. 
 <br/><br/>
 En 2017, la France compte 19 centrales nucléaires en exploitation pour un total de 58 réacteurs nucléaires et se place donc deuxième 
 au rang mondial derrière les états unis.
 				</v-card-text>
 			</v-card>
 			<v-card class='mt-2 px-3'>
-				<v-card-title class='title'>Comment ça marche?</v-card-title>
+				<v-card-title class='title'>Comment ça marche ?</v-card-title>
 				<v-card-text>
-					Les réacteurs nucléaire fonctionnent grâce à la fission nucléaire, phénomène découvert en 1896 par Henri Becquerel.
+					Les réacteurs nucléaires fonctionnent grâce à la fission nucléaire, phénomène découvert en 1896 par Henri Becquerel.
 					Pour que la fission se produise, on ajoute généralement un neutron au noyau d'un atome lourd,
 					le noyau se divise en deux, laissant place à deux noyaux moins lourd. La division du noyau
 					dégage une quantité importante de chaleur. 
 					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.bertrandbarre.com%2Fimages%2Fpic_reaction_en_chaine.gif&f=1"></v-img>
-					Quelques uns des neutrons ne participe pas à la formation des deux nouveaux noyaux et vont donc 
-					causer la fission des atomes voisins: c'est une réaction en chaîne.
+					Quelques uns des neutrons ne participent pas à la formation des deux nouveaux noyaux et vont donc 
+					causer la fission d'atomes voisins: c'est une réaction en chaîne.
 					<br/><br/>
 					<v-img class="py-5" contain src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ensi.ch%2Ffr%2Fwp-content%2Fuploads%2Fsites%2F4%2F2013%2F06%2Fdruckwasser_anim_700px.gif&f=1"></v-img>
 					Dans le réacteur, la fission des atomes d'uranium produit donc une grande quantité de chaleur.
@@ -65,7 +65,8 @@ au rang mondial derrière les états unis.
 							<v-card-title class='title'>Avantages:</v-card-title>
 							<v-card-text>
 								<ul>
-									<li>peu rejet de CO2</li>
+									<li>Peu rejet de CO2</li>
+									<li>Produit en trés grande quantité</li>
 								</ul>
 							</v-card-text>
 						</v-card>
