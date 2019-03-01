@@ -13,7 +13,7 @@
           >Il y a plusieurs façons de produire de l'électricité mais nous n'étudierons ici que l'induction, phénomène découvert le 29 août 1831 par le chimiste Britannique Michael Faraday (1791-1867) car la très grande majorité des moyens de production électriques fonctionnent grâce à ce principe.
           </v-card>
           <v-card class='mt-1 pa-3' flat
-          >Essayez de déplacer l'aimant à l'intérieur de la bobine de cuivre (vue en coupe), bobine dont les extrémités ont été reliés aux bornes d'une lampe.
+          >Essayez de déplacer l'aimant à l'intérieur de la bobine de cuivre (vue en coupe), bobine dont les extrémités ont été reliées aux bornes d'une lampe.
           </v-card>
           <Lampe/>
           <v-card class='mt-2 pa-3' flat
@@ -36,11 +36,11 @@
           >En 1831, donc la même année que la découverte de l'induction, Hippolyte Pixii (1808 - 1835), fabricant d'instruments de Paris, sur les indications d'André-Marie Ampère, mathématicien, physicien, chimiste et philosophe français, construit le premier alternateur.
           </v-card>
           <v-card class='mt-2 px-3' flat
-          >Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor en énergie électrique à courant alternatif,
+          >Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor en énergie électrique à courant alternatif ;
           alternatif car les électrons sont alternativement attirés et repoussés par l'aimant.
           </v-card>
           <v-card class='mt-2 px-3' flat
-          >Plus de 95 % de l’énergie électrique est produite par des alternateurs, elles fournissent des tensions de fréquence proportionnelle à leur vitesse de rotation. Les alternateurs sont peu coûteux par rapport à
+          >Plus de 95 % de l’énergie électrique est produite par des alternateurs, ils fournissent des tensions de fréquence proportionnelle à leur vitesse de rotation. Les alternateurs sont peu coûteux par rapport à
             d'autres moyens de production électrique et ont un rendement de l'ordre de 95 %.
           </v-card>
           <v-card class='mt-2 pa-3 pb-0 title' flat
