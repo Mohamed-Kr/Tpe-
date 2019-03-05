@@ -71,9 +71,11 @@
               </v-flex>
           </v-layout>
           <router-view/>
-          <v-btn fixed fab bottom right color="success" @click="scrollToTop()" v-if="showToTopButton">
-            <v-icon>keyboard_arrow_up</v-icon>
-          </v-btn>
+          <v-fade-transition>
+            <v-btn fixed fab bottom right color="success" @click="scrollToTop()" v-if="showToTopButton">
+                <v-icon>keyboard_arrow_up</v-icon>
+            </v-btn>
+          </v-fade-transition>
       </v-content>
   </v-app>
 </template>
@@ -111,19 +113,11 @@ export default {
         this.anim()
     },
     watch: {
-        backcolor: "changeBckColor",
-        "window.scrollY": function () {
-            console.log( window.screen.height)
-            console.log( window.scrollY)
-            this.showToTopButton = window.screen.height > window.scrollY
-        }
+        backcolor: "changeBckColor"
     },
     methods: {
         handleScroll () {
-            
-            console.log( window.scrollY)
-            console.log( window.screen.height)
-            this.showToTopButton = window.screen.height <= window.scrollY
+            this.showToTopButton = window.innerHeight <= window.scrollY
         },
         scrollToTop () {
             window.scrollTo(0,0);
