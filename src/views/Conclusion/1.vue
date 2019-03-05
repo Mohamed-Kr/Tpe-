@@ -27,7 +27,12 @@
               de ne regarder que l'instant présent et acceptera elle de sacrifier aujourd'hui un peu de son confort
               pour le bien de la Terre ?
             </p>
-          </v-card-text>
+          </v-card-text><!-- 
+          <v-img
+            :src="'https://images.pexels.com/photos/421888/pexels-photo-421888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'"
+            height="250px"
+            class="white--text">
+          </v-img> -->
         </v-card>
       </v-flex>
     </v-layout>
