@@ -10,20 +10,20 @@
         <v-card-text>
           Il faut tout d'abord regarder la puissance théorique en énergie renouvelable disponible sur le territoire Français, 
           car si il n'y a pas la production théorique nécessaire pour alimenter le pays, même dans les conditions optimales, le mix 
-          électrique ne pourra pas être renouvelable à 100%. Mais bienheuresement, elle est de 1268 Twh (si l'on prend 2013 pour année météorologique 
-          de référence), soit trois fois la demande qui est éstimée à 422 Twh.
+          électrique ne pourra pas être renouvelable à 100%. Mais bienheureusement, elle est de 1268 Twh (si l'on prend 2013 pour année météorologique 
+          de référence), soit trois fois la demande qui est estimée à 422 Twh.
           <br/><br/>
           Maintenant que l'on est sûr que théoriquement, la puissance disponible est suffisante, il faut regarder les 
           autres aspects indispensables que doivent avoir les centrales pour assurer la viabilité du 
-          réseau (avec les capacités de stockage actuels), par exemple la pilotabilité.
+          réseau (avec les capacités de stockages actuels), par exemple la pilotabilité.
           <img src='../../../assets/pilotable.jpg' style='width: 100%; margin: 10px'/>
           Si on compare la puissance installée théorique des centrales pilotables et non pilotables, on voit qu'il 
           y a dix fois plus de non pilotables, c'est là le plus gros défaut des centrales Enr, souvent elles ne produisent que 
-          dans des conditions sur lequels nous n'avons pas la main.
+          dans des conditions sur lesquels nous n'avons pas la main.
           <img src='../../../assets/schema_conso.jpg' style='width: 100%; margin: 10px'/>
           On voit sur ces courbes que la production (les parties colorées) "n'en fait qu'à sa tête" et ne suit pas du tout la demande (le trait noir).
           <br/><br/>
-          Mais il reste heureusement un aspect à voir: le stockage.
+          Mais il reste heureuseument un aspect à voir: le stockage.
           <img src='../../../assets/stockage.jpg' style='width: 100%; margin: 10px'/>
           Aujourd'hui, le stockage énergétique est composé de trois filières,
           on les voit ici de la plus courte capacité à la plus longue:
@@ -38,7 +38,7 @@
           </ul>
           <img src='../../../assets/prod.jpg' style='width: 100%; margin: 10px'/>
           Voilà la courbe que l'on obtient en prenant en compte le stockage (la partie en dessous de l'abscisse représente l'export),
-          Malgré l'aspect polluant (n'empêchant pas le bilan sur le plan environnemental de rester positif), le 
+          malgré l'aspect polluant (n'empêchant pas le bilan sur le plan environnemental de rester positif), le 
           stockage est donc indispensable à la mise en place d'un mix 100% EnR.
           <br/><br/>
           Mais un autre aspect est à prendre en compte: il va falloir plusieurs dizaines de milliers de panneaux solaires et d'éoliennes.

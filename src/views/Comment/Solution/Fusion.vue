@@ -26,12 +26,12 @@
 					le jour pendant le congrès "Atom for peace" à Genève.
 					<br>
 					<br>
-					La fusion nucléaire artificielle a premièrement consister à créer un plasma suffisemment chaud et dense pour permettre la réaction de 
+					La fusion nucléaire artificielle a premièrement consisté à créer un plasma suffisamment chaud et dense pour permettre la réaction de 
 					fusion de deux atomes d'hydrogène mais il faut beaucoup d'énergie pour arriver à un plasma permettant à la fusion d'avoir lieu.
 					Différentes techniques ont donc été développées par la suite.
 					<br>
 					<br>
-					Il y a actuellement plusieurs équipes internationnales de scientifiques travaillants sur un réacteur capable de 
+					Il y a actuellement plusieurs équipes internationales de scientifiques travaillants sur un réacteur capable de 
 					reproduire la fusion :
 					<br>
 					<br>
@@ -43,7 +43,7 @@
 					</ul>
 					<br>
 					Cette source d'énergie possède de nombreux avantages, elle est beaucoup moins dangereuse que la fission,
-					produit beaucoup moins de déchets à haute activité radioactive et les ressources dont elle a besoin sont facilement procurables,
+					produit beaucoup moins de déchets à haute activité radioactive et les ressources dont elle a besoin sont accessibles,
 					en effet cette technique ne nécessite que de l'hydrogène (ou ces isotopes, le deutérium et le tritium).
 					Cependant, cette technique est beaucoup plus compliquée à mettre en place et nécessite de nombreuses avancées technologiques ainsi qu'un énorme investissement
 					dans la recherche. Même si nous sommes sur la voie de la maîtrise de cette technique, il ne sera probablement pas possible de l'industrialiser avant 2040.

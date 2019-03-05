@@ -9,17 +9,17 @@
       <v-card class='px-3' flat>
         <div>
           Imaginez que l'on arrive à prévoir où la foudre va tomber et que l'on arrive à récupérer toute leur énergie. Aurait-on résolu le problème de l'électricité ?<br>
-          Avant de savoir si nous pouvons utiliser cette énergie pour alimenter le réseau, nous pouvons mous interroger sur la nature d'un éclair.
+          Avant de savoir si nous pouvons utiliser cette énergie pour alimenter le réseau, nous pouvons nous interroger sur la nature d'un éclair.
           Un éclair est une décharge électrostatique, le plus souvent entre les nuages et le sol. Cette décharge a lieu sous l'effet d'une différence de potentiel entre ces deux derniers.
-          Cette différence de potentiel est due à la friction des masses d'air.
+          Cette différence de potentiel est due à la friction qu'il y a au sein des nuages.
           <br><br>
           Une décharge a donc lieu, elle peut dépasser 10 millions de volts. L'air qui n'étant pas conducteur se retrouve ionisé 
-          et devient plasma pendant un cours instant, laissant ainsi passer cette décharge.
-          La rigidité diélectrique de l'air sec étant de 36 000 V/cm s'ionise à partir de 36 000 V de différence de potentiel pour 
-          deux point séparés d'un centimètre. La rigidité diélectrique varie très facilement en fonction de la composition de l'air. 
-          Pendant un orage par exemple, l'air étant humide, elle est aux environs de 10 000 V/cm.
-          Quand, entre deux endroit la différence de potentiel est suffisament élevée pour dépaser la rigidité diélectrique de l'air, 
-          la foudre prend forme. L'air nétant pas uniforme, un éclair n'est pas une parfaite ligne droite et emprunte le chemin le 
+          et devient plasma pendant un court instant, laissant ainsi passer cette décharge.
+          La rigidité diélectrique de l'air sec étant de 36 000 V/cm fait que l'air s'ionise à partir de 36 000 V de différence de potentiel pour 
+          deux points séparés d'un centimètre. La rigidité diélectrique varie très facilement en fonction de la composition de l'air. 
+          Pendant un orage par exemple, l'air étant humide, elle est d'environ 10 000 V/cm.
+          Quand entre deux endroits la différence de potentiel est suffisamment élevée pour dépasser la rigidité diélectrique de l'air, 
+          la foudre prend forme. L'air n'étant pas uniforme, un éclair n'est pas une parfaite ligne droite et emprunte le chemin le 
           "moins coûteux" en énergie afin d'effectuer la décharge électrostatique.
 
           <br><br>
@@ -69,13 +69,13 @@
           Cela signifie que si on arriverait à récupérer et à stocker avec un rendement parfait tout les impacts de foudres tombés en 
           France métropolitaine, nous arriverions à récupérer au maximum 2,2 Twh par an.
           Or, en 2016 le réseau Français métropolitain à produit 531 Twh. La production à partir d'éclairs représenterait alors 
-          moins qu'un pourcent de l'énergie nécéssaire pour alimenter tout le réseau.
-          Et cela malgrès le fait que le calcul se base sur des éclairs très puissants, car un éclair de 2.2 Mwh est en fait très rare, 
-          la puissance d'un éclair varie beaucoup selon les conditions métérologiques. 
-          Une décharge moyenne délivre 280 Kwh.
+          moins qu'un pourcent de l'énergie nécessaire pour alimenter tout le réseau.
+          Et cela malgré le fait que le calcul se base sur des éclairs très puissants, car un éclair de 2.2 Mwh est en fait très rare, 
+          la puissance d'un éclair varie beaucoup selon les conditions météorologiques. 
+          Une décharge moyenne délivre 280 kwh.
           <br>
-          Contrairement à l'impression que donne cette solution aux premiers abords, elle n'est pas en mesure de résoudre le problème 
-          de la durabilité de la production élétcrique.
+          Contrairement à l'impression que donne cette solution aux premier abord, elle n'est pas en mesure de résoudre le problème 
+          de la durabilité de la production életcrique.
         </div>
       </v-card>
     </v-card-text>

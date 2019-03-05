@@ -72,7 +72,7 @@
           </v-layout>
           <router-view/>
           <v-fade-transition>
-            <v-btn fixed fab bottom right color="success" @click="scrollToTop()" v-if="showToTopButton">
+            <v-btn fixed fab bottom right color="white" @click="scrollToTop()" v-if="showToTopButton">
                 <v-icon>keyboard_arrow_up</v-icon>
             </v-btn>
           </v-fade-transition>
