@@ -8,23 +8,20 @@
       <v-card-title class='title'>Améliorer les moyens des stockages suffirait ?</v-card-title>
       <v-card class='px-3' flat>
         <p>
-          Un problème au quel on se confronte le plus souvent lorsque que l'ont veut passer à un mix 100% renouvelable,
-          c'est le stockage de l'electricité.
-          En effet, comme l'électricité se stocke très difficilement il faut alors faire en sorte que la consommation
-          suive la production de l'électricité.
+          Un problème auquel on se confronte souvent lorsque que l'ont évoque un mix 100% renouvelable
+          est le stockage de l'electricité.
+          En effet, le fait que l'électricité se stocke encore assez mal fait que la production est obligée de s'adapter en permanance
+          à la consommation.
           <br><br>
-          Le soucis du stockage à grande échelle ne se pose que depuis que les énergies renouvelables sont devenus de plus en plus utilisés.
-          La production de ces nouvelles sources n'étant pas constante et non controllé (non pilotable),
-          la production ne suivant pas la demande, le besoin de stocker de l'électricité est devenus de plus en plus important.
-          <br><br>
-          Il existe cependant plusieurs techniques de stockage à grande échelle pour stocker de l'énergie à l'echelle
-          d'un réseau.
+          Le problème du stockage à grande échelle prend de l'ampleur depuis que les énergies renouvelables ont fait leurs apparitions.
+          La production de ces nouveaux parcs n'étant ni constante ni totalement pilotable.
+          Il existe aujourd'hui plusieurs techniques de stockage à grande échelle.
         </p>
 
         <div class="headline mb-3">Stockage à court terme</div>
         <p>
           Pour le stockage de grande quantité d'énergie sur de faibles durées (moins de 6h)
-          il existe de nombreux moyens qui sont particulièrement adapté à la problématique de l'électricité produite par
+          il existe de nombreux moyens qui sont particulièrement adaptés à la problématique de l'électricité produite par
           de l'énergie solaire donc disponible que le jour.
         </p>
         <ul class="mb-3">
@@ -91,15 +88,15 @@
         <!-- MOyens futur et alternatifs -->
         <div class="headline mb-3">Les supraconducteurs</div>
         <p>
-          Le déplacement des électrons dans la matière change lorsqu'elle est amenée à une certaine température apelée 'température
-          critique', arrivé à cette température, le déplacement des électrons devient tel que la résistance du matériau
+          Le déplacement des électrons dans la matière change lorsqu'elle est amenée à une certaine température (apelée température
+          critique), arrivé à cette température, le déplacement des électrons devient tel que la résistance du matériau
           est nulle, l'électricité s'y déplace sans perte ni réchauffement du matériau.
           <br/><br/>
-          Actuellement, un des matériau ayant une température critique relativement chaude est la céramique,
+          Actuellement, un des matériau ayant une des températures critiques les plus élevées est la céramique,
           de l'azote liquide suffit à le rendre supra-conducteur.
           <br/><br/>
-          Ainsi, si on alimente un bobinage supraconducteur puis qu'on le court-circuite sur lui-même,
-          le courant n'est pas dissipé par effet Joule, et l'énergie magnétique est conservée quasiment
+          Ainsi, si on alimente un bobinage supraconducteur puis que l'on court-circuite ce dernier sur lui-même,
+          le courant n'est pas dissipé par effet Joule et l'énergie magnétique est conservée quasiment
           indéfiniment. C’est le principe du stockage inductif supraconducteur.
         </p>
 
