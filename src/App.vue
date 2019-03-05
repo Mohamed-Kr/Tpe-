@@ -71,6 +71,9 @@
               </v-flex>
           </v-layout>
           <router-view/>
+          <v-btn fixed fab bottom right color="success" @click="scrollToTop()" v-if="showToTopButton">
+            <v-icon>keyboard_arrow_up</v-icon>
+          </v-btn>
       </v-content>
   </v-app>
 </template>
@@ -96,9 +99,11 @@ export default {
         cSub: 1,
         title: "",
         subTitle: "",
-        loc: ''
+        loc: '',
+        showToTopButton: false
     }),
     mounted() {
+        window.addEventListener('scroll', this.handleScroll);
         document.getElementById('app').style.backgroundColor = this.backcolor
         this.parts = this.$store.state.parts
         this.seeLoc(window.location)
@@ -107,8 +112,22 @@ export default {
     },
     watch: {
         backcolor: "changeBckColor",
+        "window.scrollY": function () {
+            console.log( window.screen.height)
+            console.log( window.scrollY)
+            this.showToTopButton = window.screen.height > window.scrollY
+        }
     },
     methods: {
+        handleScroll () {
+            
+            console.log( window.scrollY)
+            console.log( window.screen.height)
+            this.showToTopButton = window.screen.height <= window.scrollY
+        },
+        scrollToTop () {
+            window.scrollTo(0,0);
+        },
         anim() {
           const start = [document.getElementById('titleC'), document.getElementsByClassName('sideBar')]
           const subPartBtnC = document.getElementById('subPartBtnC')
