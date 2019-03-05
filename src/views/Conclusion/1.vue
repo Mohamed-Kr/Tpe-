@@ -22,7 +22,7 @@
               étroitement à la consommation, dont le pilotage à grande échelle et l'intelligence sont indispensables.
             </p>
             <p>
-              Enfin, l'orientation très technique de nos travaux atténue l'aspect social, pourtant tout aussi important,
+              Enfin, l'orientation très technique de notre travail atténue l'aspect social, pourtant tout aussi important,
               étant donné que la possibilité technique n'induit pas le passage à l'acte. L'humanité arrêtera elle
               de ne regarder que l'instant présent et acceptera elle de sacrifier aujourd'hui un peu de son confort
               pour le bien de la Terre ?
