@@ -8,7 +8,11 @@
     "deploy": "npm run build && cp .htaccess ./dist"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
     "gsap": "^2.0.2",
+    "hookcord": "^2.0.1",
+    "useragent": "^2.3.0",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuetify": "^1.3.0",
