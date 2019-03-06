@@ -69,6 +69,11 @@
           sub: 'Monsieur Bidouille'
         },
         {
+          link: 'https://www.ademe.fr/mix-electrique-100-renouvelable-analyses-optimisations',
+          name: 'Un mix électrique 100% renouvelable ?',
+          sub: "Agence de l'Environnement et de la maîtrise de l'Énergie"
+        },
+        {
           link: 'https://www.connaissancedesenergies.org/une-page-pour-decider/reduire-de-50-la-consommation-energetique-d-ici-a-2050-est-ce-possible',
           name: 'Réduire de 50% la consommation énergétique d’ici à 2050 : est-ce possible ?',
           sub: 'Bruno Rebelle'
@@ -76,6 +81,10 @@
         {
           link: 'https://bilan-electrique-2017.rte-france.com/',
           name: 'Bilan électrique 2017'
+        },
+        {
+          link: 'https://www.rte-france.com/sites/default/files/be_pdf_2018v3.pdf',
+          name: 'Bilan électrique 2018'
         },
         {
           link: 'https://www.edf.fr/',
