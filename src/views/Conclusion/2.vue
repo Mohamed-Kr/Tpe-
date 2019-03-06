@@ -7,7 +7,7 @@
             v-for="(source, index) in sources">
             <v-divider
               :key="'divider_top_' + index" />
-            <v-list-tile>
+            <v-list-tile :key="index">
               <v-list-tile-avatar>
                 <img :src="'https://logo.clearbit.com/' + source.domain">
               </v-list-tile-avatar>
@@ -61,7 +61,7 @@
         {
           link: 'https://www.notion.so/lefuturiste/Script-et-structure-de-la-vid-o-de-M-Bidouille-sur-la-transition-nerg-tique-f097413547c544e1b1f6642d57cea7cf',
           name: 'Script et structure de la vidéo de M.Bidouille sur la transition énergétique',
-          sub: 'Dr Matthieu Bessat'
+          sub: 'Matthieu Bessat'
         },
         {
           link: 'https://www.youtube.com/watch?v=OZvcI5-HHSU',
@@ -80,10 +80,6 @@
         {
           link: 'https://www.edf.fr/',
           name: 'EDF France'
-        },
-        {
-          link: 'https://fr.wikipedia.org/wiki/Accueil',
-          name: 'Wikipédia'
         }
       ]
     }),
