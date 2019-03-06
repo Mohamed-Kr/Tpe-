@@ -3,12 +3,12 @@
     <v-layout justify-center>
       <v-flex xs11 md12 lg10 xl8 white--text mb-5>
         <v-card id='introTxt'>
-          <v-img
+          <!-- <v-img
             height="200px"
             class="white--text"
             src="https://images.pexels.com/photos/7000/fre-sonneveld-powerlines.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
           >
-          </v-img>
+          </v-img> -->
           <v-card-text style="font-size: 1.5rem">
             La France a un réseau électrique constitué de milliers
             de points de production, tous synchronisés et permettant une accessibilité à l'électricité sur l'ensemble du territoire.

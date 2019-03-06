@@ -70,7 +70,9 @@
                   </v-layout>
               </v-flex>
           </v-layout>
-          <router-view/>
+          <v-fade-transition>
+            <router-view/>
+          </v-fade-transition>
           <v-fade-transition>
             <v-btn fixed fab bottom right color="white" @click="scrollToTop()" v-if="showToTopButton">
                 <v-icon>keyboard_arrow_up</v-icon>

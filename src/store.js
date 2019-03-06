@@ -13,7 +13,9 @@ export default new Vuex.Store({
         route: '/'},
       {
         title: 'Introduction',
-        color: 'linear-gradient(0deg, rgba(3,169,244,1) 0%, rgba(1,87,155,1) 100%)',
+        //linear-gradient(0deg, rgba(3,169,244,1) 0%, rgba(1,87,155,1) 100%)
+        //linear-gradient(rgba(211, 84, 0, 0.8), rgba(211, 84, 0, 0.8)), url('https://images.pexels.com/photos/421888/pexels-photo-421888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')
+        color: "linear-gradient(rgba(3,169,244, 0.8), rgba(3,169,244, 0.8)), url('https://images.pexels.com/photos/7000/fre-sonneveld-powerlines.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat",
         menuColor: '#00B8D4',
         route: '/Intro/1',
         subParts: [
@@ -73,7 +75,7 @@ export default new Vuex.Store({
       },
       {
         title : 'Conclusion',
-        color: 'linear-gradient(0deg, rgba(255,235,59,1) 0%, rgba(255,160,0,1) 100%)',
+        color: "linear-gradient(rgba(211, 84, 0, 0.8), rgba(211, 84, 0, 0.8)), url('https://images.pexels.com/photos/421888/pexels-photo-421888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')",
         menuColor: 'orange',
         route: '/Conclusion/1',
         subParts: [
